@@ -19,6 +19,7 @@ public class GuardPatrol : MonoBehaviour
     private Collider2D guardCollider;
 
     private Rigidbody2D rb;
+    public Vector2 FacingDirection { get; private set; }
 
     private int currentWaypointIndex = 0;
     private int direction = 1;
@@ -65,6 +66,7 @@ public class GuardPatrol : MonoBehaviour
         Vector2 directionToTarget = targetPosition - currentPosition;
 
         Vector2 moveDirection = directionToTarget.normalized;
+        FacingDirection = moveDirection;
         
         Vector2 checkSize = guardCollider != null
             ? guardCollider.bounds.size * 0.85f

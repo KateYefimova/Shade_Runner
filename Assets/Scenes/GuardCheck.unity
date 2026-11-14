@@ -983,6 +983,7 @@ GameObject:
   - component: {fileID: 676269182}
   - component: {fileID: 676269181}
   - component: {fileID: 676269180}
+  - component: {fileID: 676269185}
   m_Layer: 7
   m_Name: guard
   m_TagString: Untagged
@@ -1162,6 +1163,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &676269185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676269179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3e9bbca5c0806d42a5f5dc55ab52e4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GuardVision
+  playerTarget: {fileID: 1081437109}
+  viewDistance: 5
+  viewAngle: 90
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 264
 --- !u!1 &756441508
 GameObject:
   m_ObjectHideFlags: 0
