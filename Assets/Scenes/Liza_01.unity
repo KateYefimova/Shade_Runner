@@ -771,7 +771,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 4.3
+  orthographic size: 4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -817,10 +817,10 @@ MonoBehaviour:
   target: {fileID: 1081437109}
   smoothSpeed: 5
   offset: {x: 0, y: 0, z: -10}
-  minX: -2.8
-  maxX: 2.7
-  minY: -0.7
-  maxY: 0.4
+  minX: -4.9
+  maxX: 4.9
+  minY: -3.3
+  maxY: 3
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,7 +972,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.5762942, y: 0}
+  m_Offset: {x: -0.09380436, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -982,7 +982,7 @@ BoxCollider2D:
     drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 12.851088, y: 0.99}
+  m_Size: {x: 13.816067, y: 0.99}
   m_EdgeRadius: 0
 --- !u!212 &1001195126
 SpriteRenderer:
@@ -1442,7 +1442,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.050984263, y: 0}
+  m_Offset: {x: -0.04091835, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1452,7 +1452,7 @@ BoxCollider2D:
     drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 5.5310516, y: 0.99}
+  m_Size: {x: 5.714857, y: 0.99}
   m_EdgeRadius: 0
 --- !u!212 &1723940322
 SpriteRenderer:
@@ -1857,6 +1857,18 @@ PrefabInstance:
     - target: {fileID: 1244356840490819668, guid: 9b37f20c76f294bce80bb7833a5f8be5, type: 3}
       propertyPath: m_Name
       value: DoorPivot
+      objectReference: {fileID: 0}
+    - target: {fileID: 5200203922729322531, guid: 9b37f20c76f294bce80bb7833a5f8be5, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074334383461931923, guid: 9b37f20c76f294bce80bb7833a5f8be5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074334383461931923, guid: 9b37f20c76f294bce80bb7833a5f8be5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.04
       objectReference: {fileID: 0}
     - target: {fileID: 8767228529133469945, guid: 9b37f20c76f294bce80bb7833a5f8be5, type: 3}
       propertyPath: m_LocalPosition.x
