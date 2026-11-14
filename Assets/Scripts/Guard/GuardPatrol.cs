@@ -11,6 +11,12 @@ public class GuardPatrol : MonoBehaviour
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private float arrivalDistance = 0.1f;
     [SerializeField] private float waitTime = 1f;
+    
+    [Header("Obstacle Detection")]
+    [SerializeField] private LayerMask obstacleLayer;
+    [SerializeField] private float obstacleCheckDistance = 0.3f;
+
+    private Collider2D guardCollider;
 
     private Rigidbody2D rb;
 
@@ -23,6 +29,7 @@ public class GuardPatrol : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        guardCollider = GetComponent<Collider2D>();
     }
 
     private void FixedUpdate()
@@ -48,6 +55,42 @@ public class GuardPatrol : MonoBehaviour
         Vector2 currentPosition = rb.position;
         Vector2 targetPosition = target.position;
 
+// Check if Guard has already reached the waypoint
+        if (Vector2.Distance(currentPosition, targetPosition) <= arrivalDistance)
+        {
+            StartWaiting();
+            return;
+        }
+
+        Vector2 directionToTarget = targetPosition - currentPosition;
+
+        Vector2 moveDirection = directionToTarget.normalized;
+        
+        Vector2 checkSize = guardCollider != null
+            ? guardCollider.bounds.size * 0.85f
+            : Vector2.one * 0.5f;
+
+        RaycastHit2D obstacleHit = Physics2D.BoxCast(
+            currentPosition,
+            checkSize,
+            rb.rotation,
+            moveDirection,
+            obstacleCheckDistance,
+            obstacleLayer
+        );
+
+        if (obstacleHit.collider != null)
+        {
+            Debug.Log(
+                "Guard stopped! Obstacle: " +
+                obstacleHit.collider.name +
+                " | Target: " + target.name +
+                " | Waypoint index: " + currentWaypointIndex
+            );
+
+            return;
+        }
+
         Vector2 nextPosition = Vector2.MoveTowards(
             currentPosition,
             targetPosition,
@@ -66,6 +109,8 @@ public class GuardPatrol : MonoBehaviour
 
     private void StartWaiting()
     {
+        Debug.Log("Reached waypoint: " + waypoints[currentWaypointIndex].name);
+
         isWaiting = true;
         waitTimer = waitTime;
 
