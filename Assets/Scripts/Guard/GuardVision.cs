@@ -18,6 +18,9 @@ public class GuardVision : MonoBehaviour
     
     public bool IsPlayerDetected => playerDetected;
     public Transform PlayerTarget => playerTarget;
+    
+    public float ViewDistance => viewDistance;
+    public float ViewAngle => viewAngle;
 
     private void Awake()
     {
