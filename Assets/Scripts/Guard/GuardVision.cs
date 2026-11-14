@@ -15,6 +15,9 @@ public class GuardVision : MonoBehaviour
 
     private GuardPatrol guardPatrol;
     private bool playerDetected = false;
+    
+    public bool IsPlayerDetected => playerDetected;
+    public Transform PlayerTarget => playerTarget;
 
     private void Awake()
     {

@@ -984,6 +984,7 @@ GameObject:
   - component: {fileID: 676269181}
   - component: {fileID: 676269180}
   - component: {fileID: 676269185}
+  - component: {fileID: 676269186}
   m_Layer: 7
   m_Name: guard
   m_TagString: Untagged
@@ -1181,6 +1182,19 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 264
+--- !u!114 &676269186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676269179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15cf0faaf8df624684b53b73aad4716, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GuardChase
+  chaseSpeed: 3
 --- !u!1 &756441508
 GameObject:
   m_ObjectHideFlags: 0
@@ -1493,7 +1507,7 @@ Transform:
   m_GameObject: {fileID: 1081437104}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -1, w: 0}
-  m_LocalPosition: {x: -2.7432, y: 2.7854, z: 0}
+  m_LocalPosition: {x: -2.7, y: 1.49, z: 0}
   m_LocalScale: {x: 0.309004, y: 0.28112087, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

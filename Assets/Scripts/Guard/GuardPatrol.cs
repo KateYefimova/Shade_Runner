@@ -19,6 +19,21 @@ public class GuardPatrol : MonoBehaviour
     private Collider2D guardCollider;
 
     private Rigidbody2D rb;
+    
+    private bool patrolEnabled = true;
+
+    public void SetPatrolEnabled(bool enabled)
+    {
+        patrolEnabled = enabled;
+    }
+
+    public void SetFacingDirection(Vector2 direction)
+    {
+        if (direction.sqrMagnitude > 0.001f)
+        {
+            FacingDirection = direction.normalized;
+        }
+    }
     public Vector2 FacingDirection { get; private set; }
 
     private int currentWaypointIndex = 0;
@@ -35,6 +50,9 @@ public class GuardPatrol : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (!patrolEnabled)
+            return;
+        
         if (waypoints == null || waypoints.Length < 2)
             return;
 
