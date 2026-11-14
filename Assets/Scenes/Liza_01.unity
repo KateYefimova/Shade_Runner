@@ -326,6 +326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_WoodBox_2
       objectReference: {fileID: 0}
+    - target: {fileID: 3750770086352887773, guid: d42deec27e9584d8c81b092eb718ff8f, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8282102329886920526, guid: d42deec27e9584d8c81b092eb718ff8f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.07
@@ -381,7 +385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 175210296}
   - component: {fileID: 175210295}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Background Plain_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -471,7 +475,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 203325056}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 'rooms '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1464,7 +1468,7 @@ GameObject:
   - component: {fileID: 1081437106}
   - component: {fileID: 1081437105}
   - component: {fileID: 1081437110}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: player_main
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2069,7 +2073,7 @@ GameObject:
   - component: {fileID: 1869827040}
   - component: {fileID: 1869827041}
   - component: {fileID: 1869827042}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Side_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2207,6 +2211,10 @@ PrefabInstance:
     - target: {fileID: 3750770086352887773, guid: d42deec27e9584d8c81b092eb718ff8f, type: 3}
       propertyPath: m_Name
       value: SM_WoodBox_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3750770086352887773, guid: d42deec27e9584d8c81b092eb718ff8f, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8282102329886920526, guid: d42deec27e9584d8c81b092eb718ff8f, type: 3}
       propertyPath: m_LocalPosition.x
