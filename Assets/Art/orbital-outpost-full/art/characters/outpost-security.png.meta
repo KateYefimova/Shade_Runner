@@ -1,0 +1,4095 @@
+fileFormatVersion: 2
+guid: 1aacc33c2a88e495599ec09e79848992
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8594604005121156580
+    second: outpost-security_0
+  - first:
+      213: -8893930348938868182
+    second: outpost-security_1
+  - first:
+      213: 2670637604881313961
+    second: outpost-security_2
+  - first:
+      213: 2973655170909177628
+    second: outpost-security_3
+  - first:
+      213: 1007087613935644717
+    second: outpost-security_4
+  - first:
+      213: -2972082729871017169
+    second: outpost-security_5
+  - first:
+      213: -5786154785708310761
+    second: outpost-security_6
+  - first:
+      213: -5019492596568677850
+    second: outpost-security_7
+  - first:
+      213: 6190025880171966107
+    second: outpost-security_8
+  - first:
+      213: -5881415478945594203
+    second: outpost-security_9
+  - first:
+      213: -3922631018211849502
+    second: outpost-security_10
+  - first:
+      213: -7664814062245118411
+    second: outpost-security_11
+  - first:
+      213: 2113106346288202628
+    second: outpost-security_12
+  - first:
+      213: 933585846128649283
+    second: outpost-security_13
+  - first:
+      213: 2802511582366461194
+    second: outpost-security_14
+  - first:
+      213: 3480638993101009425
+    second: outpost-security_15
+  - first:
+      213: 6379647350332796668
+    second: outpost-security_16
+  - first:
+      213: -3700177400853703399
+    second: outpost-security_17
+  - first:
+      213: -7359558674587220299
+    second: outpost-security_18
+  - first:
+      213: 6018723507118659270
+    second: outpost-security_19
+  - first:
+      213: 3241492819672402787
+    second: outpost-security_20
+  - first:
+      213: 8481433978070750063
+    second: outpost-security_21
+  - first:
+      213: 2036482836113637956
+    second: outpost-security_22
+  - first:
+      213: -2080328224642286180
+    second: outpost-security_23
+  - first:
+      213: -4710726463085424393
+    second: outpost-security_24
+  - first:
+      213: -5421813599079177465
+    second: outpost-security_25
+  - first:
+      213: -4759886260869544962
+    second: outpost-security_26
+  - first:
+      213: -7979510896324156457
+    second: outpost-security_27
+  - first:
+      213: -6008953113518653318
+    second: outpost-security_28
+  - first:
+      213: 7172996468675952546
+    second: outpost-security_29
+  - first:
+      213: 3637529334414704196
+    second: outpost-security_30
+  - first:
+      213: 3352737416022271712
+    second: outpost-security_31
+  - first:
+      213: -9160030536036453056
+    second: outpost-security_32
+  - first:
+      213: 5321617528937782412
+    second: outpost-security_33
+  - first:
+      213: -7656225623150422304
+    second: outpost-security_34
+  - first:
+      213: 6205090138717714525
+    second: outpost-security_35
+  - first:
+      213: 7493403779454906506
+    second: outpost-security_36
+  - first:
+      213: -3928839474615595747
+    second: outpost-security_37
+  - first:
+      213: 2030670464067466428
+    second: outpost-security_38
+  - first:
+      213: -7533117103907897530
+    second: outpost-security_39
+  - first:
+      213: 7946582005486423747
+    second: outpost-security_40
+  - first:
+      213: -7244624501821090173
+    second: outpost-security_41
+  - first:
+      213: -9203759729276221766
+    second: outpost-security_42
+  - first:
+      213: 7885863859079324924
+    second: outpost-security_43
+  - first:
+      213: 6978323977597315721
+    second: outpost-security_44
+  - first:
+      213: -1568534164709857694
+    second: outpost-security_45
+  - first:
+      213: 1989317553851933448
+    second: outpost-security_46
+  - first:
+      213: -5465841331819843767
+    second: outpost-security_47
+  - first:
+      213: 8219286138680018254
+    second: outpost-security_48
+  - first:
+      213: 1287226686569483944
+    second: outpost-security_49
+  - first:
+      213: 2854180707625678714
+    second: outpost-security_50
+  - first:
+      213: 5591804012821964990
+    second: outpost-security_51
+  - first:
+      213: -5712829323592599782
+    second: outpost-security_52
+  - first:
+      213: 4526071713907324624
+    second: outpost-security_53
+  - first:
+      213: 2720714000274601968
+    second: outpost-security_54
+  - first:
+      213: -4601246530484665525
+    second: outpost-security_55
+  - first:
+      213: -5823981180027930453
+    second: outpost-security_56
+  - first:
+      213: -3225610716102852218
+    second: outpost-security_57
+  - first:
+      213: -3019629547491437080
+    second: outpost-security_58
+  - first:
+      213: -3118482374618916644
+    second: outpost-security_59
+  - first:
+      213: 1703771359310716699
+    second: outpost-security_60
+  - first:
+      213: 6325298857967150670
+    second: outpost-security_61
+  - first:
+      213: 2937151794741033536
+    second: outpost-security_62
+  - first:
+      213: 924058195609371987
+    second: outpost-security_63
+  - first:
+      213: -7321528900553382627
+    second: outpost-security_64
+  - first:
+      213: 478616206653851462
+    second: outpost-security_65
+  - first:
+      213: 1603934248018794616
+    second: outpost-security_66
+  - first:
+      213: 3947498233851892352
+    second: outpost-security_67
+  - first:
+      213: 5123812397188742357
+    second: outpost-security_68
+  - first:
+      213: 6180237716150307930
+    second: outpost-security_69
+  - first:
+      213: -1897252022308671384
+    second: outpost-security_70
+  - first:
+      213: 1888627838263259498
+    second: outpost-security_71
+  - first:
+      213: -1273593908470697222
+    second: outpost-security_72
+  - first:
+      213: 5336184759659936808
+    second: outpost-security_73
+  - first:
+      213: 3704295206095018522
+    second: outpost-security_74
+  - first:
+      213: -4637064450258454560
+    second: outpost-security_75
+  - first:
+      213: 6415897738074156069
+    second: outpost-security_76
+  - first:
+      213: 9127964104826161753
+    second: outpost-security_77
+  - first:
+      213: -3060864264488895392
+    second: outpost-security_78
+  - first:
+      213: 8865409282213132422
+    second: outpost-security_79
+  - first:
+      213: 3692750617267446786
+    second: outpost-security_80
+  - first:
+      213: 4901900622179398217
+    second: outpost-security_81
+  - first:
+      213: -3997506352324033323
+    second: outpost-security_82
+  - first:
+      213: -4857573230797355346
+    second: outpost-security_83
+  - first:
+      213: -3828857646427101644
+    second: outpost-security_84
+  - first:
+      213: -5062668846171459156
+    second: outpost-security_85
+  - first:
+      213: 7551502797193731817
+    second: outpost-security_86
+  - first:
+      213: -2261400674959540825
+    second: outpost-security_87
+  - first:
+      213: -1814041074999266418
+    second: outpost-security_88
+  - first:
+      213: -8458040051563444323
+    second: outpost-security_89
+  - first:
+      213: 5804376174426325126
+    second: outpost-security_90
+  - first:
+      213: -5119542252236089689
+    second: outpost-security_91
+  - first:
+      213: -4615930613258893165
+    second: outpost-security_92
+  - first:
+      213: 6506593390214250150
+    second: outpost-security_93
+  - first:
+      213: -608748114245673729
+    second: outpost-security_94
+  - first:
+      213: 732234074766508746
+    second: outpost-security_95
+  - first:
+      213: -1976899278924017749
+    second: outpost-security_96
+  - first:
+      213: 2120130790509507349
+    second: outpost-security_97
+  - first:
+      213: 5511960071608649919
+    second: outpost-security_98
+  - first:
+      213: -6190640012485967258
+    second: outpost-security_99
+  - first:
+      213: -5480417686028250463
+    second: outpost-security_100
+  - first:
+      213: 7905974374226051672
+    second: outpost-security_101
+  - first:
+      213: -9052266231488753422
+    second: outpost-security_102
+  - first:
+      213: -6585912771112647218
+    second: outpost-security_103
+  - first:
+      213: -3073914275379853191
+    second: outpost-security_104
+  - first:
+      213: -7422066608229910834
+    second: outpost-security_105
+  - first:
+      213: 6080234132280385045
+    second: outpost-security_106
+  - first:
+      213: -949043495010710850
+    second: outpost-security_107
+  - first:
+      213: 3656841954377176087
+    second: outpost-security_108
+  - first:
+      213: -2725944006342326835
+    second: outpost-security_109
+  - first:
+      213: -4591238307568142468
+    second: outpost-security_110
+  - first:
+      213: -2254923884080299225
+    second: outpost-security_111
+  - first:
+      213: 292049573926592945
+    second: outpost-security_112
+  - first:
+      213: -6550158906008551649
+    second: outpost-security_113
+  - first:
+      213: -4570494113877637722
+    second: outpost-security_114
+  - first:
+      213: -1775257335222625626
+    second: outpost-security_115
+  - first:
+      213: 8853543919526363775
+    second: outpost-security_116
+  - first:
+      213: 4009835060206706324
+    second: outpost-security_117
+  - first:
+      213: 2612739088796015086
+    second: outpost-security_118
+  - first:
+      213: -3564763416260811693
+    second: outpost-security_119
+  - first:
+      213: 27124947637898090
+    second: outpost-security_120
+  - first:
+      213: 2642150993682186293
+    second: outpost-security_121
+  - first:
+      213: 749218641657706824
+    second: outpost-security_122
+  - first:
+      213: 8416491231534938185
+    second: outpost-security_123
+  - first:
+      213: -8703867270536121242
+    second: outpost-security_124
+  - first:
+      213: -3215500006367591554
+    second: outpost-security_125
+  - first:
+      213: -7138601781710741222
+    second: outpost-security_126
+  - first:
+      213: 5879171257844291835
+    second: outpost-security_127
+  - first:
+      213: -2077920653315285252
+    second: outpost-security_128
+  - first:
+      213: 3770195020866213431
+    second: outpost-security_129
+  - first:
+      213: 2877914702170523607
+    second: outpost-security_130
+  - first:
+      213: -2716580336794675970
+    second: outpost-security_131
+  - first:
+      213: -1037275123722693285
+    second: outpost-security_132
+  - first:
+      213: -318064161802841656
+    second: outpost-security_133
+  - first:
+      213: 1391024572243632008
+    second: outpost-security_134
+  - first:
+      213: 3721266078061527766
+    second: outpost-security_135
+  - first:
+      213: 678889698846407372
+    second: outpost-security_136
+  - first:
+      213: 2672876523552843874
+    second: outpost-security_137
+  - first:
+      213: -4817703615502221335
+    second: outpost-security_138
+  - first:
+      213: 2209343429319313648
+    second: outpost-security_139
+  - first:
+      213: 4454436305643194004
+    second: outpost-security_140
+  - first:
+      213: 6442179711953927041
+    second: outpost-security_141
+  - first:
+      213: -948598344210382902
+    second: outpost-security_142
+  - first:
+      213: 4123826625416822367
+    second: outpost-security_143
+  - first:
+      213: 4239077568637604141
+    second: outpost-security_144
+  - first:
+      213: 6126404789188083034
+    second: outpost-security_145
+  - first:
+      213: -3681287687284284658
+    second: outpost-security_146
+  - first:
+      213: 8868210083434067994
+    second: outpost-security_147
+  - first:
+      213: -1114149429847792476
+    second: outpost-security_148
+  - first:
+      213: -6585503695349600961
+    second: outpost-security_149
+  - first:
+      213: 4444244970571050111
+    second: outpost-security_150
+  - first:
+      213: -3327702426573973065
+    second: outpost-security_151
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: outpost-security_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e565667eca264770800000000000000
+      internalID: 8594604005121156580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ace6e3879629480800000000000000
+      internalID: -8893930348938868182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 2
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a030c280c2001520800000000000000
+      internalID: 2670637604881313961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c178b827f9b844920800000000000000
+      internalID: 2973655170909177628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20745e59d4e9fd00800000000000000
+      internalID: 1007087613935644717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 2
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bf6f2018a01c6d0800000000000000
+      internalID: -2972082729871017169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 2
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ffd66f0e273bfa0800000000000000
+      internalID: -5786154785708310761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62222dce31e275ab0800000000000000
+      internalID: -5019492596568677850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_8
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 2
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9eef1aedb367e550800000000000000
+      internalID: 6190025880171966107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_9
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 2
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4c6f078c3016ea0800000000000000
+      internalID: -5881415478945594203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_10
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eacd863fd30099c0800000000000000
+      internalID: -3922631018211849502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_11
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 2
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ef576683c11a590800000000000000
+      internalID: -7664814062245118411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_12
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 2
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483c127b603435d10800000000000000
+      internalID: 2113106346288202628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_13
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344a4d57163c4fc00800000000000000
+      internalID: 933585846128649283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_14
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 2
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0deed19f6584e620800000000000000
+      internalID: 2802511582366461194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_15
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 2
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112b82719b6bd4030800000000000000
+      internalID: 3480638993101009425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_16
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 2
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe29dcd67f098850800000000000000
+      internalID: 6379647350332796668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_17
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 2
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915df20224456acc0800000000000000
+      internalID: -3700177400853703399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_18
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 2
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b68599c0689dd990800000000000000
+      internalID: -7359558674587220299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_19
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 2
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6d913242dc68350800000000000000
+      internalID: 6018723507118659270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_20
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b8d8a9b881cfc20800000000000000
+      internalID: 3241492819672402787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_21
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 2
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63d5d8344b14b570800000000000000
+      internalID: 8481433978070750063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_22
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 2
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442cbb5895a034c10800000000000000
+      internalID: 2036482836113637956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_23
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d3af170803123e0800000000000000
+      internalID: -2080328224642286180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_24
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0d2c58d3320aeb0800000000000000
+      internalID: -4710726463085424393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_25
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703e084f149d1c4b0800000000000000
+      internalID: -5421813599079177465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_26
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 2
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3cb992aac71fdb0800000000000000
+      internalID: -4759886260869544962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_27
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d36d37fd15134190800000000000000
+      internalID: -7979510896324156457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_28
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 2
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a704eb4eaf8eb9ca0800000000000000
+      internalID: -6008953113518653318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_29
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 2
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afbf8ab84a9b8360800000000000000
+      internalID: 7172996468675952546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_30
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ef9dd38a91b7230800000000000000
+      internalID: 3637529334414704196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_31
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 2
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e62b239ae0578e20800000000000000
+      internalID: 3352737416022271712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_32
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 2
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045f0d762c801e080800000000000000
+      internalID: -9160030536036453056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_33
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c14da82fe2ad940800000000000000
+      internalID: 5321617528937782412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_34
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 2
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e610e33c5f9fb590800000000000000
+      internalID: -7656225623150422304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_35
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 2
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d587c8dea98ec1650800000000000000
+      internalID: 6205090138717714525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_36
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 2
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80baf0290bedf760800000000000000
+      internalID: 7493403779454906506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_37
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 2
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d41005055f979c0800000000000000
+      internalID: -3928839474615595747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_38
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 2
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb47e9237046e2c10800000000000000
+      internalID: 2030670464067466428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_39
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 2
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f762af7edf47790800000000000000
+      internalID: -7533117103907897530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_40
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce878f2b3ee74e60800000000000000
+      internalID: 7946582005486423747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_41
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386dcd5366ce57b90800000000000000
+      internalID: -7244624501821090173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_42
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab602723a4da54080800000000000000
+      internalID: -9203759729276221766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_43
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4a3831667307d60800000000000000
+      internalID: 7885863859079324924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_44
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a67445facf7d060800000000000000
+      internalID: 6978323977597315721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_45
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266a766dc727b3ae0800000000000000
+      internalID: -1568534164709857694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_46
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8032bce76c97b9b10800000000000000
+      internalID: 1989317553851933448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_47
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94fea3a944e6524b0800000000000000
+      internalID: -5465841331819843767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_48
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45805b0235c01270800000000000000
+      internalID: 8219286138680018254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_49
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae8066f9d52dd110800000000000000
+      internalID: 1287226686569483944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_50
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a773dc24b361c9720800000000000000
+      internalID: 2854180707625678714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_51
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb86bdd7f141a9d40800000000000000
+      internalID: 5591804012821964990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_52
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17f3d08ff3f7b0b0800000000000000
+      internalID: -5712829323592599782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_53
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6b36f5e36dfce30800000000000000
+      internalID: 4526071713907324624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_54
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7bcc1e7fae1c520800000000000000
+      internalID: 2720714000274601968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_55
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b438672b8a61520c0800000000000000
+      internalID: -4601246530484665525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_56
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8ffd939ff0d2fa0800000000000000
+      internalID: -5823981180027930453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_57
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6810ffac4245c33d0800000000000000
+      internalID: -3225610716102852218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_58
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5df7cdcee1816d0800000000000000
+      internalID: -3019629547491437080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_59
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8d58e7dcce8b4d0800000000000000
+      internalID: -3118482374618916644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_60
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f133a360305a710800000000000000
+      internalID: 1703771359310716699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_61
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46e0576cc9f7c750800000000000000
+      internalID: 6325298857967150670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_62
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ab0f0eefbd2c820800000000000000
+      internalID: 2937151794741033536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_63
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355c515780ae2dc00800000000000000
+      internalID: 924058195609371987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_64
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1562cd8144b46a90800000000000000
+      internalID: -7321528900553382627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_65
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647095577e264a600800000000000000
+      internalID: 478616206653851462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_66
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8785e3853b1524610800000000000000
+      internalID: 1603934248018794616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_67
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082593c9ab458c630800000000000000
+      internalID: 3947498233851892352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_68
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc7d266a307b1740800000000000000
+      internalID: 5123812397188742357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_69
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 2
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c4c92657d94c550800000000000000
+      internalID: 6180237716150307930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_70
+      rect:
+        serializedVersion: 2
+        x: 2245
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86076e8765b9ba5e0800000000000000
+      internalID: -1897252022308671384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_71
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 2
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6178943301c53a10800000000000000
+      internalID: 1888627838263259498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_72
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2b0898619435ee0800000000000000
+      internalID: -1273593908470697222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_73
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c326f34cfed0a40800000000000000
+      internalID: 5336184759659936808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_74
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ad97e1ddc486330800000000000000
+      internalID: 3704295206095018522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_75
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7b0c16376d5afb0800000000000000
+      internalID: -4637064450258454560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_76
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c6429fff8d90950800000000000000
+      internalID: 6415897738074156069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_77
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a0ea6cdfa0dae70800000000000000
+      internalID: 9127964104826161753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_78
+      rect:
+        serializedVersion: 2
+        x: 2498
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06cb3792b20a585d0800000000000000
+      internalID: -3060864264488895392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_79
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 688b3ce65c2480b70800000000000000
+      internalID: 8865409282213132422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_80
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204a4521f194f3330800000000000000
+      internalID: 3692750617267446786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_81
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 2
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942f44df4ac070440800000000000000
+      internalID: 4901900622179398217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_82
+      rect:
+        serializedVersion: 2
+        x: 2629
+        y: 2
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4cb5af6210688c0800000000000000
+      internalID: -3997506352324033323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_83
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea680e312ee669cb0800000000000000
+      internalID: -4857573230797355346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_84
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 2
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436ac29b14a2ddac0800000000000000
+      internalID: -3828857646427101644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_85
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 2
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca17380f189cdb9b0800000000000000
+      internalID: -5062668846171459156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_86
+      rect:
+        serializedVersion: 2
+        x: 2761
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eed913d8c35cc860800000000000000
+      internalID: 7551502797193731817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_87
+      rect:
+        serializedVersion: 2
+        x: 2793
+        y: 2
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad353a4114ed90e0800000000000000
+      internalID: -2261400674959540825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_88
+      rect:
+        serializedVersion: 2
+        x: 2825
+        y: 2
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8373b4e04b33d6e0800000000000000
+      internalID: -1814041074999266418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_89
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97c88eb2610f9a80800000000000000
+      internalID: -8458040051563444323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_90
+      rect:
+        serializedVersion: 2
+        x: 2889
+        y: 2
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6800c63b0694d8050800000000000000
+      internalID: 5804376174426325126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_91
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 2
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a65dd2327bb3f8b0800000000000000
+      internalID: -5119542252236089689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_92
+      rect:
+        serializedVersion: 2
+        x: 2949
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3984ad0409be0ffb0800000000000000
+      internalID: -4615930613258893165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_93
+      rect:
+        serializedVersion: 2
+        x: 2981
+        y: 2
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aeff9907301c4a50800000000000000
+      internalID: 6506593390214250150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_94
+      rect:
+        serializedVersion: 2
+        x: 3013
+        y: 2
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc92bcb0da4d87f0800000000000000
+      internalID: -608748114245673729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_95
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac205eee20b692a00800000000000000
+      internalID: 732234074766508746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_96
+      rect:
+        serializedVersion: 2
+        x: 3077
+        y: 2
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf02037494a094e0800000000000000
+      internalID: -1976899278924017749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_97
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 2
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513ffa598b73c6d10800000000000000
+      internalID: 2120130790509507349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_98
+      rect:
+        serializedVersion: 2
+        x: 3138
+        y: 2
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8ce544b7a6e7c40800000000000000
+      internalID: 5511960071608649919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_99
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 2
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662447345bd661aa0800000000000000
+      internalID: -6190640012485967258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_100
+      rect:
+        serializedVersion: 2
+        x: 3202
+        y: 2
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2948ba625a1f3b0800000000000000
+      internalID: -5480417686028250463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_101
+      rect:
+        serializedVersion: 2
+        x: 3234
+        y: 2
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852c5134ec9a7bd60800000000000000
+      internalID: 7905974374226051672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_102
+      rect:
+        serializedVersion: 2
+        x: 3266
+        y: 2
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f059dbc2d3ef5280800000000000000
+      internalID: -9052266231488753422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_103
+      rect:
+        serializedVersion: 2
+        x: 3298
+        y: 2
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec54f147a332a94a0800000000000000
+      internalID: -6585912771112647218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_104
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9784bf9b0434755d0800000000000000
+      internalID: -3073914275379853191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_105
+      rect:
+        serializedVersion: 2
+        x: 3365
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6fa2d5eb58ff890800000000000000
+      internalID: -7422066608229910834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_106
+      rect:
+        serializedVersion: 2
+        x: 3397
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e17c59ab4516450800000000000000
+      internalID: 6080234132280385045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_107
+      rect:
+        serializedVersion: 2
+        x: 3429
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebacd7338f154d2f0800000000000000
+      internalID: -949043495010710850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_108
+      rect:
+        serializedVersion: 2
+        x: 3461
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714956af166bfb230800000000000000
+      internalID: 3656841954377176087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_109
+      rect:
+        serializedVersion: 2
+        x: 3493
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc54c507e508b2ad0800000000000000
+      internalID: -2725944006342326835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_110
+      rect:
+        serializedVersion: 2
+        x: 3525
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c773c3ea515a840c0800000000000000
+      internalID: -4591238307568142468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_111
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72389ddaca6e4b0e0800000000000000
+      internalID: -2254923884080299225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_112
+      rect:
+        serializedVersion: 2
+        x: 3589
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1e2b64a819d0400800000000000000
+      internalID: 292049573926592945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_113
+      rect:
+        serializedVersion: 2
+        x: 3621
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1fbff0ed292915a0800000000000000
+      internalID: -6550158906008551649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_114
+      rect:
+        serializedVersion: 2
+        x: 3653
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a54f46a1d75290c0800000000000000
+      internalID: -4570494113877637722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_115
+      rect:
+        serializedVersion: 2
+        x: 3685
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa162dfbd40d57e0800000000000000
+      internalID: -1775257335222625626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_116
+      rect:
+        serializedVersion: 2
+        x: 3721
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7240b6694b1eda70800000000000000
+      internalID: 8853543919526363775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_117
+      rect:
+        serializedVersion: 2
+        x: 3753
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e17830ebbc5a730800000000000000
+      internalID: 4009835060206706324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_118
+      rect:
+        serializedVersion: 2
+        x: 3785
+        y: 2
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9d67ebb50524420800000000000000
+      internalID: 2612739088796015086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_119
+      rect:
+        serializedVersion: 2
+        x: 3817
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35467715f8a678ec0800000000000000
+      internalID: -3564763416260811693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_120
+      rect:
+        serializedVersion: 2
+        x: 3849
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b02840ffd506000800000000000000
+      internalID: 27124947637898090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_121
+      rect:
+        serializedVersion: 2
+        x: 3881
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5304f5d745ecaa420800000000000000
+      internalID: 2642150993682186293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_122
+      rect:
+        serializedVersion: 2
+        x: 3913
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849bb139262c56a00800000000000000
+      internalID: 749218641657706824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_123
+      rect:
+        serializedVersion: 2
+        x: 3945
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94874debe226dc470800000000000000
+      internalID: 8416491231534938185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_124
+      rect:
+        serializedVersion: 2
+        x: 3977
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664bb8f15d6a53780800000000000000
+      internalID: -8703867270536121242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_125
+      rect:
+        serializedVersion: 2
+        x: 4009
+        y: 2
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e738139d7cf3063d0800000000000000
+      internalID: -3215500006367591554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_126
+      rect:
+        serializedVersion: 2
+        x: 4041
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11292060879eec90800000000000000
+      internalID: -7138601781710741222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_127
+      rect:
+        serializedVersion: 2
+        x: 4073
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8de7d1c13079150800000000000000
+      internalID: 5879171257844291835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_128
+      rect:
+        serializedVersion: 2
+        x: 4101
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfed1b3dc2eb923e0800000000000000
+      internalID: -2077920653315285252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_129
+      rect:
+        serializedVersion: 2
+        x: 4133
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7365da8656c625430800000000000000
+      internalID: 3770195020866213431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_130
+      rect:
+        serializedVersion: 2
+        x: 4165
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d78fbc7c2860f720800000000000000
+      internalID: 2877914702170523607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_131
+      rect:
+        serializedVersion: 2
+        x: 4197
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4da85a394cc4ad0800000000000000
+      internalID: -2716580336794675970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_132
+      rect:
+        serializedVersion: 2
+        x: 4229
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55d82c45cbda91f0800000000000000
+      internalID: -1037275123722693285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_133
+      rect:
+        serializedVersion: 2
+        x: 4261
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c195fb7452069bf0800000000000000
+      internalID: -318064161802841656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_134
+      rect:
+        serializedVersion: 2
+        x: 4293
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fdb6e7a79ed4310800000000000000
+      internalID: 1391024572243632008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_135
+      rect:
+        serializedVersion: 2
+        x: 4325
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2819928c794a330800000000000000
+      internalID: 3721266078061527766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_136
+      rect:
+        serializedVersion: 2
+        x: 4357
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca796d8596eb6900800000000000000
+      internalID: 678889698846407372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_137
+      rect:
+        serializedVersion: 2
+        x: 4389
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26829d26907f71520800000000000000
+      internalID: 2672876523552843874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_138
+      rect:
+        serializedVersion: 2
+        x: 4421
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9efffd44614142db0800000000000000
+      internalID: -4817703615502221335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_139
+      rect:
+        serializedVersion: 2
+        x: 4453
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8cb63b42a29ae10800000000000000
+      internalID: 2209343429319313648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_140
+      rect:
+        serializedVersion: 2
+        x: 4489
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4964778283651dd30800000000000000
+      internalID: 4454436305643194004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_141
+      rect:
+        serializedVersion: 2
+        x: 4521
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bfd3ed058376950800000000000000
+      internalID: 6442179711953927041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_142
+      rect:
+        serializedVersion: 2
+        x: 4552
+        y: 2
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acff0d2f4d6e5d2f0800000000000000
+      internalID: -948598344210382902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_143
+      rect:
+        serializedVersion: 2
+        x: 4581
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e74438776ca3930800000000000000
+      internalID: 4123826625416822367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_144
+      rect:
+        serializedVersion: 2
+        x: 4611
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2198fdc69a34da30800000000000000
+      internalID: 4239077568637604141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_145
+      rect:
+        serializedVersion: 2
+        x: 4642
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5dbec952bc550550800000000000000
+      internalID: 6126404789188083034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_146
+      rect:
+        serializedVersion: 2
+        x: 4674
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03a66b4a5079ecc0800000000000000
+      internalID: -3681287687284284658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_147
+      rect:
+        serializedVersion: 2
+        x: 4707
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18ff98c516321b70800000000000000
+      internalID: 8868210083434067994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_148
+      rect:
+        serializedVersion: 2
+        x: 4741
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4e73f1ffeb980f0800000000000000
+      internalID: -1114149429847792476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_149
+      rect:
+        serializedVersion: 2
+        x: 4776
+        y: 2
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d2aa3d7479b94a0800000000000000
+      internalID: -6585503695349600961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_150
+      rect:
+        serializedVersion: 2
+        x: 4809
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c24bd01412dad30800000000000000
+      internalID: 4444244970571050111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security_151
+      rect:
+        serializedVersion: 2
+        x: 4841
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b95ad12640a1d1d0800000000000000
+      internalID: -3327702426573973065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      outpost-security_0: 8594604005121156580
+      outpost-security_1: -8893930348938868182
+      outpost-security_10: -3922631018211849502
+      outpost-security_100: -5480417686028250463
+      outpost-security_101: 7905974374226051672
+      outpost-security_102: -9052266231488753422
+      outpost-security_103: -6585912771112647218
+      outpost-security_104: -3073914275379853191
+      outpost-security_105: -7422066608229910834
+      outpost-security_106: 6080234132280385045
+      outpost-security_107: -949043495010710850
+      outpost-security_108: 3656841954377176087
+      outpost-security_109: -2725944006342326835
+      outpost-security_11: -7664814062245118411
+      outpost-security_110: -4591238307568142468
+      outpost-security_111: -2254923884080299225
+      outpost-security_112: 292049573926592945
+      outpost-security_113: -6550158906008551649
+      outpost-security_114: -4570494113877637722
+      outpost-security_115: -1775257335222625626
+      outpost-security_116: 8853543919526363775
+      outpost-security_117: 4009835060206706324
+      outpost-security_118: 2612739088796015086
+      outpost-security_119: -3564763416260811693
+      outpost-security_12: 2113106346288202628
+      outpost-security_120: 27124947637898090
+      outpost-security_121: 2642150993682186293
+      outpost-security_122: 749218641657706824
+      outpost-security_123: 8416491231534938185
+      outpost-security_124: -8703867270536121242
+      outpost-security_125: -3215500006367591554
+      outpost-security_126: -7138601781710741222
+      outpost-security_127: 5879171257844291835
+      outpost-security_128: -2077920653315285252
+      outpost-security_129: 3770195020866213431
+      outpost-security_13: 933585846128649283
+      outpost-security_130: 2877914702170523607
+      outpost-security_131: -2716580336794675970
+      outpost-security_132: -1037275123722693285
+      outpost-security_133: -318064161802841656
+      outpost-security_134: 1391024572243632008
+      outpost-security_135: 3721266078061527766
+      outpost-security_136: 678889698846407372
+      outpost-security_137: 2672876523552843874
+      outpost-security_138: -4817703615502221335
+      outpost-security_139: 2209343429319313648
+      outpost-security_14: 2802511582366461194
+      outpost-security_140: 4454436305643194004
+      outpost-security_141: 6442179711953927041
+      outpost-security_142: -948598344210382902
+      outpost-security_143: 4123826625416822367
+      outpost-security_144: 4239077568637604141
+      outpost-security_145: 6126404789188083034
+      outpost-security_146: -3681287687284284658
+      outpost-security_147: 8868210083434067994
+      outpost-security_148: -1114149429847792476
+      outpost-security_149: -6585503695349600961
+      outpost-security_15: 3480638993101009425
+      outpost-security_150: 4444244970571050111
+      outpost-security_151: -3327702426573973065
+      outpost-security_16: 6379647350332796668
+      outpost-security_17: -3700177400853703399
+      outpost-security_18: -7359558674587220299
+      outpost-security_19: 6018723507118659270
+      outpost-security_2: 2670637604881313961
+      outpost-security_20: 3241492819672402787
+      outpost-security_21: 8481433978070750063
+      outpost-security_22: 2036482836113637956
+      outpost-security_23: -2080328224642286180
+      outpost-security_24: -4710726463085424393
+      outpost-security_25: -5421813599079177465
+      outpost-security_26: -4759886260869544962
+      outpost-security_27: -7979510896324156457
+      outpost-security_28: -6008953113518653318
+      outpost-security_29: 7172996468675952546
+      outpost-security_3: 2973655170909177628
+      outpost-security_30: 3637529334414704196
+      outpost-security_31: 3352737416022271712
+      outpost-security_32: -9160030536036453056
+      outpost-security_33: 5321617528937782412
+      outpost-security_34: -7656225623150422304
+      outpost-security_35: 6205090138717714525
+      outpost-security_36: 7493403779454906506
+      outpost-security_37: -3928839474615595747
+      outpost-security_38: 2030670464067466428
+      outpost-security_39: -7533117103907897530
+      outpost-security_4: 1007087613935644717
+      outpost-security_40: 7946582005486423747
+      outpost-security_41: -7244624501821090173
+      outpost-security_42: -9203759729276221766
+      outpost-security_43: 7885863859079324924
+      outpost-security_44: 6978323977597315721
+      outpost-security_45: -1568534164709857694
+      outpost-security_46: 1989317553851933448
+      outpost-security_47: -5465841331819843767
+      outpost-security_48: 8219286138680018254
+      outpost-security_49: 1287226686569483944
+      outpost-security_5: -2972082729871017169
+      outpost-security_50: 2854180707625678714
+      outpost-security_51: 5591804012821964990
+      outpost-security_52: -5712829323592599782
+      outpost-security_53: 4526071713907324624
+      outpost-security_54: 2720714000274601968
+      outpost-security_55: -4601246530484665525
+      outpost-security_56: -5823981180027930453
+      outpost-security_57: -3225610716102852218
+      outpost-security_58: -3019629547491437080
+      outpost-security_59: -3118482374618916644
+      outpost-security_6: -5786154785708310761
+      outpost-security_60: 1703771359310716699
+      outpost-security_61: 6325298857967150670
+      outpost-security_62: 2937151794741033536
+      outpost-security_63: 924058195609371987
+      outpost-security_64: -7321528900553382627
+      outpost-security_65: 478616206653851462
+      outpost-security_66: 1603934248018794616
+      outpost-security_67: 3947498233851892352
+      outpost-security_68: 5123812397188742357
+      outpost-security_69: 6180237716150307930
+      outpost-security_7: -5019492596568677850
+      outpost-security_70: -1897252022308671384
+      outpost-security_71: 1888627838263259498
+      outpost-security_72: -1273593908470697222
+      outpost-security_73: 5336184759659936808
+      outpost-security_74: 3704295206095018522
+      outpost-security_75: -4637064450258454560
+      outpost-security_76: 6415897738074156069
+      outpost-security_77: 9127964104826161753
+      outpost-security_78: -3060864264488895392
+      outpost-security_79: 8865409282213132422
+      outpost-security_8: 6190025880171966107
+      outpost-security_80: 3692750617267446786
+      outpost-security_81: 4901900622179398217
+      outpost-security_82: -3997506352324033323
+      outpost-security_83: -4857573230797355346
+      outpost-security_84: -3828857646427101644
+      outpost-security_85: -5062668846171459156
+      outpost-security_86: 7551502797193731817
+      outpost-security_87: -2261400674959540825
+      outpost-security_88: -1814041074999266418
+      outpost-security_89: -8458040051563444323
+      outpost-security_9: -5881415478945594203
+      outpost-security_90: 5804376174426325126
+      outpost-security_91: -5119542252236089689
+      outpost-security_92: -4615930613258893165
+      outpost-security_93: 6506593390214250150
+      outpost-security_94: -608748114245673729
+      outpost-security_95: 732234074766508746
+      outpost-security_96: -1976899278924017749
+      outpost-security_97: 2120130790509507349
+      outpost-security_98: 5511960071608649919
+      outpost-security_99: -6190640012485967258
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

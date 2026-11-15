@@ -1,0 +1,2015 @@
+fileFormatVersion: 2
+guid: 904eef4d194464a6a901140c57aa3ba7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1326525578248185716
+    second: outpost-medic_0
+  - first:
+      213: -3849174271694835034
+    second: outpost-medic_1
+  - first:
+      213: -1344941726975260556
+    second: outpost-medic_2
+  - first:
+      213: -4591891302347491709
+    second: outpost-medic_3
+  - first:
+      213: 3871136611467212904
+    second: outpost-medic_4
+  - first:
+      213: -3229686362771282965
+    second: outpost-medic_5
+  - first:
+      213: 6646067750603474948
+    second: outpost-medic_6
+  - first:
+      213: 8872674188836475209
+    second: outpost-medic_7
+  - first:
+      213: -4454871843451053223
+    second: outpost-medic_8
+  - first:
+      213: 1370869702019584943
+    second: outpost-medic_9
+  - first:
+      213: 8788115725393772293
+    second: outpost-medic_10
+  - first:
+      213: -4584918544098103272
+    second: outpost-medic_11
+  - first:
+      213: -2448699080541233929
+    second: outpost-medic_12
+  - first:
+      213: 5360469725712317700
+    second: outpost-medic_13
+  - first:
+      213: -745404553045475207
+    second: outpost-medic_14
+  - first:
+      213: 8429037057279150493
+    second: outpost-medic_15
+  - first:
+      213: -9017467841331418601
+    second: outpost-medic_16
+  - first:
+      213: -4838264421246589266
+    second: outpost-medic_17
+  - first:
+      213: -7172116878028847957
+    second: outpost-medic_18
+  - first:
+      213: -7974357825268422296
+    second: outpost-medic_19
+  - first:
+      213: 5441024480038443872
+    second: outpost-medic_20
+  - first:
+      213: 3705840598086230503
+    second: outpost-medic_21
+  - first:
+      213: -3771891891932688636
+    second: outpost-medic_22
+  - first:
+      213: -171916756187837066
+    second: outpost-medic_23
+  - first:
+      213: -2239252480780860855
+    second: outpost-medic_24
+  - first:
+      213: 3190483330845918457
+    second: outpost-medic_25
+  - first:
+      213: -6846309065091190930
+    second: outpost-medic_26
+  - first:
+      213: 6243226907544833069
+    second: outpost-medic_27
+  - first:
+      213: 7190857996188011672
+    second: outpost-medic_28
+  - first:
+      213: 2924455502947849386
+    second: outpost-medic_29
+  - first:
+      213: -7508988002926449755
+    second: outpost-medic_30
+  - first:
+      213: -7010197164001558668
+    second: outpost-medic_31
+  - first:
+      213: -4649565463699513899
+    second: outpost-medic_32
+  - first:
+      213: 4365902896640809221
+    second: outpost-medic_33
+  - first:
+      213: -6449205012401569244
+    second: outpost-medic_34
+  - first:
+      213: 1942157151331937892
+    second: outpost-medic_35
+  - first:
+      213: -8377664276730094226
+    second: outpost-medic_36
+  - first:
+      213: 5799467710963343397
+    second: outpost-medic_37
+  - first:
+      213: -4609207220873186020
+    second: outpost-medic_38
+  - first:
+      213: 7640207632199729486
+    second: outpost-medic_39
+  - first:
+      213: -3758437334428146784
+    second: outpost-medic_40
+  - first:
+      213: -8239428615476751188
+    second: outpost-medic_41
+  - first:
+      213: 1652671552238101670
+    second: outpost-medic_42
+  - first:
+      213: 4416324108120628593
+    second: outpost-medic_43
+  - first:
+      213: 2904197034509741938
+    second: outpost-medic_44
+  - first:
+      213: 3649092820128032902
+    second: outpost-medic_45
+  - first:
+      213: -1363904198856945392
+    second: outpost-medic_46
+  - first:
+      213: -484264483545755904
+    second: outpost-medic_47
+  - first:
+      213: -6233888886882670229
+    second: outpost-medic_48
+  - first:
+      213: -7185924407009560169
+    second: outpost-medic_49
+  - first:
+      213: 2376033415454987209
+    second: outpost-medic_50
+  - first:
+      213: 2506730178393365378
+    second: outpost-medic_51
+  - first:
+      213: -4057843417774186557
+    second: outpost-medic_52
+  - first:
+      213: -7499051076896941985
+    second: outpost-medic_53
+  - first:
+      213: -1782566495716090824
+    second: outpost-medic_54
+  - first:
+      213: 4556476274511947581
+    second: outpost-medic_55
+  - first:
+      213: 5700720378284459777
+    second: outpost-medic_56
+  - first:
+      213: -5196220269976758843
+    second: outpost-medic_57
+  - first:
+      213: -1025272207190198725
+    second: outpost-medic_58
+  - first:
+      213: -1711496903411104291
+    second: outpost-medic_59
+  - first:
+      213: -6673736379955236955
+    second: outpost-medic_60
+  - first:
+      213: -3566330901417842062
+    second: outpost-medic_61
+  - first:
+      213: -9137761264777527743
+    second: outpost-medic_62
+  - first:
+      213: -3004519032059535948
+    second: outpost-medic_63
+  - first:
+      213: 1781853356230762159
+    second: outpost-medic_64
+  - first:
+      213: -1210378442179092104
+    second: outpost-medic_65
+  - first:
+      213: 8895719641011476831
+    second: outpost-medic_66
+  - first:
+      213: -2595166097273432773
+    second: outpost-medic_67
+  - first:
+      213: 4278463508449419140
+    second: outpost-medic_68
+  - first:
+      213: -1843291091099117999
+    second: outpost-medic_69
+  - first:
+      213: -7392162131214296443
+    second: outpost-medic_70
+  - first:
+      213: 8100382883746777184
+    second: outpost-medic_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: outpost-medic_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477e3f43cf3c86210800000000000000
+      internalID: 1326525578248185716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a27e09c46cf49ac0800000000000000
+      internalID: -3849174271694835034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 2
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4780a0800aec55de0800000000000000
+      internalID: -1344941726975260556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3863f5c70335640c0800000000000000
+      internalID: -4591891302347491709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868338bec3a09b530800000000000000
+      internalID: 3871136611467212904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3281b5d59dd23d0800000000000000
+      internalID: -3229686362771282965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40846e328639b3c50800000000000000
+      internalID: 6646067750603474948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94110615a22122b70800000000000000
+      internalID: 8872674188836475209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_8
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95bd53b49ad1d22c0800000000000000
+      internalID: -4454871843451053223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 2
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa319361bbe460310800000000000000
+      internalID: 1370869702019584943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_10
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fbe19d0b8a5f970800000000000000
+      internalID: 8788115725393772293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 2
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8107ee640e81f50c0800000000000000
+      internalID: -4584918544098103272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_12
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 2
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc9386f829740ed0800000000000000
+      internalID: -2448699080541233929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_13
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d715680d6346a40800000000000000
+      internalID: 5360469725712317700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_14
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97004c1228ac7a5f0800000000000000
+      internalID: -745404553045475207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_15
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 2
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d994abd6b84f9f470800000000000000
+      internalID: 8429037057279150493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_16
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 2
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71aaeef56c48bd280800000000000000
+      internalID: -9017467841331418601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_17
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6af22a4280bdcb0800000000000000
+      internalID: -4838264421246589266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_18
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 2
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4c18de2b5877c90800000000000000
+      internalID: -7172116878028847957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_19
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 2
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869e401dec3655190800000000000000
+      internalID: -7974357825268422296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_20
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b55e2dfe6628b40800000000000000
+      internalID: 5441024480038443872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_21
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 2
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1a62bb36acd6330800000000000000
+      internalID: 3705840598086230503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_22
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 2
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f0d220f4c87abc0800000000000000
+      internalID: -3771891891932688636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_23
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d8c700f9a3d9df0800000000000000
+      internalID: -171916756187837066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_24
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94205a89bb39ce0e0800000000000000
+      internalID: -2239252480780860855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_25
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 2
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f440ec7fafd64c20800000000000000
+      internalID: 3190483330845918457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_26
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 2
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fe3b8bd260df0a0800000000000000
+      internalID: -6846309065091190930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_27
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2cce5c5bc564a650800000000000000
+      internalID: 6243226907544833069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_28
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 2
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c401daf3f0bc360800000000000000
+      internalID: 7190857996188011672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_29
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 2
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa494a619c0c59820800000000000000
+      internalID: 2924455502947849386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_30
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab26e61237bac790800000000000000
+      internalID: -7508988002926449755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_31
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 2
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f7c3a22d6c6be90800000000000000
+      internalID: -7010197164001558668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_32
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 2
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd144068dc697fb0800000000000000
+      internalID: -4649565463699513899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_33
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509df1e8d8dc69c30800000000000000
+      internalID: 4365902896640809221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_34
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422c228e532df76a0800000000000000
+      internalID: -6449205012401569244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_35
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 2
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46eef1f93ade3fa10800000000000000
+      internalID: 1942157151331937892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_36
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 2
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6dd5022abe8cbb80800000000000000
+      internalID: -8377664276730094226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_37
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520615ef729db7050800000000000000
+      internalID: 5799467710963343397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_38
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 2
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1530b7047ec800c0800000000000000
+      internalID: -4609207220873186020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_39
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 2
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e414e77ac58770a60800000000000000
+      internalID: 7640207632199729486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_40
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a328da482957dbc0800000000000000
+      internalID: -3758437334428146784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_41
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4d15e145ba7ad80800000000000000
+      internalID: -8239428615476751188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_42
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4ab8145087fe610800000000000000
+      internalID: 1652671552238101670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_43
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d168da06fe94d30800000000000000
+      internalID: 4416324108120628593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_44
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f22b7d0d7cd4820800000000000000
+      internalID: 2904197034509741938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_45
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 2
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 688e820169e24a230800000000000000
+      internalID: 3649092820128032902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_46
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011d77f7b50721de0800000000000000
+      internalID: -1363904198856945392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_47
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00fcae8940c8749f0800000000000000
+      internalID: -484264483545755904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_48
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b696a100617cc79a0800000000000000
+      internalID: -6233888886882670229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_49
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799b26113d7764c90800000000000000
+      internalID: -7185924407009560169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_50
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c317a67dcd59f020800000000000000
+      internalID: 2376033415454987209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_51
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 2
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b53e6e0d1b9c220800000000000000
+      internalID: 2506730178393365378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_52
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 2
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf996139e4afa7c0800000000000000
+      internalID: -4057843417774186557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_53
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 2
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f581c09f6c40ee790800000000000000
+      internalID: -7499051076896941985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_54
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c5452773d0347e0800000000000000
+      internalID: -1782566495716090824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_55
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37a7c9c70bdb3f30800000000000000
+      internalID: 4556476274511947581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_56
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 2
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107c977faf60d1f40800000000000000
+      internalID: 5700720378284459777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_57
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 2
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5d959f13153e7b0800000000000000
+      internalID: -5196220269976758843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_58
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 2
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36f8541c5085c1f0800000000000000
+      internalID: -1025272207190198725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_59
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 2
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5000e52aa8f38e0800000000000000
+      internalID: -1711496903411104291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_60
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 2
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afaa241f102263a0800000000000000
+      internalID: -6673736379955236955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_61
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 2
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27aad7db0f8d18ec0800000000000000
+      internalID: -3566330901417842062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_62
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 2
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e7c9a2b86203180800000000000000
+      internalID: -9137761264777527743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_63
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 2
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bdd035ebddcd46d0800000000000000
+      internalID: -3004519032059535948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_64
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faed8f3df2a6ab810800000000000000
+      internalID: 1781853356230762159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_65
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871ef1e383fd33fe0800000000000000
+      internalID: -1210378442179092104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_66
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5954f7c1e1f37b70800000000000000
+      internalID: 8895719641011476831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_67
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 2
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3551ee2f2e1cfbd0800000000000000
+      internalID: -2595166097273432773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_68
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 2
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f599584e7206b30800000000000000
+      internalID: 4278463508449419140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_69
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 2
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1561561d4805b66e0800000000000000
+      internalID: -1843291091099117999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_70
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a90eef4b3c96990800000000000000
+      internalID: -7392162131214296443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-medic_71
+      rect:
+        serializedVersion: 2
+        x: 2281
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068816aa0575a6070800000000000000
+      internalID: 8100382883746777184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      outpost-medic_0: 1326525578248185716
+      outpost-medic_1: -3849174271694835034
+      outpost-medic_10: 8788115725393772293
+      outpost-medic_11: -4584918544098103272
+      outpost-medic_12: -2448699080541233929
+      outpost-medic_13: 5360469725712317700
+      outpost-medic_14: -745404553045475207
+      outpost-medic_15: 8429037057279150493
+      outpost-medic_16: -9017467841331418601
+      outpost-medic_17: -4838264421246589266
+      outpost-medic_18: -7172116878028847957
+      outpost-medic_19: -7974357825268422296
+      outpost-medic_2: -1344941726975260556
+      outpost-medic_20: 5441024480038443872
+      outpost-medic_21: 3705840598086230503
+      outpost-medic_22: -3771891891932688636
+      outpost-medic_23: -171916756187837066
+      outpost-medic_24: -2239252480780860855
+      outpost-medic_25: 3190483330845918457
+      outpost-medic_26: -6846309065091190930
+      outpost-medic_27: 6243226907544833069
+      outpost-medic_28: 7190857996188011672
+      outpost-medic_29: 2924455502947849386
+      outpost-medic_3: -4591891302347491709
+      outpost-medic_30: -7508988002926449755
+      outpost-medic_31: -7010197164001558668
+      outpost-medic_32: -4649565463699513899
+      outpost-medic_33: 4365902896640809221
+      outpost-medic_34: -6449205012401569244
+      outpost-medic_35: 1942157151331937892
+      outpost-medic_36: -8377664276730094226
+      outpost-medic_37: 5799467710963343397
+      outpost-medic_38: -4609207220873186020
+      outpost-medic_39: 7640207632199729486
+      outpost-medic_4: 3871136611467212904
+      outpost-medic_40: -3758437334428146784
+      outpost-medic_41: -8239428615476751188
+      outpost-medic_42: 1652671552238101670
+      outpost-medic_43: 4416324108120628593
+      outpost-medic_44: 2904197034509741938
+      outpost-medic_45: 3649092820128032902
+      outpost-medic_46: -1363904198856945392
+      outpost-medic_47: -484264483545755904
+      outpost-medic_48: -6233888886882670229
+      outpost-medic_49: -7185924407009560169
+      outpost-medic_5: -3229686362771282965
+      outpost-medic_50: 2376033415454987209
+      outpost-medic_51: 2506730178393365378
+      outpost-medic_52: -4057843417774186557
+      outpost-medic_53: -7499051076896941985
+      outpost-medic_54: -1782566495716090824
+      outpost-medic_55: 4556476274511947581
+      outpost-medic_56: 5700720378284459777
+      outpost-medic_57: -5196220269976758843
+      outpost-medic_58: -1025272207190198725
+      outpost-medic_59: -1711496903411104291
+      outpost-medic_6: 6646067750603474948
+      outpost-medic_60: -6673736379955236955
+      outpost-medic_61: -3566330901417842062
+      outpost-medic_62: -9137761264777527743
+      outpost-medic_63: -3004519032059535948
+      outpost-medic_64: 1781853356230762159
+      outpost-medic_65: -1210378442179092104
+      outpost-medic_66: 8895719641011476831
+      outpost-medic_67: -2595166097273432773
+      outpost-medic_68: 4278463508449419140
+      outpost-medic_69: -1843291091099117999
+      outpost-medic_7: 8872674188836475209
+      outpost-medic_70: -7392162131214296443
+      outpost-medic_71: 8100382883746777184
+      outpost-medic_8: -4454871843451053223
+      outpost-medic_9: 1370869702019584943
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

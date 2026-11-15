@@ -1,0 +1,350 @@
+{
+  "image": "props.png",
+  "size": [
+    256,
+    96
+  ],
+  "cell": [
+    32,
+    32
+  ],
+  "padding": 0,
+  "frames": [
+    {
+      "name": "control_terminal",
+      "rect": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/control_terminal.png"
+    },
+    {
+      "name": "server_rack",
+      "rect": [
+        32,
+        0,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/server_rack.png"
+    },
+    {
+      "name": "cryopod",
+      "rect": [
+        64,
+        0,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/cryopod.png"
+    },
+    {
+      "name": "cargo_crate",
+      "rect": [
+        96,
+        0,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/cargo_crate.png"
+    },
+    {
+      "name": "oxygen_cylinder",
+      "rect": [
+        128,
+        0,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/oxygen_cylinder.png"
+    },
+    {
+      "name": "hologram_table",
+      "rect": [
+        160,
+        0,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/hologram_table.png"
+    },
+    {
+      "name": "locker",
+      "rect": [
+        192,
+        0,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/locker.png"
+    },
+    {
+      "name": "medical_cabinet",
+      "rect": [
+        224,
+        0,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/medical_cabinet.png"
+    },
+    {
+      "name": "chemical_barrel",
+      "rect": [
+        0,
+        32,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/chemical_barrel.png"
+    },
+    {
+      "name": "power_cell",
+      "rect": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/power_cell.png"
+    },
+    {
+      "name": "pilot_chair",
+      "rect": [
+        64,
+        32,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/pilot_chair.png"
+    },
+    {
+      "name": "workbench",
+      "rect": [
+        96,
+        32,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/workbench.png"
+    },
+    {
+      "name": "floor_vent",
+      "rect": [
+        128,
+        32,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/floor_vent.png"
+    },
+    {
+      "name": "communications_antenna",
+      "rect": [
+        160,
+        32,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/communications_antenna.png"
+    },
+    {
+      "name": "radar_dish",
+      "rect": [
+        192,
+        32,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/radar_dish.png"
+    },
+    {
+      "name": "maintenance_drone",
+      "rect": [
+        224,
+        32,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/maintenance_drone.png"
+    },
+    {
+      "name": "station_bunk",
+      "rect": [
+        0,
+        64,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/station_bunk.png"
+    },
+    {
+      "name": "supply_shelf",
+      "rect": [
+        32,
+        64,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/supply_shelf.png"
+    },
+    {
+      "name": "cable_reel",
+      "rect": [
+        64,
+        64,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/cable_reel.png"
+    },
+    {
+      "name": "tool_case",
+      "rect": [
+        96,
+        64,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/tool_case.png"
+    },
+    {
+      "name": "supply_cart",
+      "rect": [
+        128,
+        64,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/supply_cart.png"
+    },
+    {
+      "name": "reactor_console",
+      "rect": [
+        160,
+        64,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/reactor_console.png"
+    },
+    {
+      "name": "hydroponic_planter",
+      "rect": [
+        192,
+        64,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/hydroponic_planter.png"
+    },
+    {
+      "name": "fire_extinguisher",
+      "rect": [
+        224,
+        64,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/fire_extinguisher.png"
+    }
+  ]
+}

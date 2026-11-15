@@ -1,0 +1,2015 @@
+fileFormatVersion: 2
+guid: 5743054174639441093525c2dff1072b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8051452054035140633
+    second: outpost-engineer_0
+  - first:
+      213: 9165660162123568844
+    second: outpost-engineer_1
+  - first:
+      213: -3201151850243713089
+    second: outpost-engineer_2
+  - first:
+      213: -4420098801034442185
+    second: outpost-engineer_3
+  - first:
+      213: -9104475155641748118
+    second: outpost-engineer_4
+  - first:
+      213: 8732965497083250921
+    second: outpost-engineer_5
+  - first:
+      213: -1757155015678044225
+    second: outpost-engineer_6
+  - first:
+      213: -3919469151400394512
+    second: outpost-engineer_7
+  - first:
+      213: -3284353990999076258
+    second: outpost-engineer_8
+  - first:
+      213: 7725072977796717912
+    second: outpost-engineer_9
+  - first:
+      213: 5067831577275296783
+    second: outpost-engineer_10
+  - first:
+      213: -5828018917836153249
+    second: outpost-engineer_11
+  - first:
+      213: -3880204793410173261
+    second: outpost-engineer_12
+  - first:
+      213: -8874979815058347855
+    second: outpost-engineer_13
+  - first:
+      213: -4586909414613390351
+    second: outpost-engineer_14
+  - first:
+      213: -5565243201884199437
+    second: outpost-engineer_15
+  - first:
+      213: -414729511711382910
+    second: outpost-engineer_16
+  - first:
+      213: 4776472620002707
+    second: outpost-engineer_17
+  - first:
+      213: 2591362583719854518
+    second: outpost-engineer_18
+  - first:
+      213: 8314122292779323776
+    second: outpost-engineer_19
+  - first:
+      213: -6871646128969849257
+    second: outpost-engineer_20
+  - first:
+      213: -4851764546160809454
+    second: outpost-engineer_21
+  - first:
+      213: -30593770039259168
+    second: outpost-engineer_22
+  - first:
+      213: 806585037052132549
+    second: outpost-engineer_23
+  - first:
+      213: -8606067806439547431
+    second: outpost-engineer_24
+  - first:
+      213: -7596959606571344820
+    second: outpost-engineer_25
+  - first:
+      213: -6314574663118064071
+    second: outpost-engineer_26
+  - first:
+      213: -8959468397087093903
+    second: outpost-engineer_27
+  - first:
+      213: -6600185706484928375
+    second: outpost-engineer_28
+  - first:
+      213: -1371776433824813245
+    second: outpost-engineer_29
+  - first:
+      213: -5126071849526243840
+    second: outpost-engineer_30
+  - first:
+      213: -499093389790753747
+    second: outpost-engineer_31
+  - first:
+      213: -8546669763003189363
+    second: outpost-engineer_32
+  - first:
+      213: -1857996508943644349
+    second: outpost-engineer_33
+  - first:
+      213: -858521289728324896
+    second: outpost-engineer_34
+  - first:
+      213: 7950828702139633910
+    second: outpost-engineer_35
+  - first:
+      213: 7322125155415343782
+    second: outpost-engineer_36
+  - first:
+      213: 8714365286659053626
+    second: outpost-engineer_37
+  - first:
+      213: 5553516810285554572
+    second: outpost-engineer_38
+  - first:
+      213: -972099882873240093
+    second: outpost-engineer_39
+  - first:
+      213: 7253316748561484806
+    second: outpost-engineer_40
+  - first:
+      213: 3853207680768409626
+    second: outpost-engineer_41
+  - first:
+      213: -6275175781233850287
+    second: outpost-engineer_42
+  - first:
+      213: 5574943879979779135
+    second: outpost-engineer_43
+  - first:
+      213: 2906920117238164896
+    second: outpost-engineer_44
+  - first:
+      213: 877447788740641579
+    second: outpost-engineer_45
+  - first:
+      213: 6061838995318140514
+    second: outpost-engineer_46
+  - first:
+      213: -6845969175376833154
+    second: outpost-engineer_47
+  - first:
+      213: 2849999053843189103
+    second: outpost-engineer_48
+  - first:
+      213: -1632731411274520871
+    second: outpost-engineer_49
+  - first:
+      213: -2713798320263384063
+    second: outpost-engineer_50
+  - first:
+      213: 2381966476404608471
+    second: outpost-engineer_51
+  - first:
+      213: 2608425565175549985
+    second: outpost-engineer_52
+  - first:
+      213: 3678187479679380880
+    second: outpost-engineer_53
+  - first:
+      213: -8554654965182128048
+    second: outpost-engineer_54
+  - first:
+      213: -5506145342461717410
+    second: outpost-engineer_55
+  - first:
+      213: 5093251454104764594
+    second: outpost-engineer_56
+  - first:
+      213: -3188666039330134450
+    second: outpost-engineer_57
+  - first:
+      213: 4529771511247224023
+    second: outpost-engineer_58
+  - first:
+      213: 5363767987749736259
+    second: outpost-engineer_59
+  - first:
+      213: -3923934162483639918
+    second: outpost-engineer_60
+  - first:
+      213: 4900871505881922186
+    second: outpost-engineer_61
+  - first:
+      213: 4534114856958958810
+    second: outpost-engineer_62
+  - first:
+      213: -4159847807308459951
+    second: outpost-engineer_63
+  - first:
+      213: 3776840883847805540
+    second: outpost-engineer_64
+  - first:
+      213: -7214750550647327497
+    second: outpost-engineer_65
+  - first:
+      213: -5671375194989401773
+    second: outpost-engineer_66
+  - first:
+      213: 5701614339440766592
+    second: outpost-engineer_67
+  - first:
+      213: -2713180713883964628
+    second: outpost-engineer_68
+  - first:
+      213: -7180476656903112802
+    second: outpost-engineer_69
+  - first:
+      213: 4903218690540026180
+    second: outpost-engineer_70
+  - first:
+      213: -7387480102150297109
+    second: outpost-engineer_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: outpost-engineer_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9109ad61cf08cbf60800000000000000
+      internalID: 8051452054035140633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6135f0b57f23f70800000000000000
+      internalID: 9165660162123568844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 2
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb793264a593393d0800000000000000
+      internalID: -3201151850243713089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a46342f87a8a2c0800000000000000
+      internalID: -4420098801034442185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65ba91651866a180800000000000000
+      internalID: -9104475155641748118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8c361b9d9b13970800000000000000
+      internalID: 8732965497083250921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7d633b2d45d97e0800000000000000
+      internalID: -1757155015678044225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f08da2b29f3b99c0800000000000000
+      internalID: -3919469151400394512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_8
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e521dd94271ab62d0800000000000000
+      internalID: -3284353990999076258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 2
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85dda81b1f8f43b60800000000000000
+      internalID: 7725072977796717912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_10
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c600118fd845640800000000000000
+      internalID: 5067831577275296783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_11
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e9e122ca7be1fa0800000000000000
+      internalID: -5828018917836153249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_12
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 2
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6c4017c4eb62ac0800000000000000
+      internalID: -3880204793410173261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_13
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b86fae31ecb5d480800000000000000
+      internalID: -8874979815058347855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_14
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fbe21d90360850c0800000000000000
+      internalID: -4586909414613390351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_15
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5e8073bc844c2b0800000000000000
+      internalID: -5565243201884199437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_16
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 2
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2826298d4b59e3af0800000000000000
+      internalID: -414729511711382910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_17
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d6bc13d28f01000800000000000000
+      internalID: 4776472620002707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_18
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b14cde4a8e56f320800000000000000
+      internalID: 2591362583719854518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_19
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 2
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0819448dc22b16370800000000000000
+      internalID: 8314122292779323776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_20
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7566094d04203a0a0800000000000000
+      internalID: -6871646128969849257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_21
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 2
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a204cd9d11bacb0800000000000000
+      internalID: -4851764546160809454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_22
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 2
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef4874d02f439ff0800000000000000
+      internalID: -30593770039259168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_23
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc33a651d0913b00800000000000000
+      internalID: 806585037052132549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_24
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ddde3c4dea119880800000000000000
+      internalID: -8606067806439547431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_25
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4cd25dfc7d229690800000000000000
+      internalID: -7596959606571344820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_26
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 2
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9367a29cccf1e58a0800000000000000
+      internalID: -6314574663118064071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_27
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b094f46f299a380800000000000000
+      internalID: -8959468397087093903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_28
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 2
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980fa59b11e6764a0800000000000000
+      internalID: -6600185706484928375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_29
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 2
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34fae96f99876fce0800000000000000
+      internalID: -1371776433824813245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_30
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ecbdbdfc88cd8b0800000000000000
+      internalID: -5126071849526243840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_31
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2cc6cfc43dd219f0800000000000000
+      internalID: -499093389790753747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_32
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 2
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d877f9bf121246980800000000000000
+      internalID: -8546669763003189363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_33
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3498f7ae4021736e0800000000000000
+      internalID: -1857996508943644349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_34
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea02a58f6be514f0800000000000000
+      internalID: -858521289728324896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_35
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0530d4494075e60800000000000000
+      internalID: 7950828702139633910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_36
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2cb79d80a6d9560800000000000000
+      internalID: 7322125155415343782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_37
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38de4abe05afe870800000000000000
+      internalID: 8714365286659053626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_38
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b1b3b7d1e021d40800000000000000
+      internalID: 5553516810285554572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_39
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 2
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e544239e486282f0800000000000000
+      internalID: -972099882873240093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_40
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c06613725f8a460800000000000000
+      internalID: 7253316748561484806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_41
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10020278f7597530800000000000000
+      internalID: 3853207680768409626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_42
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 2
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1580c60dfd81ae8a0800000000000000
+      internalID: -6275175781233850287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_43
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 2
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34cee8ebed2e5d40800000000000000
+      internalID: 5574943879979779135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_44
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 2
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0adea62f174775820800000000000000
+      internalID: 2906920117238164896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_45
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 2
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2386dc6d125d2c00800000000000000
+      internalID: 877447788740641579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_46
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e6c81037aff1450800000000000000
+      internalID: 6061838995318140514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_47
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75d3667e4b3ef0a0800000000000000
+      internalID: -6845969175376833154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_48
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 2
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6dc58e1a0b3d8720800000000000000
+      internalID: 2849999053843189103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_49
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d62c599e6f5759e0800000000000000
+      internalID: -1632731411274520871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_50
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10436a85ec6a65ad0800000000000000
+      internalID: -2713798320263384063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_51
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd4cfcd3e17e0120800000000000000
+      internalID: 2381966476404608471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_52
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12016534b3df23420800000000000000
+      internalID: 2608425565175549985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_53
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d249f560c8b0330800000000000000
+      internalID: 3678187479679380880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_54
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050a94832a2c74980800000000000000
+      internalID: -8554654965182128048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_55
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 2
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54d5ecdbfd3693b0800000000000000
+      internalID: -5506145342461717410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_56
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b008a9563ddea640800000000000000
+      internalID: 5093251454104764594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_57
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46206aa1259fb3d0800000000000000
+      internalID: -3188666039330134450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_58
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc3391903bfcde30800000000000000
+      internalID: 4529771511247224023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_59
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f4f6ff09eef6a40800000000000000
+      internalID: 5363767987749736259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_60
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299842b4ba26b89c0800000000000000
+      internalID: -3923934162483639918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_61
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8afced2ba4630440800000000000000
+      internalID: 4900871505881922186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_62
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc1cdb80796cee30800000000000000
+      internalID: 4534114856958958810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_63
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15011b585704546c0800000000000000
+      internalID: -4159847807308459951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_64
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46abbe6f5c80a6430800000000000000
+      internalID: 3776840883847805540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_65
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 2
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4bc9d799e00eb90800000000000000
+      internalID: -7214750550647327497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_66
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359e1b2fe4a3b41b0800000000000000
+      internalID: -5671375194989401773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_67
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ee3a48804302f40800000000000000
+      internalID: 5701614339440766592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_68
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b61890488d85ad0800000000000000
+      internalID: -2713180713883964628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_69
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e973e4b3682d95c90800000000000000
+      internalID: -7180476656903112802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_70
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449b1b1bb6bbb0440800000000000000
+      internalID: 4903218690540026180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-engineer_71
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9a016dcf56a7990800000000000000
+      internalID: -7387480102150297109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      outpost-engineer_0: 8051452054035140633
+      outpost-engineer_1: 9165660162123568844
+      outpost-engineer_10: 5067831577275296783
+      outpost-engineer_11: -5828018917836153249
+      outpost-engineer_12: -3880204793410173261
+      outpost-engineer_13: -8874979815058347855
+      outpost-engineer_14: -4586909414613390351
+      outpost-engineer_15: -5565243201884199437
+      outpost-engineer_16: -414729511711382910
+      outpost-engineer_17: 4776472620002707
+      outpost-engineer_18: 2591362583719854518
+      outpost-engineer_19: 8314122292779323776
+      outpost-engineer_2: -3201151850243713089
+      outpost-engineer_20: -6871646128969849257
+      outpost-engineer_21: -4851764546160809454
+      outpost-engineer_22: -30593770039259168
+      outpost-engineer_23: 806585037052132549
+      outpost-engineer_24: -8606067806439547431
+      outpost-engineer_25: -7596959606571344820
+      outpost-engineer_26: -6314574663118064071
+      outpost-engineer_27: -8959468397087093903
+      outpost-engineer_28: -6600185706484928375
+      outpost-engineer_29: -1371776433824813245
+      outpost-engineer_3: -4420098801034442185
+      outpost-engineer_30: -5126071849526243840
+      outpost-engineer_31: -499093389790753747
+      outpost-engineer_32: -8546669763003189363
+      outpost-engineer_33: -1857996508943644349
+      outpost-engineer_34: -858521289728324896
+      outpost-engineer_35: 7950828702139633910
+      outpost-engineer_36: 7322125155415343782
+      outpost-engineer_37: 8714365286659053626
+      outpost-engineer_38: 5553516810285554572
+      outpost-engineer_39: -972099882873240093
+      outpost-engineer_4: -9104475155641748118
+      outpost-engineer_40: 7253316748561484806
+      outpost-engineer_41: 3853207680768409626
+      outpost-engineer_42: -6275175781233850287
+      outpost-engineer_43: 5574943879979779135
+      outpost-engineer_44: 2906920117238164896
+      outpost-engineer_45: 877447788740641579
+      outpost-engineer_46: 6061838995318140514
+      outpost-engineer_47: -6845969175376833154
+      outpost-engineer_48: 2849999053843189103
+      outpost-engineer_49: -1632731411274520871
+      outpost-engineer_5: 8732965497083250921
+      outpost-engineer_50: -2713798320263384063
+      outpost-engineer_51: 2381966476404608471
+      outpost-engineer_52: 2608425565175549985
+      outpost-engineer_53: 3678187479679380880
+      outpost-engineer_54: -8554654965182128048
+      outpost-engineer_55: -5506145342461717410
+      outpost-engineer_56: 5093251454104764594
+      outpost-engineer_57: -3188666039330134450
+      outpost-engineer_58: 4529771511247224023
+      outpost-engineer_59: 5363767987749736259
+      outpost-engineer_6: -1757155015678044225
+      outpost-engineer_60: -3923934162483639918
+      outpost-engineer_61: 4900871505881922186
+      outpost-engineer_62: 4534114856958958810
+      outpost-engineer_63: -4159847807308459951
+      outpost-engineer_64: 3776840883847805540
+      outpost-engineer_65: -7214750550647327497
+      outpost-engineer_66: -5671375194989401773
+      outpost-engineer_67: 5701614339440766592
+      outpost-engineer_68: -2713180713883964628
+      outpost-engineer_69: -7180476656903112802
+      outpost-engineer_7: -3919469151400394512
+      outpost-engineer_70: 4903218690540026180
+      outpost-engineer_71: -7387480102150297109
+      outpost-engineer_8: -3284353990999076258
+      outpost-engineer_9: 7725072977796717912
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,19 @@
+ORBITAL OUTPOST — ASSET LICENSE
+Version 0.14.3
+Copyright 2026 DadddyDarko
+
+You may use and modify these assets in commercial and non-commercial games,
+applications, videos, and promotional materials. Credit is appreciated but optional.
+
+You may distribute the assets as part of a finished project. You may share working
+files privately with collaborators for that project. You may not resell, redistribute,
+repackage, or sublicense the assets, including modified versions, as a standalone
+asset collection or competing asset product. You may not claim authorship of the
+original artwork.
+
+The included sample code may be used and modified in your projects under the same
+project-use permission. The pack is provided as-is, without a warranty.
+
+No audio, fonts, or third-party asset packs are bundled.
+
+Creator: https://dadddydarko.itch.io/
