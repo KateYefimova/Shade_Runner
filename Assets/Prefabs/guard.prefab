@@ -106,9 +106,13 @@ MonoBehaviour:
   vision: {fileID: 3104276520279381306}
   patrol: {fileID: 170491338816831966}
   segments: 40
+  clipByObstacles: 1
+  sortingLayerName: Default
+  sortingOrder: 5
   patrolColor: {r: 1, g: 0.8, b: 0.1, a: 0.2}
   detectedColor: {r: 1, g: 0.05, b: 0.05, a: 0.5}
   blinkSpeed: 8
+  blinkSpeedUp: 3
   minAlpha: 0.1
   maxAlpha: 0.65
 --- !u!1 &3517983510603511752
@@ -293,6 +297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d127923f0d76b0843b4afe0ed59aa43c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GuardPatrol
+  routeParent: {fileID: 5765949782734911863, guid: 99c97b52a8ebf5449b0b395d8a1d5e97, type: 3}
   waypoints:
   - {fileID: 0}
   - {fileID: 0}
@@ -306,6 +311,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 264
   obstacleCheckDistance: 0.5
+  stuckSkipTime: 1.5
 --- !u!114 &3104276520279381306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -321,6 +327,8 @@ MonoBehaviour:
   playerTarget: {fileID: 0}
   viewDistance: 5
   viewAngle: 90
+  timeToEscape: 5
+  recoverSpeed: 1
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 264
@@ -336,4 +344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a15cf0faaf8df624684b53b73aad4716, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GuardChase
-  chaseSpeed: 3
+  chaseSpeed: 2
+  catchDistance: 0.6
+  searchSpeed: 1.5
+  lookTime: 2

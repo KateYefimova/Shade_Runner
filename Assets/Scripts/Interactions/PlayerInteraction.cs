@@ -1,81 +1,156 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+[RequireComponent(typeof(PlayerMovement))]
 public class PlayerInteraction : MonoBehaviour
 {
-    [SerializeField]
-    private float interactionDistance = 1.5f;
+    [Header("Interaction")]
+    [SerializeField] private float interactionDistance = 1.5f;
+    [Tooltip("Шари, на яких лежать двері та ящики. За замовчуванням - усі.")]
+    [SerializeField] private LayerMask interactableLayers = ~0;
+
+    [Header("Highlight")]
+    [SerializeField] private Color highlightColor = new Color(1f, 1f, 0.5f, 1f);
 
     private Rigidbody2D playerRb;
+    private PlayerMovement movement;
     private DraggableBox heldBox;
+
+    private readonly Collider2D[] hitBuffer = new Collider2D[16];
+    private ContactFilter2D filter;
+
+    private Component currentTarget;
+    private SpriteRenderer highlighted;
+    private Color originalColor;
+
+    public bool IsHoldingBox => heldBox != null;
 
     private void Awake()
     {
         playerRb = GetComponent<Rigidbody2D>();
+        movement = GetComponent<PlayerMovement>();
+
+        filter = new ContactFilter2D();
+        filter.SetLayerMask(interactableLayers);
+        filter.useTriggers = true;
     }
 
     private void Update()
     {
-        if (Keyboard.current == null ||
-            !Keyboard.current.eKey.wasPressedThisFrame)
+        if (!movement.InputEnabled)
+        {
+            ClearHighlight();
+            return;
+        }
+
+        bool ePressed = Keyboard.current != null &&
+                        Keyboard.current.eKey.wasPressedThisFrame;
+
+        if (heldBox != null)
+        {
+            ClearHighlight();
+            if (ePressed)
+                ReleaseHeld();
+            return;
+        }
+
+        FindNearestTarget();
+        UpdateHighlight();
+
+        if (!ePressed || currentTarget == null)
             return;
 
-        // E releases the currently held box.
+        if (currentTarget is DoorInteractable door)
+        {
+            door.Interact();
+        }
+        else if (currentTarget is DraggableBox box)
+        {
+            box.Grab(playerRb);
+            heldBox = box;
+            movement.SetHoldingBox(true);
+        }
+    }
+
+    public void ReleaseHeld()
+    {
         if (heldBox != null)
         {
             heldBox.Release();
             heldBox = null;
-            return;
         }
+        movement.SetHoldingBox(false);
+    }
 
-        DoorInteractable nearestDoor = null;
-        DraggableBox nearestBox = null;
+    private void FindNearestTarget()
+    {
+        currentTarget = null;
 
-        float minDistance = interactionDistance;
+        int count = Physics2D.OverlapCircle(
+            transform.position, interactionDistance, filter, hitBuffer);
 
-        foreach (DoorInteractable door in
-                 FindObjectsByType<DoorInteractable>(
-                     FindObjectsSortMode.None))
+        float minDistance = float.MaxValue;
+        Vector2 pos = transform.position;
+
+        for (int i = 0; i < count; i++)
         {
-            float distance = Vector2.Distance(
-                transform.position,
-                door.transform.position);
+            Collider2D col = hitBuffer[i];
 
-            if (distance < minDistance)
-            {
-                minDistance = distance;
-                nearestDoor = door;
-                nearestBox = null;
-            }
-        }
+            DoorInteractable door = col.GetComponentInParent<DoorInteractable>();
+            DraggableBox box = col.GetComponentInParent<DraggableBox>();
 
-        foreach (DraggableBox box in
-                 FindObjectsByType<DraggableBox>(
-                     FindObjectsSortMode.None))
-        {
-            if (box.IsGrabbed)
+            if (door == null && box == null)
                 continue;
 
-            float distance = Vector2.Distance(
-                transform.position,
-                box.transform.position);
+            if (box != null && box.IsGrabbed)
+                continue;
+
+            float distance = Vector2.Distance(pos, col.ClosestPoint(pos));
 
             if (distance < minDistance)
             {
                 minDistance = distance;
-                nearestBox = box;
-                nearestDoor = null;
+                currentTarget = door != null ? (Component)door : box;
             }
         }
+    }
 
-        if (nearestDoor != null)
+    private void UpdateHighlight()
+    {
+        SpriteRenderer sr = currentTarget != null
+            ? currentTarget.GetComponentInChildren<SpriteRenderer>()
+            : null;
+
+        if (sr == highlighted)
+            return;
+
+        ClearHighlight();
+
+        if (sr != null)
         {
-            nearestDoor.Interact();
+            highlighted = sr;
+            originalColor = sr.color;
+            sr.color = highlightColor;
         }
-        else if (nearestBox != null)
-        {
-            nearestBox.Grab(playerRb);
-            heldBox = nearestBox;
-        }
+    }
+
+    private void ClearHighlight()
+    {
+        if (highlighted != null)
+            highlighted.color = originalColor;
+
+        highlighted = null;
+    }
+
+    private void OnDisable()
+    {
+        ClearHighlight();
+        ReleaseHeld();
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawWireSphere(transform.position, interactionDistance);
     }
 }
