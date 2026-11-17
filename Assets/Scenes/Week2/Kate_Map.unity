@@ -838,9 +838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraLevelBounds
   levelTilemap: {fileID: 949900789}
-  autoFindName: Floor
   padding: 0
-  overrideBackground: 1
   backgroundColor: {r: 0.02, g: 0.02, b: 0.05, a: 1}
 --- !u!4 &558831797 stripped
 Transform:
@@ -10623,8 +10621,8 @@ Transform:
   m_GameObject: {fileID: 1081437104}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.3784, y: 5.9963, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -11.96, y: 6.7692, z: 0}
+  m_LocalScale: {x: 2.6735, y: 2.8322, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -10731,8 +10729,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9849750899143bd49ae9d4b9df1892ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  pauseWithEscape: 1
-  restartWithR: 1
   menuSceneName: MainMenu
 --- !u!4 &1362275768
 Transform:
