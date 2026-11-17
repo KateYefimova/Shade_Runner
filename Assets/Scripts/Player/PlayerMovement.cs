@@ -39,12 +39,22 @@ public class PlayerMovement : MonoBehaviour
         isHoldingBox = holding;
     }
 
+    public void ResetMotion()
+    {
+        input = Vector2.zero;
+        currentVelocity = Vector2.zero;
+        isHoldingBox = false;
+        IsSneaking = false;
+        FacingDirection = Vector2.down;
+        rb.linearVelocity = Vector2.zero;
+    }
+
     private void Update()
     {
         input = Vector2.zero;
         IsSneaking = false;
 
-        if (!InputEnabled || Keyboard.current == null)
+        if (!InputEnabled || !GameManager.IsGameplayActive || Keyboard.current == null)
             return;
 
         var kb = Keyboard.current;
