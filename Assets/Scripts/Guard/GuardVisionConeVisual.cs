@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 [RequireComponent(typeof(MeshFilter), typeof(MeshRenderer))]
@@ -5,7 +6,7 @@ public class GuardVisionConeVisual : MonoBehaviour
 {
     [Header("References (якщо порожні - знайдуться автоматично)")]
     [SerializeField] private GuardVision vision;
-    [SerializeField] private GuardPatrol patrol;
+    [SerializeField] private GuardAI guardAI;
 
     [Header("Cone")]
     [SerializeField, Range(10, 100)] private int segments = 40;
@@ -34,15 +35,20 @@ public class GuardVisionConeVisual : MonoBehaviour
 
     private void Awake()
     {
-        if (vision == null) vision = GetComponentInParent<GuardVision>();
-        if (patrol == null) patrol = GetComponentInParent<GuardPatrol>();
+        if (vision == null)
+            vision = GetComponentInParent<GuardVision>();
+
+        if (guardAI == null)
+            guardAI = GetComponentInParent<GuardAI>();
 
         Shader shader = Shader.Find("Universal Render Pipeline/2D/Sprite-Unlit-Default");
-        if (shader == null) shader = Shader.Find("Sprites/Default");
+        if (shader == null)
+            shader = Shader.Find("Sprites/Default");
 
         material = new Material(shader);
+
         if (material.HasProperty("_Color"))
-            material.color = Color.white;   
+            material.color = Color.white;
 
         MeshRenderer meshRenderer = GetComponent<MeshRenderer>();
         meshRenderer.material = material;
@@ -53,6 +59,7 @@ public class GuardVisionConeVisual : MonoBehaviour
         colors = new Color[segments + 2];
 
         int[] triangles = new int[segments * 3];
+
         for (int i = 0; i < segments; i++)
         {
             triangles[i * 3] = 0;
@@ -64,15 +71,16 @@ public class GuardVisionConeVisual : MonoBehaviour
         coneMesh.vertices = vertices;
         coneMesh.colors = colors;
         coneMesh.triangles = triangles;
+
         GetComponent<MeshFilter>().mesh = coneMesh;
     }
 
     private void LateUpdate()
     {
-        if (vision == null || patrol == null)
+        if (vision == null || guardAI == null)
         {
             Debug.LogWarning(
-                "GuardVisionConeVisual: не знайдено GuardVision/GuardPatrol!", this);
+                "GuardVisionConeVisual: не знайдено GuardVision/GuardAI!", this);
             return;
         }
 
@@ -96,14 +104,16 @@ public class GuardVisionConeVisual : MonoBehaviour
 
         Color c = detectedColor;
         c.a = Mathf.Lerp(minAlpha, maxAlpha, blink);
+
         return c;
     }
 
     private void UpdateCone(Color color)
     {
-        Vector3 originWorld = patrol.transform.position;
+        Vector3 originWorld = guardAI.transform.position;
 
-        Vector2 facing = patrol.FacingDirection;
+        Vector2 facing = guardAI.FacingDirection;
+
         if (facing.sqrMagnitude < 0.001f)
             facing = Vector2.right;
 
@@ -124,13 +134,18 @@ public class GuardVisionConeVisual : MonoBehaviour
             if (clipByObstacles)
             {
                 RaycastHit2D hit = Physics2D.Raycast(
-                    originWorld, dir, distance, vision.ObstacleLayer);
+                    originWorld,
+                    dir,
+                    distance,
+                    vision.ObstacleLayer
+                );
 
                 if (hit.collider != null)
                     distance = hit.distance;
             }
 
             Vector3 pointWorld = originWorld + (Vector3)(dir * distance);
+
             vertices[i + 1] = transform.InverseTransformPoint(pointWorld);
             colors[i + 1] = color;
         }
@@ -142,7 +157,10 @@ public class GuardVisionConeVisual : MonoBehaviour
 
     private void OnDestroy()
     {
-        if (material != null) Destroy(material);
-        if (coneMesh != null) Destroy(coneMesh);
+        if (material != null)
+            Destroy(material);
+
+        if (coneMesh != null)
+            Destroy(coneMesh);
     }
 }
