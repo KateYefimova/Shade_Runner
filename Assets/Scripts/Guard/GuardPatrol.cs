@@ -5,8 +5,7 @@ using Pathfinding;
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(AIPath))]
 [RequireComponent(typeof(Seeker))]
-public class GuardPatrol : MonoBehaviour
-{
+public class GuardPatrol : MonoBehaviour, IResettable{
     [Header("Patrol Route")]
     [Tooltip("Необов'язково: перетягніть сюди PatrolRoute")]
     [SerializeField] private Transform routeParent;
@@ -19,6 +18,7 @@ public class GuardPatrol : MonoBehaviour
 
     private Rigidbody2D rb;
     private AIPath aiPath;
+    private Vector2 initialPosition;
 
     private bool patrolEnabled = true;
     private int currentWaypointIndex;
@@ -38,6 +38,7 @@ public class GuardPatrol : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         aiPath = GetComponent<AIPath>();
+        initialPosition = rb.position;
 
         if (rb.bodyType == RigidbodyType2D.Static)
         {
@@ -328,5 +329,32 @@ public class GuardPatrol : MonoBehaviour
                 );
             }
         }
+    }
+    
+    public void ResetState()
+    {
+        // Зупиняємо поточний рух
+        StopNavigation();
+
+        // Повертаємо охоронця на початкову позицію
+        aiPath.Teleport(initialPosition, true);
+
+        // Скидаємо стан патрулювання
+        patrolEnabled = true;
+        currentWaypointIndex = 0;
+        direction = 1;
+
+        isWaiting = false;
+        waitTimer = 0f;
+
+        lastDestination = Vector2.positiveInfinity;
+
+        // Відновлюємо початковий напрямок
+        FacingDirection = Vector2.right;
+
+        // Запускаємо патрулювання з першої точки
+        MoveToCurrentWaypoint();
+
+        Debug.Log("GuardPatrol: стан успішно скинуто.");
     }
 }

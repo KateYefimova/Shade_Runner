@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(GuardPatrol))]
 [RequireComponent(typeof(GuardVision))]
-public class GuardChase : MonoBehaviour
+public class GuardChase : MonoBehaviour, IResettable
 {
     private enum State { Patrol, Chase, Search, Look }
 
@@ -100,5 +100,14 @@ public class GuardChase : MonoBehaviour
         guardPatrol.SetNavigationDestination(target);
 
         return guardPatrol.HasReachedDestination();
+    }
+    
+    public void ResetState()
+    {
+        state = State.Patrol;
+        searchTarget = Vector2.zero;
+        lookTimer = 0f;
+
+        Debug.Log("GuardChase: стан успішно скинуто.");
     }
 }
