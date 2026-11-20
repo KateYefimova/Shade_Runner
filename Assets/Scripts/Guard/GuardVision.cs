@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class GuardVision : MonoBehaviour
+public class GuardVision : MonoBehaviour, IResettable
 {
     [Header("Player Detection")]
     [Tooltip("Якщо порожньо - знайдеться об'єкт з PlayerStatus або тегом Player")]
@@ -149,5 +149,19 @@ public class GuardVision : MonoBehaviour
         Gizmos.DrawRay(transform.position, left * viewDistance);
         Gizmos.DrawRay(transform.position, right * viewDistance);
         Gizmos.DrawRay(transform.position, facing * viewDistance);
+    }
+    
+    public void ResetState()
+    {
+        // Відновлюємо таймер тривоги
+        alertTimeLeft = timeToEscape;
+
+        // Скидаємо стан виявлення гравця
+        playerDetected = false;
+
+        // Очищаємо останню відому позицію гравця
+        LastSeenPosition = Vector2.zero;
+
+        Debug.Log("GuardVision: стан успішно скинуто.");
     }
 }
