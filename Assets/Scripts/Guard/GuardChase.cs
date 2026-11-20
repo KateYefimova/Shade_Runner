@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(GuardPatrol))]
 [RequireComponent(typeof(GuardVision))]
-public class GuardChase : MonoBehaviour
+public class GuardChase : MonoBehaviour, IResettable
 {
     private enum State { Patrol, Chase, Search, Look }
 
@@ -57,6 +57,7 @@ public class GuardChase : MonoBehaviour
             {
                 state = State.Look;
                 lookTimer = lookTime;
+                guardPatrol.StopNavigation();
             }
             return;
         }
@@ -95,40 +96,18 @@ public class GuardChase : MonoBehaviour
 
     private bool StepToward(Vector2 target, float speed)
     {
-        Vector2 pos = rb.position;
-        Vector2 toTarget = target - pos;
-        float remaining = toTarget.magnitude;
+        guardPatrol.SetNavigationSpeed(speed);
+        guardPatrol.SetNavigationDestination(target);
 
-        if (remaining <= 0.05f)
-            return true;
+        return guardPatrol.HasReachedDestination();
+    }
+    
+    public void ResetState()
+    {
+        state = State.Patrol;
+        searchTarget = Vector2.zero;
+        lookTimer = 0f;
 
-        Vector2 dir = toTarget / remaining;
-        guardPatrol.SetFacingDirection(dir);
-
-        float step = Mathf.Min(speed * Time.fixedDeltaTime, remaining);
-        float check = step + 0.05f;
-
-        Vector2 move = dir;
-
-        if (guardPatrol.IsPathBlocked(dir, check, out _))
-        {
-            Vector2 slideX = new Vector2(Mathf.Sign(dir.x), 0f);
-            Vector2 slideY = new Vector2(0f, Mathf.Sign(dir.y));
-
-            bool canX = Mathf.Abs(dir.x) > 0.1f &&
-                        !guardPatrol.IsPathBlocked(slideX, check, out _);
-            bool canY = Mathf.Abs(dir.y) > 0.1f &&
-                        !guardPatrol.IsPathBlocked(slideY, check, out _);
-
-            if (canX && (!canY || Mathf.Abs(dir.x) >= Mathf.Abs(dir.y)))
-                move = slideX;
-            else if (canY)
-                move = slideY;
-            else
-                return true;   
-        }
-
-        rb.MovePosition(pos + move * step);
-        return false;
+        Debug.Log("GuardChase: стан успішно скинуто.");
     }
 }

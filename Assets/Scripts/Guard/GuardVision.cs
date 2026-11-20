@@ -1,7 +1,6 @@
 using UnityEngine;
 
-[RequireComponent(typeof(GuardPatrol))]
-public class GuardVision : MonoBehaviour
+public class GuardVision : MonoBehaviour, IResettable
 {
     [Header("Player Detection")]
     [Tooltip("Якщо порожньо - знайдеться об'єкт з PlayerStatus або тегом Player")]
@@ -20,7 +19,7 @@ public class GuardVision : MonoBehaviour
     [Header("Obstacles")]
     [SerializeField] private LayerMask obstacleLayer;
 
-    private GuardPatrol guardPatrol;
+    private GuardAI guardAI;
     private PlayerStatus playerStatus;
     private bool playerDetected = false;
     private float alertTimeLeft;
@@ -38,7 +37,7 @@ public class GuardVision : MonoBehaviour
 
     private void Awake()
     {
-        guardPatrol = GetComponent<GuardPatrol>();
+        guardAI = GetComponent<GuardAI>();
         alertTimeLeft = timeToEscape;
 
         if (playerTarget == null)
@@ -111,7 +110,10 @@ public class GuardVision : MonoBehaviour
 
         Vector2 directionToPlayer = toPlayer / Mathf.Max(distance, 0.0001f);
 
-        float angle = Vector2.Angle(guardPatrol.FacingDirection, directionToPlayer);
+        float angle = Vector2.Angle(
+            guardAI.FacingDirection,
+            directionToPlayer
+        );
         if (angle > viewAngle / 2f)
             return false;
 
@@ -132,10 +134,10 @@ public class GuardVision : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        GuardPatrol patrol = GetComponent<GuardPatrol>();
-        if (patrol == null) return;
+        GuardAI ai = GetComponent<GuardAI>();
+        if (ai == null) return;
 
-        Vector2 facing = patrol.FacingDirection;
+        Vector2 facing = ai.FacingDirection;
         if (facing.sqrMagnitude < 0.001f) return;
 
         float halfAngle = viewAngle / 2f;
@@ -147,5 +149,19 @@ public class GuardVision : MonoBehaviour
         Gizmos.DrawRay(transform.position, left * viewDistance);
         Gizmos.DrawRay(transform.position, right * viewDistance);
         Gizmos.DrawRay(transform.position, facing * viewDistance);
+    }
+    
+    public void ResetState()
+    {
+        // Відновлюємо таймер тривоги
+        alertTimeLeft = timeToEscape;
+
+        // Скидаємо стан виявлення гравця
+        playerDetected = false;
+
+        // Очищаємо останню відому позицію гравця
+        LastSeenPosition = Vector2.zero;
+
+        Debug.Log("GuardVision: стан успішно скинуто.");
     }
 }
