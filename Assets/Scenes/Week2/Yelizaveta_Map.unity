@@ -239,6 +239,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8871648011597201413, guid: dbf8eabb5ecdd29459a11414aa2204e4, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -397,7 +401,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3750770086352887773, guid: d42deec27e9584d8c81b092eb718ff8f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 731491672}
   m_SourcePrefab: {fileID: 100100000, guid: d42deec27e9584d8c81b092eb718ff8f, type: 3}
 --- !u!1 &185213807
 GameObject:
@@ -701,6 +708,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1168477037963550602, guid: 99c97b52a8ebf5449b0b395d8a1d5e97, type: 3}
   m_PrefabInstance: {fileID: 235631102}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &462593699 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3750770086352887773, guid: d42deec27e9584d8c81b092eb718ff8f, type: 3}
+  m_PrefabInstance: {fileID: 2469926061435238929}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &462593706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462593699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 183748dd497aa473a98ff0cd8cb67fc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AstarPathfindingProject::Pathfinding.DynamicGridObstacle
+  version: 1
+  uniqueID: 5791014993100842786
+  updateError: 1
+  checkTime: 0.2
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,6 +1136,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &604264663 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7054692913676831872, guid: 9b37f20c76f294bce80bb7833a5f8be5, type: 3}
+  m_PrefabInstance: {fileID: 4344805175619363475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &604264667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604264663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 183748dd497aa473a98ff0cd8cb67fc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AstarPathfindingProject::Pathfinding.DynamicGridObstacle
+  version: 1
+  uniqueID: 42363552206604057
+  updateError: 1
+  checkTime: 0.2
 --- !u!1 &616793642
 GameObject:
   m_ObjectHideFlags: 0
@@ -1503,6 +1552,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &731491665 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3750770086352887773, guid: d42deec27e9584d8c81b092eb718ff8f, type: 3}
+  m_PrefabInstance: {fileID: 136307390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &731491672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731491665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 183748dd497aa473a98ff0cd8cb67fc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AstarPathfindingProject::Pathfinding.DynamicGridObstacle
+  version: 1
+  uniqueID: 4101890133974477693
+  updateError: 1
+  checkTime: 0.2
 --- !u!1 &754066933
 GameObject:
   m_ObjectHideFlags: 0
@@ -13912,7 +13982,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3750770086352887773, guid: d42deec27e9584d8c81b092eb718ff8f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 462593706}
   m_SourcePrefab: {fileID: 100100000, guid: d42deec27e9584d8c81b092eb718ff8f, type: 3}
 --- !u!1001 &4344805175619363475
 PrefabInstance:
@@ -13993,7 +14066,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7054692913676831872, guid: 9b37f20c76f294bce80bb7833a5f8be5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 604264667}
   m_SourcePrefab: {fileID: 100100000, guid: 9b37f20c76f294bce80bb7833a5f8be5, type: 3}
 --- !u!1001 &8169872582165119577
 PrefabInstance:
