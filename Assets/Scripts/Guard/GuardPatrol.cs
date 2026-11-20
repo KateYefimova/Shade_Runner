@@ -1,202 +1,164 @@
+
 using UnityEngine;
+using Pathfinding;
 
 [RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(AIPath))]
+[RequireComponent(typeof(Seeker))]
 public class GuardPatrol : MonoBehaviour
 {
     [Header("Patrol Route")]
-    [Tooltip("Необов'язково: перетягніть сюди PatrolRoute, і точки візьмуться з його дітей")]
+    [Tooltip("Необов'язково: перетягніть сюди PatrolRoute")]
     [SerializeField] private Transform routeParent;
     [SerializeField] private Transform[] waypoints;
 
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 2f;
-    [SerializeField] private float arrivalDistance = 0.1f;
+    [SerializeField] private float arrivalDistance = 0.2f;
     [SerializeField] private float waitTime = 1f;
 
-    [Header("Obstacle Detection")]
-    [SerializeField] private LayerMask obstacleLayer;
-    [SerializeField] private float obstacleCheckDistance = 0.3f;
-    [Tooltip("Якщо охоронець застряг на стільки секунд - він іде до наступної точки")]
-    [SerializeField] private float stuckSkipTime = 1.5f;
-
     private Rigidbody2D rb;
-    private Collider2D guardCollider;
-    private ContactFilter2D obstacleFilter;
-    private readonly RaycastHit2D[] castBuffer = new RaycastHit2D[8];
+    private AIPath aiPath;
 
     private bool patrolEnabled = true;
-    private int currentWaypointIndex = 0;
+    private int currentWaypointIndex;
     private int direction = 1;
-    private float waitTimer = 0f;
-    private bool isWaiting = false;
-    private float stuckTimer = 0f;
+
+    private bool isWaiting;
+    private float waitTimer;
+
+    private Vector2 lastDestination;
 
     public Vector2 FacingDirection { get; private set; } = Vector2.right;
 
-    public void SetPatrolEnabled(bool enabled)
-    {
-        patrolEnabled = enabled;
-    }
-
-    public void SetFacingDirection(Vector2 dir)
-    {
-        if (dir.sqrMagnitude > 0.001f)
-            FacingDirection = dir.normalized;
-    }
-
-    private bool HasRoute => waypoints != null && waypoints.Length >= 2;
+    private bool HasRoute =>
+        waypoints != null && waypoints.Length >= 2;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        guardCollider = GetComponentInChildren<Collider2D>();
+        aiPath = GetComponent<AIPath>();
 
         if (rb.bodyType == RigidbodyType2D.Static)
         {
-            Debug.LogWarning("Guard: Rigidbody2D був Static, змінено на Kinematic.", this);
+            Debug.LogWarning(
+                "Guard: Rigidbody2D був Static, змінено на Kinematic.",
+                this
+            );
+
             rb.bodyType = RigidbodyType2D.Kinematic;
         }
+
         rb.gravityScale = 0f;
         rb.freezeRotation = true;
 
-        obstacleFilter = new ContactFilter2D();
-        obstacleFilter.SetLayerMask(obstacleLayer);
-        obstacleFilter.useTriggers = false;
-
-        if ((waypoints == null || waypoints.Length == 0) && routeParent != null)
+        if ((waypoints == null || waypoints.Length == 0)
+            && routeParent != null)
         {
             waypoints = new Transform[routeParent.childCount];
+
             for (int i = 0; i < waypoints.Length; i++)
                 waypoints[i] = routeParent.GetChild(i);
         }
 
+        aiPath.maxSpeed = moveSpeed;
+        aiPath.endReachedDistance = arrivalDistance;
+        aiPath.canMove = true;
+        aiPath.isStopped = true;
+
         if (!HasRoute)
         {
             Debug.LogWarning(
-                "Guard: потрібно мінімум 2 точки патруля! Заповніть Waypoints " +
-                "або перетягнути PatrolRoute в Route Parent.", this);
+                "Guard: потрібно мінімум 2 точки патруля!",
+                this
+            );
         }
     }
 
     private void Start()
     {
+        if (AstarPath.active == null)
+        {
+            Debug.LogError(
+                "Guard: AstarPath не знайдений у сцені!",
+                this
+            );
+
+            return;
+        }
+
         if (HasRoute)
             ResumeFromNearestWaypoint();
     }
 
-    public void ResumeFromNearestWaypoint()
-    {
-        if (!HasRoute) return;
-
-        float best = float.MaxValue;
-        for (int i = 0; i < waypoints.Length; i++)
-        {
-            if (waypoints[i] == null) continue;
-            float d = Vector2.Distance(rb.position, waypoints[i].position);
-            if (d < best)
-            {
-                best = d;
-                currentWaypointIndex = i;
-            }
-        }
-
-        isWaiting = false;
-        stuckTimer = 0f;
-
-        if (best <= arrivalDistance)
-            AdvanceIndex();
-
-        Transform t = waypoints[currentWaypointIndex];
-        if (t != null)
-            SetFacingDirection((Vector2)t.position - rb.position);
-    }
-
-    public bool IsPathBlocked(Vector2 dir, float distance, out Collider2D blocker)
-    {
-        Vector2 size = guardCollider != null
-            ? (Vector2)guardCollider.bounds.size * 0.85f
-            : Vector2.one * 0.5f;
-
-        int count = Physics2D.BoxCast(
-            rb.position, size, rb.rotation, dir,
-            obstacleFilter, castBuffer, distance);
-
-        for (int i = 0; i < count; i++)
-        {
-            Collider2D col = castBuffer[i].collider;
-
-            if (col == null) continue;
-            if (col.attachedRigidbody == rb) continue;   
-
-            blocker = col;
-            return true;
-        }
-
-        blocker = null;
-        return false;
-    }
-
     private void FixedUpdate()
     {
+        UpdateFacingDirection();
+
         if (!patrolEnabled || !HasRoute)
             return;
 
         if (isWaiting)
         {
             waitTimer -= Time.fixedDeltaTime;
+
             if (waitTimer <= 0f)
-                isWaiting = false;
-            return;
-        }
-
-        Transform target = waypoints[currentWaypointIndex];
-        if (target == null)
-        {
-            AdvanceIndex();
-            return;
-        }
-
-        Vector2 currentPosition = rb.position;
-        Vector2 targetPosition = target.position;
-
-        if (Vector2.Distance(currentPosition, targetPosition) <= arrivalDistance)
-        {
-            StartWaiting();
-            return;
-        }
-
-        Vector2 moveDirection = (targetPosition - currentPosition).normalized;
-        FacingDirection = moveDirection;
-
-        if (IsPathBlocked(moveDirection, obstacleCheckDistance, out Collider2D blocker))
-        {
-            stuckTimer += Time.fixedDeltaTime;
-
-            if (stuckTimer >= stuckSkipTime)
             {
-                Debug.Log("Guard застряг на: " + blocker.name +
-                          " -> пропускаю точку " + target.name);
-                stuckTimer = 0f;
-                AdvanceIndex();
+                isWaiting = false;
+                MoveToCurrentWaypoint();
             }
+
             return;
         }
 
-        stuckTimer = 0f;
-
-        Vector2 nextPosition = Vector2.MoveTowards(
-            currentPosition, targetPosition, moveSpeed * Time.fixedDeltaTime);
-
-        rb.MovePosition(nextPosition);
-
-        if (Vector2.Distance(nextPosition, targetPosition) <= arrivalDistance)
+        if (!aiPath.pathPending && aiPath.reachedDestination)
+        {
             StartWaiting();
+        }
+    }
+
+    // =========================
+    // PATROL
+    // =========================
+
+    private void MoveToCurrentWaypoint()
+    {
+        if (!HasRoute)
+            return;
+
+        int checkedPoints = 0;
+
+        while (checkedPoints < waypoints.Length)
+        {
+            Transform target = waypoints[currentWaypointIndex];
+
+            if (target != null)
+            {
+                SetNavigationDestination(target.position);
+                return;
+            }
+
+            AdvanceIndex();
+            checkedPoints++;
+        }
+
+        Debug.LogWarning(
+            "Guard: усі точки маршруту порожні!",
+            this
+        );
+
+        StopNavigation();
     }
 
     private void StartWaiting()
     {
+        if (isWaiting)
+            return;
+
         isWaiting = true;
         waitTimer = waitTime;
+
+        StopNavigation();
         AdvanceIndex();
     }
 
@@ -216,30 +178,155 @@ public class GuardPatrol : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmosSelected()
+    public void ResumeFromNearestWaypoint()
     {
-        Transform[] pts = waypoints;
+        if (!HasRoute)
+            return;
 
-        if ((pts == null || pts.Length == 0) && routeParent != null)
+        float bestDistance = float.MaxValue;
+        int nearestIndex = -1;
+
+        for (int i = 0; i < waypoints.Length; i++)
         {
-            pts = new Transform[routeParent.childCount];
-            for (int i = 0; i < pts.Length; i++)
-                pts[i] = routeParent.GetChild(i);
+            if (waypoints[i] == null)
+                continue;
+
+            float distance = Vector2.Distance(
+                rb.position,
+                waypoints[i].position
+            );
+
+            if (distance < bestDistance)
+            {
+                bestDistance = distance;
+                nearestIndex = i;
+            }
         }
 
-        if (pts == null || pts.Length < 2)
+        if (nearestIndex < 0)
+            return;
+
+        currentWaypointIndex = nearestIndex;
+        direction = 1;
+
+        isWaiting = false;
+        waitTimer = 0f;
+
+        MoveToCurrentWaypoint();
+    }
+
+    public void SetPatrolEnabled(bool value)
+    {
+        if (patrolEnabled == value)
+            return;
+
+        patrolEnabled = value;
+
+        if (!value)
+        {
+            isWaiting = false;
+            StopNavigation();
+        }
+        else if (!isWaiting && HasRoute)
+        {
+            MoveToCurrentWaypoint();
+        }
+    }
+
+    // =========================
+    // A* NAVIGATION API
+    // =========================
+
+    public void SetNavigationSpeed(float speed)
+    {
+        aiPath.maxSpeed = speed;
+    }
+
+    public void SetNavigationDestination(Vector2 target)
+    {
+        if (aiPath == null)
+            return;
+
+        bool destinationChanged =
+            Vector2.Distance(lastDestination, target) > 0.15f;
+
+        if (destinationChanged)
+        {
+            lastDestination = target;
+            aiPath.destination = target;
+        }
+
+        aiPath.isStopped = false;
+    }
+
+    public void StopNavigation()
+    {
+        if (aiPath != null)
+            aiPath.isStopped = true;
+    }
+
+    public bool HasReachedDestination()
+    {
+        return !aiPath.pathPending && aiPath.reachedDestination;
+    }
+
+    // =========================
+    // FACING DIRECTION
+    // =========================
+
+    public void SetFacingDirection(Vector2 dir)
+    {
+        if (dir.sqrMagnitude > 0.001f)
+            FacingDirection = dir.normalized;
+    }
+
+    private void UpdateFacingDirection()
+    {
+        if (aiPath == null)
+            return;
+
+        Vector2 velocity = aiPath.velocity;
+
+        if (velocity.sqrMagnitude > 0.01f)
+            SetFacingDirection(velocity);
+    }
+
+    // =========================
+    // DEBUG
+    // =========================
+
+    private void OnDrawGizmosSelected()
+    {
+        Transform[] points = waypoints;
+
+        if ((points == null || points.Length == 0)
+            && routeParent != null)
+        {
+            points = new Transform[routeParent.childCount];
+
+            for (int i = 0; i < points.Length; i++)
+                points[i] = routeParent.GetChild(i);
+        }
+
+        if (points == null || points.Length < 2)
             return;
 
         Gizmos.color = Color.green;
 
-        for (int i = 0; i < pts.Length; i++)
+        for (int i = 0; i < points.Length; i++)
         {
-            if (pts[i] == null) continue;
+            if (points[i] == null)
+                continue;
 
-            Gizmos.DrawSphere(pts[i].position, 0.12f);
+            Gizmos.DrawSphere(points[i].position, 0.12f);
 
-            if (i < pts.Length - 1 && pts[i + 1] != null)
-                Gizmos.DrawLine(pts[i].position, pts[i + 1].position);
+            if (i < points.Length - 1 && points[i + 1] != null)
+            {
+                Gizmos.DrawLine(
+                    points[i].position,
+                    points[i + 1].position
+                );
+            }
         }
     }
 }
