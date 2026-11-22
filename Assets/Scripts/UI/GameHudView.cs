@@ -9,6 +9,7 @@ public class GameHudView : MonoBehaviour
     [SerializeField] private GameObject hintRoot;
     [SerializeField] private Text hintText;
     [SerializeField] private Button pauseButton;
+    [SerializeField] private float hintOffset = 0.3f;
 
     [Header("Pause")]
     [SerializeField] private GameObject pauseScreen;
@@ -32,8 +33,17 @@ public class GameHudView : MonoBehaviour
     public event Action RestartClicked;
     public event Action MenuClicked;
 
+    private RectTransform hintRect;
+    private Vector2 hintDefaultPosition;
+    private Transform hintTarget;
+    private Camera worldCamera;
+
     private void Awake()
     {
+        hintRect = (RectTransform)hintRoot.transform;
+        hintDefaultPosition = hintRect.anchoredPosition;
+        worldCamera = Camera.main;
+
         Bind(pauseButton, () => PauseClicked?.Invoke());
         Bind(resumeButton, () => ResumeClicked?.Invoke());
         Bind(pauseRestartButton, () => RestartClicked?.Invoke());
@@ -55,11 +65,42 @@ public class GameHudView : MonoBehaviour
         alarmBar.SetValue(value, instant);
     }
 
-    public void SetHint(string hint)
+    public void SetHint(string hint, Transform target = null)
     {
         bool visible = !string.IsNullOrEmpty(hint);
         hintRoot.SetActive(visible);
-        if (visible) hintText.text = hint;
+        hintTarget = visible ? target : null;
+
+        if (!visible) return;
+
+        hintText.text = hint;
+        if (hintTarget == null)
+            hintRect.anchoredPosition = hintDefaultPosition;
+        else
+            FollowHintTarget();
+    }
+
+    private void LateUpdate()
+    {
+        if (hintTarget != null)
+            FollowHintTarget();
+    }
+
+    private void FollowHintTarget()
+    {
+        if (worldCamera == null) worldCamera = Camera.main;
+        if (worldCamera == null) return;
+
+        Vector3 anchor = hintTarget.position;
+        Renderer targetRenderer = hintTarget.GetComponentInChildren<Renderer>();
+        if (targetRenderer != null)
+            anchor = new Vector3(targetRenderer.bounds.center.x, targetRenderer.bounds.max.y, 0f);
+
+        Vector3 screen = worldCamera.WorldToScreenPoint(anchor + Vector3.up * hintOffset);
+        Vector2 half = Vector2.Scale(hintRect.rect.size, hintRect.lossyScale) * 0.5f;
+        screen.x = Mathf.Clamp(screen.x, half.x, Screen.width - half.x);
+        screen.y = Mathf.Clamp(screen.y, 0f, Screen.height - half.y * 2f);
+        hintRect.position = screen;
     }
 
     public void ShowState(GameState state, string defeatReason)

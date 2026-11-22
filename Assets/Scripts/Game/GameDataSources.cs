@@ -1,3 +1,5 @@
+using UnityEngine;
+
 public interface IAlarmSource
 {
     float CurrentAlarm { get; }
@@ -6,4 +8,5 @@ public interface IAlarmSource
 public interface IInteractionHintSource
 {
     string CurrentHint { get; }
+    Transform CurrentHintTarget { get; }
 }

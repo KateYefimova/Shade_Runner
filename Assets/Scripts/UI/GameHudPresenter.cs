@@ -43,14 +43,14 @@ public class GameHudPresenter : IDisposable
     private void OnStateChanged(GameState state)
     {
         view.ShowState(state, DefeatText(model.LoseReason));
-        view.SetHint(state == GameState.Playing ? model.InteractionHint : string.Empty);
+        view.SetHint(state == GameState.Playing ? model.InteractionHint : string.Empty, model.HintTarget);
     }
 
     private void OnAlarmChanged(float value) => view.SetAlarm(value);
 
     private void OnHintChanged(string hint)
     {
-        if (model.IsPlaying) view.SetHint(hint);
+        if (model.IsPlaying) view.SetHint(hint, model.HintTarget);
     }
 
     private void OnAttemptStarted() => view.SetAlarm(model.Alarm, true);

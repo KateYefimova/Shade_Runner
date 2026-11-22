@@ -7,6 +7,7 @@ public class GameSessionModel
     public LoseReason LoseReason { get; private set; } = LoseReason.None;
     public float Alarm { get; private set; }
     public string InteractionHint { get; private set; } = string.Empty;
+    public Transform HintTarget { get; private set; }
 
     public bool IsPlaying => State == GameState.Playing;
     public bool IsFinished => State == GameState.Won || State == GameState.Lost;
@@ -34,12 +35,13 @@ public class GameSessionModel
         AlarmChanged?.Invoke(Alarm);
     }
 
-    public void SetHint(string hint)
+    public void SetHint(string hint, Transform target = null)
     {
         hint ??= string.Empty;
-        if (InteractionHint == hint) return;
+        if (InteractionHint == hint && HintTarget == target) return;
 
         InteractionHint = hint;
+        HintTarget = target;
         HintChanged?.Invoke(InteractionHint);
     }
 

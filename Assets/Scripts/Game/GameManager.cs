@@ -143,7 +143,10 @@ public class GameManager : MonoBehaviour
         }
 
         if (hintSources.Count > 0)
-            Model.SetHint(ReadHint());
+        {
+            IInteractionHintSource source = ReadHintSource();
+            Model.SetHint(source?.CurrentHint, source?.CurrentHintTarget);
+        }
     }
 
     private float ReadAlarm()
@@ -157,13 +160,13 @@ public class GameManager : MonoBehaviour
         return max;
     }
 
-    private string ReadHint()
+    private IInteractionHintSource ReadHintSource()
     {
         foreach (IInteractionHintSource source in hintSources)
         {
             if (source is Object obj && obj == null) continue;
-            if (!string.IsNullOrEmpty(source.CurrentHint)) return source.CurrentHint;
+            if (!string.IsNullOrEmpty(source.CurrentHint)) return source;
         }
-        return string.Empty;
+        return null;
     }
 }
