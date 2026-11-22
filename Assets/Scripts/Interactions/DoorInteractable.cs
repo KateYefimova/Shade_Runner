@@ -5,20 +5,16 @@ public class DoorInteractable : MonoBehaviour, IInteractable, IResettable
 {
     [SerializeField] private float openAngle = -90f;
     [SerializeField] private float rotationSpeed = 150f;
-    [Tooltip("Чи відчинені двері на початку спроби.")]
     [SerializeField] private bool startsOpen = false;
 
     private Rigidbody2D rb;
     private float closedAngle;
     private bool isOpen;
-    private SwitchInteractable controller;
+    private bool controlledBySwitch;
 
-    public bool IsOpen => isOpen;
-    public bool IsSwitchControlled => controller != null;
     public Transform HintAnchor => transform;
 
-    private float OpenedAngle => closedAngle + openAngle;
-    private float TargetAngle => isOpen ? OpenedAngle : closedAngle;
+    private float TargetAngle => isOpen ? closedAngle + openAngle : closedAngle;
 
     private void Awake()
     {
@@ -30,11 +26,11 @@ public class DoorInteractable : MonoBehaviour, IInteractable, IResettable
 
     public bool CanInteract(PlayerInteraction player) => true;
 
-    public bool IsLocked(PlayerInteraction player) => IsSwitchControlled;
+    public bool IsLocked(PlayerInteraction player) => controlledBySwitch;
 
     public string GetActionHint(PlayerInteraction player)
     {
-        if (IsSwitchControlled)
+        if (controlledBySwitch)
             return isOpen ? "Відчинено терміналом" : "Зачинено: потрібен термінал";
 
         return isOpen ? "Зачинити двері" : "Відчинити двері";
@@ -42,16 +38,13 @@ public class DoorInteractable : MonoBehaviour, IInteractable, IResettable
 
     public void Interact(PlayerInteraction player)
     {
-        if (IsSwitchControlled)
-            return;
-
         SetOpen(!isOpen);
     }
 
-    // Початковий стан дверей = початковий стан термінала, щоб повтор не залежав від порядку скидання.
-    public void AssignController(SwitchInteractable owner, bool openAtStart)
+    // стартовий стан беремо з термінала, щоб після рестарту двері і термінал не розходились
+    public void LockToSwitch(bool openAtStart)
     {
-        controller = owner;
+        controlledBySwitch = true;
         startsOpen = openAtStart;
         isOpen = openAtStart;
 

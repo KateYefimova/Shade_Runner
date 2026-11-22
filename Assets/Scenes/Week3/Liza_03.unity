@@ -11006,7 +11006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   walkSpeed: 5
   sneakSpeed: 2.5
-  heldBoxSpeedMultiplier: 0.6
+  heldBoxSpeedMultiplier: 0.8
   acceleration: 35
   deceleration: 45
 --- !u!212 &1081437108
@@ -14302,11 +14302,6 @@ MonoBehaviour:
   indicator: {fileID: 66032367}
   offColor: {r: 1, g: 0.25, b: 0.3, a: 1}
   onColor: {r: 0.2, g: 1, b: 0.5, a: 1}
-  body: {fileID: 1633503900}
-  offSprite: {fileID: 0}
-  onSprite: {fileID: 0}
-  activateHint: "\u0410\u043A\u0442\u0438\u0432\u0443\u0432\u0430\u0442\u0438 \u0442\u0435\u0440\u043C\u0456\u043D\u0430\u043B"
-  deactivateHint: "\u0412\u0438\u043C\u043A\u043D\u0443\u0442\u0438 \u0442\u0435\u0440\u043C\u0456\u043D\u0430\u043B"
 --- !u!61 &1633503899
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14521,6 +14516,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ExitGate
       objectReference: {fileID: 0}
+    - target: {fileID: 1244356840490819668, guid: 9b37f20c76f294bce80bb7833a5f8be5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7054692913676831872, guid: 9b37f20c76f294bce80bb7833a5f8be5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8767228529133469945, guid: 9b37f20c76f294bce80bb7833a5f8be5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.5
@@ -14607,11 +14610,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8282102329886920526, guid: d42deec27e9584d8c81b092eb718ff8f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.4298
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 8282102329886920526, guid: d42deec27e9584d8c81b092eb718ff8f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.942
+      value: -0.6
       objectReference: {fileID: 0}
     - target: {fileID: 8282102329886920526, guid: d42deec27e9584d8c81b092eb718ff8f, type: 3}
       propertyPath: m_LocalPosition.z

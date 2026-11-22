@@ -9,9 +9,8 @@ public class PlayerInteraction : MonoBehaviour, IInteractionHintSource
 
     [Header("Interaction")]
     [SerializeField] private float interactionDistance = 1.5f;
-    [Tooltip("Шари, на яких лежать двері, ящики, перемикачі. За замовчуванням - усі.")]
     [SerializeField] private LayerMask interactableLayers = ~0;
-    [Tooltip("Шари стін, крізь які не можна взаємодіяти. Якщо порожньо - шар \"rooms\".")]
+    [Tooltip("Стіни, крізь які не можна взаємодіяти (якщо пусто - rooms)")]
     [SerializeField] private LayerMask blockingLayers;
 
     [Header("Highlight")]
