@@ -37,12 +37,17 @@ public class GameHudView : MonoBehaviour
     private Vector2 hintDefaultPosition;
     private Transform hintTarget;
     private Camera worldCamera;
+    private AlarmVignetteView vignette;
+    private ResultStatsView victoryStats;
+    private ResultStatsView defeatStats;
+    private Text pathHintLabel;
 
     private void Awake()
     {
         hintRect = (RectTransform)hintRoot.transform;
         hintDefaultPosition = hintRect.anchoredPosition;
         worldCamera = Camera.main;
+        BuildExtras();
 
         Bind(pauseButton, () => PauseClicked?.Invoke());
         Bind(resumeButton, () => ResumeClicked?.Invoke());
@@ -63,6 +68,19 @@ public class GameHudView : MonoBehaviour
     public void SetAlarm(float value, bool instant = false)
     {
         alarmBar.SetValue(value, instant);
+        vignette.SetAlarm(value);
+    }
+
+    public void SetPathHint(bool active)
+    {
+        pathHintLabel.text = active ? "Шлях до виходу показано" : "[H]  шлях до виходу  (-1 зірка)";
+        pathHintLabel.color = active ? new Color(0.1f, 0.95f, 1f) : new Color(0.7f, 0.75f, 0.85f, 0.8f);
+    }
+
+    public void SetResult(string text, int stars, bool won)
+    {
+        ResultStatsView stats = won ? victoryStats : defeatStats;
+        stats.Show(text, stars, won);
     }
 
     public void SetHint(string hint, Transform target = null)
@@ -109,7 +127,33 @@ public class GameHudView : MonoBehaviour
         victoryScreen.SetActive(state == GameState.Won);
         defeatScreen.SetActive(state == GameState.Lost);
         pauseButton.gameObject.SetActive(state == GameState.Playing);
+        pathHintLabel.gameObject.SetActive(state == GameState.Playing);
+        vignette.SetVisible(state == GameState.Playing);
         defeatReasonText.text = defeatReason;
+    }
+
+    private void BuildExtras()
+    {
+        vignette = gameObject.AddComponent<AlarmVignetteView>();
+        vignette.Build(transform);
+
+        victoryStats = BuildStats(victoryScreen);
+        defeatStats = BuildStats(defeatScreen);
+
+        pathHintLabel = UiFactory.CreateText(hintRoot.transform.parent, "PathHintLabel", 22, Color.white, TextAnchor.LowerLeft);
+        RectTransform rect = pathHintLabel.rectTransform;
+        rect.anchorMin = rect.anchorMax = rect.pivot = Vector2.zero;
+        rect.anchoredPosition = new Vector2(28f, 24f);
+        rect.sizeDelta = new Vector2(600f, 40f);
+        SetPathHint(false);
+    }
+
+    private static ResultStatsView BuildStats(GameObject screen)
+    {
+        VerticalLayoutGroup window = screen.GetComponentInChildren<VerticalLayoutGroup>(true);
+        ResultStatsView stats = screen.AddComponent<ResultStatsView>();
+        stats.Build(window.transform, 2);
+        return stats;
     }
 
     private static void Bind(Button button, Action action)
