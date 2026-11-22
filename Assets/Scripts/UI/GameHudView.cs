@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -41,6 +42,8 @@ public class GameHudView : MonoBehaviour
     private ResultStatsView victoryStats;
     private ResultStatsView defeatStats;
     private Text pathHintLabel;
+    private CanvasGroup controlsHint;
+    private Selectable focusTarget;
 
     private void Awake()
     {
@@ -98,6 +101,30 @@ public class GameHudView : MonoBehaviour
             FollowHintTarget();
     }
 
+    private void Update()
+    {
+        if (focusTarget != null) UiSelection.KeepFocus(focusTarget);
+    }
+
+    public void ShowControls(float holdTime, float fadeTime)
+    {
+        StopAllCoroutines();
+        StartCoroutine(FadeControls(holdTime, fadeTime));
+    }
+
+    private IEnumerator FadeControls(float holdTime, float fadeTime)
+    {
+        controlsHint.alpha = 1f;
+        yield return new WaitForSecondsRealtime(holdTime);
+
+        for (float time = 0f; time < fadeTime; time += Time.unscaledDeltaTime)
+        {
+            controlsHint.alpha = 1f - time / fadeTime;
+            yield return null;
+        }
+        controlsHint.alpha = 0f;
+    }
+
     private void LateUpdate()
     {
         if (hintTarget != null)
@@ -130,6 +157,17 @@ public class GameHudView : MonoBehaviour
         pathHintLabel.gameObject.SetActive(state == GameState.Playing);
         vignette.SetVisible(state == GameState.Playing);
         defeatReasonText.text = defeatReason;
+
+        focusTarget = state switch
+        {
+            GameState.Paused => resumeButton,
+            GameState.Won => victoryRestartButton,
+            GameState.Lost => defeatRestartButton,
+            _ => null
+        };
+
+        if (focusTarget != null) UiSelection.Focus(focusTarget);
+        else UiSelection.Clear();
     }
 
     private void BuildExtras()
@@ -146,6 +184,27 @@ public class GameHudView : MonoBehaviour
         rect.anchoredPosition = new Vector2(28f, 24f);
         rect.sizeDelta = new Vector2(600f, 40f);
         SetPathHint(false);
+
+        controlsHint = BuildControlsHint(hintRoot.transform.parent);
+    }
+
+    private static CanvasGroup BuildControlsHint(Transform parent)
+    {
+        RectTransform panel = UiFactory.CreateRect("ControlsHint", parent);
+        panel.anchorMin = panel.anchorMax = panel.pivot = new Vector2(0.5f, 0f);
+        panel.anchoredPosition = new Vector2(0f, 130f);
+        panel.sizeDelta = new Vector2(1100f, 56f);
+        panel.gameObject.AddComponent<Image>().color = new Color(0.04f, 0.03f, 0.09f, 0.8f);
+
+        Text text = UiFactory.CreateText(panel, "Text", 24, new Color(0.85f, 0.9f, 1f), TextAnchor.MiddleCenter);
+        UiFactory.Stretch(text.rectTransform);
+        text.text = "WASD — рух     Shift — тихий крок     E — дія     H — шлях     Esc — пауза";
+
+        CanvasGroup group = panel.gameObject.AddComponent<CanvasGroup>();
+        group.alpha = 0f;
+        group.blocksRaycasts = false;
+        group.interactable = false;
+        return group;
     }
 
     private static ResultStatsView BuildStats(GameObject screen)

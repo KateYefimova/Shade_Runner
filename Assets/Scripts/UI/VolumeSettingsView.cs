@@ -22,27 +22,46 @@ public class VolumeSettingsView : MonoBehaviour
     private readonly Slider[] sliders = new Slider[Rows.Length];
     private Font font;
     private Transform container;
+    private int insertIndex = -1;
+    private bool built;
 
     public event Action<VolumeChannel, float> VolumeChanged;
 
-    private void Awake()
+    private void Start()
     {
+        EnsureBuilt();
+    }
+
+    public void SetContainer(Transform target, int siblingIndex)
+    {
+        container = target;
+        insertIndex = siblingIndex;
+    }
+
+    public void SetValue(VolumeChannel channel, float value)
+    {
+        EnsureBuilt();
+
+        for (int i = 0; i < Rows.Length; i++)
+            if (Rows[i].channel == channel)
+                sliders[i].SetValueWithoutNotify(value);
+    }
+
+    private void EnsureBuilt()
+    {
+        if (built) return;
+        built = true;
+
         font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
-        container = FindContainer();
+        if (container == null) container = FindContainer();
 
         for (int i = 0; i < Rows.Length; i++)
         {
             VolumeChannel channel = Rows[i].channel;
             sliders[i] = CreateRow(Rows[i].label);
+            if (insertIndex >= 0) sliders[i].transform.parent.SetSiblingIndex(insertIndex + i);
             sliders[i].onValueChanged.AddListener(value => VolumeChanged?.Invoke(channel, value));
         }
-    }
-
-    public void SetValue(VolumeChannel channel, float value)
-    {
-        for (int i = 0; i < Rows.Length; i++)
-            if (Rows[i].channel == channel)
-                sliders[i].SetValueWithoutNotify(value);
     }
 
     private Slider CreateRow(string label)

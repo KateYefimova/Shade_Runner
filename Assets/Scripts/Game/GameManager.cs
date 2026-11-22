@@ -49,6 +49,11 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
     }
 
+    private void OnApplicationFocus(bool hasFocus)
+    {
+        if (!hasFocus) Pause();
+    }
+
     private void Update()
     {
         Keyboard kb = Keyboard.current;
@@ -137,6 +142,11 @@ public class GameManager : MonoBehaviour
 
     public void Restart()
     {
+        ScreenFader.Run(RestartNow);
+    }
+
+    private void RestartNow()
+    {
         Time.timeScale = 1f;
 
         foreach (MonoBehaviour mb in FindObjectsByType<MonoBehaviour>(FindObjectsInactive.Include, FindObjectsSortMode.None))
@@ -179,8 +189,11 @@ public class GameManager : MonoBehaviour
     {
         if (!HasMenu) return;
 
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(menuSceneName);
+        ScreenFader.Run(() =>
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene(menuSceneName);
+        });
     }
 
     private void PollSources()

@@ -26,6 +26,7 @@ public class GameHudPresenter : IDisposable
         view.SetMenuAvailable(game.HasMenu);
         view.SetAlarm(model.Alarm, true);
         OnStateChanged(model.State);
+        view.ShowControls(5f, 1f);
     }
 
     public void Dispose()
