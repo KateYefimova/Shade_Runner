@@ -37,6 +37,8 @@ public class GameHudView : MonoBehaviour
     private RectTransform hintRect;
     private Vector2 hintDefaultPosition;
     private Transform hintTarget;
+    private PlayerInteraction hintPlayer;
+    private bool hintBelow;
     private Camera worldCamera;
     private AlarmVignetteView vignette;
     private ResultStatsView victoryStats;
@@ -95,6 +97,7 @@ public class GameHudView : MonoBehaviour
         if (!visible) return;
 
         hintText.text = hint;
+        FitHintToText();
         if (hintTarget == null)
             hintRect.anchoredPosition = hintDefaultPosition;
         else
@@ -136,16 +139,48 @@ public class GameHudView : MonoBehaviour
         if (worldCamera == null) worldCamera = Camera.main;
         if (worldCamera == null) return;
 
-        Vector3 anchor = hintTarget.position;
+        Bounds bounds = new Bounds(hintTarget.position, Vector3.zero);
         Renderer targetRenderer = hintTarget.GetComponentInChildren<Renderer>();
         if (targetRenderer != null)
-            anchor = new Vector3(targetRenderer.bounds.center.x, targetRenderer.bounds.max.y, 0f);
+            bounds = targetRenderer.bounds;
 
-        Vector3 screen = worldCamera.WorldToScreenPoint(anchor + Vector3.up * hintOffset);
-        Vector2 half = Vector2.Scale(hintRect.rect.size, hintRect.lossyScale) * 0.5f;
-        screen.x = Mathf.Clamp(screen.x, half.x, Screen.width - half.x);
-        screen.y = Mathf.Clamp(screen.y, 0f, Screen.height - half.y * 2f);
+        bool showBelow = IsPlayerAbove(bounds);
+        Vector3 anchor = showBelow
+            ? new Vector3(bounds.center.x, bounds.min.y - hintOffset, 0f)
+            : new Vector3(bounds.center.x, bounds.max.y + hintOffset, 0f);
+
+        Vector3 screen = worldCamera.WorldToScreenPoint(anchor);
+        Vector2 size = Vector2.Scale(hintRect.rect.size, hintRect.lossyScale);
+        if (showBelow)
+            screen.y -= size.y;
+
+        float half = size.x * 0.5f;
+        screen.x = Mathf.Clamp(screen.x, half, Screen.width - half);
+        screen.y = Mathf.Clamp(screen.y, 0f, Screen.height - size.y);
         hintRect.position = screen;
+    }
+
+    private bool IsPlayerAbove(Bounds targetBounds)
+    {
+        if (hintPlayer == null)
+            hintPlayer = FindFirstObjectByType<PlayerInteraction>();
+
+        if (hintPlayer == null)
+            return false;
+
+        const float margin = 0.15f;
+        float dy = hintPlayer.transform.position.y - targetBounds.center.y;
+        if (dy > margin) hintBelow = true;
+        else if (dy < -margin) hintBelow = false;
+        return hintBelow;
+    }
+
+    private void FitHintToText()
+    {
+        RectTransform textRect = hintText.rectTransform;
+        float padding = -textRect.sizeDelta.x;
+        float width = Mathf.Ceil(hintText.preferredWidth) + padding;
+        hintRect.sizeDelta = new Vector2(width, hintRect.sizeDelta.y);
     }
 
     public void ShowState(GameState state, string defeatReason)

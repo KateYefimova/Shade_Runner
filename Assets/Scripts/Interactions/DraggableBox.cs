@@ -2,12 +2,16 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Collider2D))]
-public class DraggableBox : MonoBehaviour
+public class DraggableBox : MonoBehaviour, IInteractable, IResettable
 {
     private Rigidbody2D rb;
     private DistanceJoint2D grabJoint;
 
+    private Vector2 startPosition;
+    private float startRotation;
+
     public bool IsGrabbed => grabJoint != null;
+    public Transform HintAnchor => transform;
 
     private void Awake()
     {
@@ -17,6 +21,20 @@ public class DraggableBox : MonoBehaviour
         rb.freezeRotation = true;
         rb.collisionDetectionMode =
             CollisionDetectionMode2D.Continuous;
+
+        startPosition = rb.position;
+        startRotation = rb.rotation;
+    }
+
+    public bool CanInteract(PlayerInteraction player) => !IsGrabbed;
+
+    public bool IsLocked(PlayerInteraction player) => false;
+
+    public string GetActionHint(PlayerInteraction player) => "Захопити ящик";
+
+    public void Interact(PlayerInteraction player)
+    {
+        player.StartHolding(this);
     }
 
     public void Grab(Rigidbody2D player)
@@ -39,8 +57,6 @@ public class DraggableBox : MonoBehaviour
 
         grabJoint.maxDistanceOnly = true;
         grabJoint.enableCollision = true;
-
-        Debug.Log("Box grabbed");
     }
 
     public void Release()
@@ -50,8 +66,19 @@ public class DraggableBox : MonoBehaviour
 
         Destroy(grabJoint);
         grabJoint = null;
+    }
 
-        Debug.Log("Box released");
+    public void ResetState()
+    {
+        Release();
+
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+        rb.position = startPosition;
+        rb.rotation = startRotation;
+        transform.SetPositionAndRotation(
+            new Vector3(startPosition.x, startPosition.y, transform.position.z),
+            Quaternion.Euler(0f, 0f, startRotation));
     }
 
     private void OnDisable()
