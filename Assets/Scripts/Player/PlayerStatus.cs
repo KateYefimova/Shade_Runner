@@ -23,6 +23,9 @@ public class PlayerStatus : MonoBehaviour, IResettable
         interaction = GetComponent<PlayerInteraction>();
         rb = GetComponent<Rigidbody2D>();
 
+        if (GetComponent<PlayerFootsteps>() == null)
+            gameObject.AddComponent<PlayerFootsteps>();
+
         if (spriteRenderer == null)
             spriteRenderer = GetComponentInChildren<SpriteRenderer>();
 

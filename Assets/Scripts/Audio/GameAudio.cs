@@ -16,6 +16,12 @@ public class GameAudio : MonoBehaviour
 {
     private const string MixerPath = "Audio/MainMixer";
     private const float DefaultVolume = 0.8f;
+    private const float OpenCutoff = 22000f;
+    private const float MuffledCutoff = 700f;
+    private const float CutoffSpeed = 6f;
+
+    private const string SfxCutoffParameter = "SFXCutoff";
+    private const float PausedMusicVolume = 0.6f;
 
     public static GameAudio Instance { get; private set; }
 
@@ -23,11 +29,16 @@ public class GameAudio : MonoBehaviour
 
     private AudioSource uiSource;
     private AudioSource resultSource;
+    private AudioSource musicSource;
+    private AudioLowPassFilter musicFilter;
     private AudioClip clickClip;
     private AudioClip winClip;
     private AudioClip loseClip;
     private GameSessionModel observedModel;
     private AudioListener fallbackListener;
+    private bool canMuffle;
+    private float cutoff = OpenCutoff;
+    private float targetCutoff = OpenCutoff;
 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     private static void Create()
@@ -51,6 +62,14 @@ public class GameAudio : MonoBehaviour
 
         uiSource = CreateSource("UI");
         resultSource = CreateSource("SFX");
+        var music = new GameObject("Music");
+        music.transform.SetParent(transform, false);
+        musicSource = CreateSource("Music", music);
+        musicSource.clip = Resources.Load<AudioClip>("Audio/music");
+        musicSource.loop = true;
+        musicFilter = music.AddComponent<AudioLowPassFilter>();
+        musicFilter.cutoffFrequency = OpenCutoff;
+        canMuffle = Mixer != null && Mixer.GetFloat(SfxCutoffParameter, out _);
 
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
@@ -59,6 +78,18 @@ public class GameAudio : MonoBehaviour
     {
         foreach (VolumeChannel channel in Enum.GetValues(typeof(VolumeChannel)))
             ApplyVolume(channel, GetVolume(channel));
+
+        if (musicSource.clip != null) musicSource.Play();
+        ApplyCutoff(OpenCutoff);
+    }
+
+    private void Update()
+    {
+        if (Mathf.Approximately(cutoff, targetCutoff)) return;
+
+        float step = Mathf.Exp(Mathf.Log(OpenCutoff / MuffledCutoff) * CutoffSpeed * Time.unscaledDeltaTime);
+        cutoff = targetCutoff < cutoff ? Mathf.Max(targetCutoff, cutoff / step) : Mathf.Min(targetCutoff, cutoff * step);
+        ApplyCutoff(cutoff);
     }
 
     private void OnDestroy()
@@ -97,6 +128,7 @@ public class GameAudio : MonoBehaviour
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         AudioListener.pause = false;
+        targetCutoff = OpenCutoff;
         UpdateFallbackListener();
 
         foreach (Button button in FindObjectsByType<Button>(FindObjectsInactive.Include, FindObjectsSortMode.None))
@@ -125,15 +157,17 @@ public class GameAudio : MonoBehaviour
 
     private void OnStateChanged(GameState state)
     {
-        AudioListener.pause = state != GameState.Playing;
+        bool paused = state == GameState.Paused;
+        AudioListener.pause = state != GameState.Playing && !(paused && canMuffle);
+        targetCutoff = paused ? MuffledCutoff : OpenCutoff;
 
         if (state == GameState.Won && winClip != null) resultSource.PlayOneShot(winClip);
         if (state == GameState.Lost && loseClip != null) resultSource.PlayOneShot(loseClip);
     }
 
-    private AudioSource CreateSource(string groupName)
+    private AudioSource CreateSource(string groupName, GameObject owner = null)
     {
-        AudioSource source = gameObject.AddComponent<AudioSource>();
+        AudioSource source = (owner != null ? owner : gameObject).AddComponent<AudioSource>();
         source.playOnAwake = false;
         source.ignoreListenerPause = true;
         source.outputAudioMixerGroup = FindGroup(groupName);
@@ -146,6 +180,14 @@ public class GameAudio : MonoBehaviour
 
         float decibels = value > 0.0001f ? Mathf.Log10(value) * 20f : -80f;
         Mixer.SetFloat(ParameterName(channel), decibels);
+    }
+
+    private void ApplyCutoff(float value)
+    {
+        musicFilter.cutoffFrequency = value;
+        musicSource.volume = Mathf.Lerp(PausedMusicVolume, 1f, Mathf.InverseLerp(MuffledCutoff, OpenCutoff, value));
+
+        if (canMuffle) Mixer.SetFloat(SfxCutoffParameter, value);
     }
 
     private static string ParameterName(VolumeChannel channel) => channel switch
