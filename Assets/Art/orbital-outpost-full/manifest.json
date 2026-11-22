@@ -1,0 +1,1787 @@
+{
+  "name": "Orbital Outpost",
+  "version": "0.14.3",
+  "creator": "DadddyDarko",
+  "native_cell": [
+    32,
+    32
+  ],
+  "palette": {
+    "K": "#101725",
+    "D": "#1b2838",
+    "S": "#304659",
+    "M": "#496377",
+    "L": "#8198a4",
+    "W": "#c4d7d9",
+    "C": "#39baca",
+    "G": "#98eee2",
+    "A": "#e6a349",
+    "O": "#ac5c37",
+    "R": "#bc4a56",
+    "V": "#6faa7b"
+  },
+  "prop_count": 24,
+  "tile_count": 24,
+  "animation_clip_count": 4,
+  "animation_frames": 16,
+  "wall_mask_bits": {
+    "north": 1,
+    "east": 2,
+    "south": 4,
+    "west": 8
+  },
+  "atlas_columns": 8,
+  "props": [
+    {
+      "name": "control_terminal",
+      "rect": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/control_terminal.png"
+    },
+    {
+      "name": "server_rack",
+      "rect": [
+        32,
+        0,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/server_rack.png"
+    },
+    {
+      "name": "cryopod",
+      "rect": [
+        64,
+        0,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/cryopod.png"
+    },
+    {
+      "name": "cargo_crate",
+      "rect": [
+        96,
+        0,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/cargo_crate.png"
+    },
+    {
+      "name": "oxygen_cylinder",
+      "rect": [
+        128,
+        0,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/oxygen_cylinder.png"
+    },
+    {
+      "name": "hologram_table",
+      "rect": [
+        160,
+        0,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/hologram_table.png"
+    },
+    {
+      "name": "locker",
+      "rect": [
+        192,
+        0,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/locker.png"
+    },
+    {
+      "name": "medical_cabinet",
+      "rect": [
+        224,
+        0,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/medical_cabinet.png"
+    },
+    {
+      "name": "chemical_barrel",
+      "rect": [
+        0,
+        32,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/chemical_barrel.png"
+    },
+    {
+      "name": "power_cell",
+      "rect": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/power_cell.png"
+    },
+    {
+      "name": "pilot_chair",
+      "rect": [
+        64,
+        32,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/pilot_chair.png"
+    },
+    {
+      "name": "workbench",
+      "rect": [
+        96,
+        32,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/workbench.png"
+    },
+    {
+      "name": "floor_vent",
+      "rect": [
+        128,
+        32,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/floor_vent.png"
+    },
+    {
+      "name": "communications_antenna",
+      "rect": [
+        160,
+        32,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/communications_antenna.png"
+    },
+    {
+      "name": "radar_dish",
+      "rect": [
+        192,
+        32,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/radar_dish.png"
+    },
+    {
+      "name": "maintenance_drone",
+      "rect": [
+        224,
+        32,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/maintenance_drone.png"
+    },
+    {
+      "name": "station_bunk",
+      "rect": [
+        0,
+        64,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/station_bunk.png"
+    },
+    {
+      "name": "supply_shelf",
+      "rect": [
+        32,
+        64,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/supply_shelf.png"
+    },
+    {
+      "name": "cable_reel",
+      "rect": [
+        64,
+        64,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/cable_reel.png"
+    },
+    {
+      "name": "tool_case",
+      "rect": [
+        96,
+        64,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/tool_case.png"
+    },
+    {
+      "name": "supply_cart",
+      "rect": [
+        128,
+        64,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/supply_cart.png"
+    },
+    {
+      "name": "reactor_console",
+      "rect": [
+        160,
+        64,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/reactor_console.png"
+    },
+    {
+      "name": "hydroponic_planter",
+      "rect": [
+        192,
+        64,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/hydroponic_planter.png"
+    },
+    {
+      "name": "fire_extinguisher",
+      "rect": [
+        224,
+        64,
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        28
+      ],
+      "file": "art/props/fire_extinguisher.png"
+    }
+  ],
+  "tiles": [
+    {
+      "name": "floor_plate",
+      "rect": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "file": "art/tiles/floor_plate.png"
+    },
+    {
+      "name": "floor_drain",
+      "rect": [
+        32,
+        0,
+        32,
+        32
+      ],
+      "file": "art/tiles/floor_drain.png"
+    },
+    {
+      "name": "floor_service",
+      "rect": [
+        64,
+        0,
+        32,
+        32
+      ],
+      "file": "art/tiles/floor_service.png"
+    },
+    {
+      "name": "floor_rivets",
+      "rect": [
+        96,
+        0,
+        32,
+        32
+      ],
+      "file": "art/tiles/floor_rivets.png"
+    },
+    {
+      "name": "floor_hazard",
+      "rect": [
+        128,
+        0,
+        32,
+        32
+      ],
+      "file": "art/tiles/floor_hazard.png"
+    },
+    {
+      "name": "floor_cable",
+      "rect": [
+        160,
+        0,
+        32,
+        32
+      ],
+      "file": "art/tiles/floor_cable.png"
+    },
+    {
+      "name": "floor_maintenance",
+      "rect": [
+        192,
+        0,
+        32,
+        32
+      ],
+      "file": "art/tiles/floor_maintenance.png"
+    },
+    {
+      "name": "floor_landing",
+      "rect": [
+        224,
+        0,
+        32,
+        32
+      ],
+      "file": "art/tiles/floor_landing.png"
+    },
+    {
+      "name": "wall_00",
+      "rect": [
+        0,
+        32,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_00.png"
+    },
+    {
+      "name": "wall_01",
+      "rect": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_01.png"
+    },
+    {
+      "name": "wall_02",
+      "rect": [
+        64,
+        32,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_02.png"
+    },
+    {
+      "name": "wall_03",
+      "rect": [
+        96,
+        32,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_03.png"
+    },
+    {
+      "name": "wall_04",
+      "rect": [
+        128,
+        32,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_04.png"
+    },
+    {
+      "name": "wall_05",
+      "rect": [
+        160,
+        32,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_05.png"
+    },
+    {
+      "name": "wall_06",
+      "rect": [
+        192,
+        32,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_06.png"
+    },
+    {
+      "name": "wall_07",
+      "rect": [
+        224,
+        32,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_07.png"
+    },
+    {
+      "name": "wall_08",
+      "rect": [
+        0,
+        64,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_08.png"
+    },
+    {
+      "name": "wall_09",
+      "rect": [
+        32,
+        64,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_09.png"
+    },
+    {
+      "name": "wall_0a",
+      "rect": [
+        64,
+        64,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_0a.png"
+    },
+    {
+      "name": "wall_0b",
+      "rect": [
+        96,
+        64,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_0b.png"
+    },
+    {
+      "name": "wall_0c",
+      "rect": [
+        128,
+        64,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_0c.png"
+    },
+    {
+      "name": "wall_0d",
+      "rect": [
+        160,
+        64,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_0d.png"
+    },
+    {
+      "name": "wall_0e",
+      "rect": [
+        192,
+        64,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_0e.png"
+    },
+    {
+      "name": "wall_0f",
+      "rect": [
+        224,
+        64,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_0f.png"
+    }
+  ],
+  "animations": [
+    {
+      "name": "terminal_scan",
+      "frames": [
+        [
+          0,
+          0,
+          32,
+          32
+        ],
+        [
+          32,
+          0,
+          32,
+          32
+        ],
+        [
+          64,
+          0,
+          32,
+          32
+        ],
+        [
+          96,
+          0,
+          32,
+          32
+        ]
+      ],
+      "durations_ms": [
+        140,
+        100,
+        140,
+        220
+      ],
+      "loop": true,
+      "files": [
+        "art/equipment/terminal_scan_0.png",
+        "art/equipment/terminal_scan_1.png",
+        "art/equipment/terminal_scan_2.png",
+        "art/equipment/terminal_scan_3.png"
+      ]
+    },
+    {
+      "name": "warning_beacon",
+      "frames": [
+        [
+          128,
+          0,
+          32,
+          32
+        ],
+        [
+          160,
+          0,
+          32,
+          32
+        ],
+        [
+          192,
+          0,
+          32,
+          32
+        ],
+        [
+          224,
+          0,
+          32,
+          32
+        ]
+      ],
+      "durations_ms": [
+        140,
+        100,
+        140,
+        220
+      ],
+      "loop": true,
+      "files": [
+        "art/equipment/warning_beacon_0.png",
+        "art/equipment/warning_beacon_1.png",
+        "art/equipment/warning_beacon_2.png",
+        "art/equipment/warning_beacon_3.png"
+      ]
+    },
+    {
+      "name": "reactor_pulse",
+      "frames": [
+        [
+          256,
+          0,
+          32,
+          32
+        ],
+        [
+          288,
+          0,
+          32,
+          32
+        ],
+        [
+          320,
+          0,
+          32,
+          32
+        ],
+        [
+          352,
+          0,
+          32,
+          32
+        ]
+      ],
+      "durations_ms": [
+        140,
+        100,
+        140,
+        220
+      ],
+      "loop": true,
+      "files": [
+        "art/equipment/reactor_pulse_0.png",
+        "art/equipment/reactor_pulse_1.png",
+        "art/equipment/reactor_pulse_2.png",
+        "art/equipment/reactor_pulse_3.png"
+      ]
+    },
+    {
+      "name": "vent_steam",
+      "frames": [
+        [
+          384,
+          0,
+          32,
+          32
+        ],
+        [
+          416,
+          0,
+          32,
+          32
+        ],
+        [
+          448,
+          0,
+          32,
+          32
+        ],
+        [
+          480,
+          0,
+          32,
+          32
+        ]
+      ],
+      "durations_ms": [
+        140,
+        100,
+        140,
+        220
+      ],
+      "loop": true,
+      "files": [
+        "art/equipment/vent_steam_0.png",
+        "art/equipment/vent_steam_1.png",
+        "art/equipment/vent_steam_2.png",
+        "art/equipment/vent_steam_3.png"
+      ]
+    }
+  ],
+  "demo": {
+    "width": 18,
+    "height": 12,
+    "map": [
+      [
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w"
+      ],
+      [
+        "w",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "w",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "w"
+      ],
+      [
+        "w",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "w",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "w"
+      ],
+      [
+        "w",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "w",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "w"
+      ],
+      [
+        "w",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "w",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "w"
+      ],
+      [
+        "w",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        0,
+        "w",
+        "w",
+        "w",
+        "w"
+      ],
+      [
+        "w",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "w"
+      ],
+      [
+        "w",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "w",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "w"
+      ],
+      [
+        "w",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "w",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "w"
+      ],
+      [
+        "w",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "w",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "w"
+      ],
+      [
+        "w",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "w",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "w"
+      ],
+      [
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w",
+        "w"
+      ]
+    ],
+    "placements": [
+      [
+        "server_rack",
+        1,
+        1
+      ],
+      [
+        "server_rack",
+        1.75,
+        1
+      ],
+      [
+        "control_terminal",
+        4.25,
+        1.25
+      ],
+      [
+        "communications_antenna",
+        6.25,
+        1
+      ],
+      [
+        "pilot_chair",
+        3.25,
+        2.125
+      ],
+      [
+        "pilot_chair",
+        4.25,
+        2.125
+      ],
+      [
+        "power_cell",
+        1.25,
+        2.25
+      ],
+      [
+        "floor_vent",
+        6.25,
+        2.5
+      ],
+      [
+        "hologram_table",
+        3.75,
+        4.25
+      ],
+      [
+        "pilot_chair",
+        3.75,
+        5.125
+      ],
+      [
+        "reactor_console",
+        6.25,
+        4.125
+      ],
+      [
+        "workbench",
+        1.25,
+        8.125
+      ],
+      [
+        "workbench",
+        2.25,
+        8.125
+      ],
+      [
+        "tool_case",
+        3.375,
+        8.5
+      ],
+      [
+        "supply_shelf",
+        1,
+        9.5
+      ],
+      [
+        "locker",
+        2,
+        9.5
+      ],
+      [
+        "cable_reel",
+        3,
+        9.5
+      ],
+      [
+        "radar_dish",
+        6.25,
+        9.25
+      ],
+      [
+        "medical_cabinet",
+        9.25,
+        1
+      ],
+      [
+        "workbench",
+        10.25,
+        1.125
+      ],
+      [
+        "hydroponic_planter",
+        11.5,
+        1
+      ],
+      [
+        "oxygen_cylinder",
+        14.375,
+        1.25
+      ],
+      [
+        "cryopod",
+        15.25,
+        1
+      ],
+      [
+        "cryopod",
+        16,
+        1
+      ],
+      [
+        "station_bunk",
+        10,
+        3
+      ],
+      [
+        "station_bunk",
+        11,
+        3
+      ],
+      [
+        "oxygen_cylinder",
+        9,
+        3.125
+      ],
+      [
+        "supply_cart",
+        11.875,
+        3.125
+      ],
+      [
+        "hydroponic_planter",
+        15.75,
+        3
+      ],
+      [
+        "fire_extinguisher",
+        12,
+        7
+      ],
+      [
+        "supply_shelf",
+        9,
+        6.875
+      ],
+      [
+        "supply_shelf",
+        10,
+        6.875
+      ],
+      [
+        "cargo_crate",
+        9.75,
+        8.25
+      ],
+      [
+        "cargo_crate",
+        10.75,
+        8.625
+      ],
+      [
+        "chemical_barrel",
+        9,
+        9.5
+      ],
+      [
+        "chemical_barrel",
+        9.75,
+        9.5
+      ],
+      [
+        "cargo_crate",
+        10.75,
+        9.75
+      ],
+      [
+        "supply_cart",
+        11.875,
+        8.25
+      ],
+      [
+        "maintenance_drone",
+        12.25,
+        9.75
+      ],
+      [
+        "control_terminal",
+        13.5,
+        8.25
+      ],
+      [
+        "pilot_chair",
+        13.5,
+        9.125
+      ],
+      [
+        "power_cell",
+        15.5,
+        7
+      ],
+      [
+        "floor_vent",
+        16,
+        10
+      ]
+    ],
+    "fxplacements": [
+      [
+        "terminal_scan",
+        3.25,
+        1.25
+      ],
+      [
+        "warning_beacon",
+        14,
+        6.5
+      ],
+      [
+        "reactor_pulse",
+        15,
+        8.25
+      ],
+      [
+        "vent_steam",
+        16,
+        6.5
+      ]
+    ],
+    "floors": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        7,
+        7,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        7,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        6,
+        6,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        6,
+        6,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        3,
+        3,
+        0,
+        0,
+        6,
+        6,
+        6,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "zones": [
+      {
+        "name": "Command",
+        "bounds": [
+          1,
+          1,
+          7,
+          10
+        ]
+      },
+      {
+        "name": "Medical",
+        "bounds": [
+          9,
+          1,
+          8,
+          4
+        ]
+      },
+      {
+        "name": "Engineering and Cargo",
+        "bounds": [
+          9,
+          6,
+          8,
+          5
+        ]
+      }
+    ],
+    "description": "Grouped workstations, a medical ward, an engineering and cargo bay, and a quiet central circulation route.",
+    "authored_pixel_grid": 4,
+    "crew_showcase": {
+      "scene": "godot-demo/crew-showcase.tscn",
+      "length_seconds": 12,
+      "crew_count": 6,
+      "description": "All six crew: Android carries cargo along unchanged routes, lowers it, releases it on the floor, then lifts again. Security retains patrol, fire and draw/holster. All staging is deterministic without task AI."
+    }
+  },
+  "limits": [
+    "Six core characters: Explorer, Engineer, Medic, Security Officer, Research Scientist and Service Android. Aim/fire animations are included; combat gameplay, music and sound effects are not included.",
+    "Props have a single viewing direction.",
+    "Walls use a documented four-neighbor connector mask, not a blob47 terrain."
+  ],
+  "animation_atlas_columns": 16,
+  "static_asset_count": 48,
+  "counting_note": "24 props + 8 floors + 16 wall states + 6 characters. Equipment: 4 clips/16 timed frames; Explorer: 12/72; Engineer: 12/72; Medic: 12/72; Security: 28/152; Scientist: 12/72; Android: 24/144. Holds included; lower and holster reuse reversed artwork. Attachments, floor-cargo views and shadows are not additional designs.",
+  "alpha": "binary: 0 or 255",
+  "character_count": 6,
+  "character_animation_clip_count": 100,
+  "character_animation_frames": 584,
+  "characters": [
+    {
+      "name": "outpost_explorer",
+      "display_name": "Outpost Explorer",
+      "pivot": [
+        16,
+        28
+      ],
+      "cell": [
+        32,
+        32
+      ],
+      "metadata": "art/characters/outpost-explorer-clips.json",
+      "source": "source/outpost-explorer.aseprite",
+      "directions": [
+        "south",
+        "east",
+        "north",
+        "west"
+      ],
+      "actions": [
+        "idle",
+        "walk",
+        "scan"
+      ]
+    },
+    {
+      "name": "outpost_engineer",
+      "display_name": "Outpost Engineer",
+      "pivot": [
+        16,
+        28
+      ],
+      "cell": [
+        32,
+        32
+      ],
+      "metadata": "art/characters/outpost-engineer-clips.json",
+      "source": "source/outpost-engineer.aseprite",
+      "directions": [
+        "south",
+        "east",
+        "north",
+        "west"
+      ],
+      "actions": [
+        "idle",
+        "walk",
+        "repair"
+      ]
+    },
+    {
+      "name": "outpost_medic",
+      "display_name": "Outpost Medic",
+      "pivot": [
+        16,
+        28
+      ],
+      "cell": [
+        32,
+        32
+      ],
+      "metadata": "art/characters/outpost-medic-clips.json",
+      "source": "source/outpost-medic.aseprite",
+      "directions": [
+        "south",
+        "east",
+        "north",
+        "west"
+      ],
+      "actions": [
+        "idle",
+        "walk",
+        "treat"
+      ]
+    },
+    {
+      "name": "outpost_security",
+      "display_name": "Outpost Security Officer",
+      "pivot": [
+        16,
+        28
+      ],
+      "cell": [
+        32,
+        32
+      ],
+      "metadata": "art/characters/outpost-security-clips.json",
+      "source": "source/outpost-security.aseprite",
+      "directions": [
+        "south",
+        "east",
+        "north",
+        "west"
+      ],
+      "actions": [
+        "idle",
+        "walk",
+        "aim",
+        "fire",
+        "armed_walk",
+        "draw",
+        "holster"
+      ]
+    },
+    {
+      "name": "outpost_scientist",
+      "display_name": "Outpost Research Scientist",
+      "pivot": [
+        16,
+        28
+      ],
+      "cell": [
+        32,
+        32
+      ],
+      "metadata": "art/characters/outpost-scientist-clips.json",
+      "source": "source/outpost-scientist.aseprite",
+      "directions": [
+        "south",
+        "east",
+        "north",
+        "west"
+      ],
+      "actions": [
+        "idle",
+        "walk",
+        "examine"
+      ]
+    },
+    {
+      "name": "outpost_android",
+      "display_name": "Outpost Service Android",
+      "pivot": [
+        16,
+        28
+      ],
+      "cell": [
+        32,
+        32
+      ],
+      "metadata": "art/characters/outpost-android-clips.json",
+      "source": "source/outpost-android.aseprite",
+      "directions": [
+        "south",
+        "east",
+        "north",
+        "west"
+      ],
+      "actions": [
+        "idle",
+        "walk",
+        "carry_idle",
+        "carry_walk",
+        "lift",
+        "lower"
+      ],
+      "floor_cargo_files": [
+        "art/characters/android-cargo-floor-south.png",
+        "art/characters/android-cargo-floor-east.png",
+        "art/characters/android-cargo-floor-north.png",
+        "art/characters/android-cargo-floor-west.png"
+      ]
+    }
+  ],
+  "equipment_animation_clip_count": 4,
+  "total_animation_clip_count": 104,
+  "total_timed_animation_frames": 600,
+  "character_attachments": [
+    {
+      "name": "Security sidearm component",
+      "image": "art/characters/outpost-security-sidearm.png",
+      "atlas": "art/characters/outpost-security-sidearm.json",
+      "note": "Aligned 152-cell sidearm component for custom compositing. Already included in the Security body; do not overlay twice."
+    },
+    {
+      "name": "android_floor_cargo",
+      "files": [
+        "art/characters/android-cargo-floor-south.png",
+        "art/characters/android-cargo-floor-east.png",
+        "art/characters/android-cargo-floor-north.png",
+        "art/characters/android-cargo-floor-west.png"
+      ],
+      "note": "Four floor views of the same carried container, including contact shadow. Used between lower/lift; not another prop design."
+    }
+  ],
+  "security_weapon_transition": {
+    "draw_ms": 440,
+    "holster_ms": 480,
+    "one_shot": true,
+    "movement_locked": true,
+    "facing_locked": true
+  },
+  "android_cargo_transition": {
+    "lift_ms": 860,
+    "lower_ms": 900,
+    "one_shot": true,
+    "pickup_alignment_tolerance_native_px": 2,
+    "floor_container_persists": true
+  },
+  "godot_character_resources": {
+    "directory": "godot-resources/characters",
+    "body_libraries": 6,
+    "shadow_libraries": 6,
+    "paired_scenes": 6,
+    "character_clips": 100,
+    "timed_frames_per_layer": 584,
+    "guide": "godot-resources/README.txt"
+  },
+  "godot_compatibility": {
+    "tested_versions": [
+      "4.3-stable",
+      "4.7.2-stable"
+    ],
+    "platform": "Windows",
+    "renderer": "Compatibility",
+    "guide": "README.txt",
+    "other_versions_verified": false
+  },
+  "standalone_demo": {
+    "download": "orbital-outpost-windows-demo-0.14.3.zip",
+    "platform": "Windows x86-64",
+    "engine": "4.7.2-stable",
+    "renderer": "Compatibility",
+    "guide": "README.txt",
+    "unsigned": true
+  }
+}

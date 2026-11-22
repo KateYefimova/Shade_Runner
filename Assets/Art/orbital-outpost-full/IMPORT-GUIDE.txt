@@ -1,0 +1,183 @@
+ORBITAL OUTPOST — IMPORT GUIDE
+
+PNG ATLASES
+props.png, shadows.png, and tiles.png: 256 x 96, eight columns, three rows.
+equipment-animations.png: 512 x 32, sixteen columns, one row.
+Every cell is 32 x 32; padding and margins are zero.
+props-with-shadows.png combines the two layers for convenient previews.
+Use either the combined image OR separate props and shadows, not both.
+Individual shadow PNGs share the exact cell origin of the corresponding prop.
+
+PROP PLACEMENT
+Default ground pivot: (16,28) within the 32 x 32 cell.
+Draw floor first, shadows next, and props last. For actors, sort by ground
+position rather than the top of the sprite. All cells retain transparent margins.
+
+WALL CONNECTIONS
+The tile atlas begins with eight floors, followed by wall_00 through wall_0f.
+Wall names use a hexadecimal mask: North=1, East=2, South=4, West=8.
+Add the bits for neighbouring WALL cells, not neighbouring floor cells.
+Examples: wall_00 isolated; wall_05 vertical; wall_0a horizontal;
+wall_03 north-east bend; wall_0f four-way intersection.
+Choose one mask per wall cell. This is not a 47-tile diagonal terrain system.
+Floor patterns are individually seamless; mixed decorative floor types can
+change details at their boundaries. floor_plate is a quiet slate fill for large areas.
+
+ANIMATIONS
+Frame order in equipment-animations.png:
+0-3 terminal_scan, 4-7 warning_beacon, 8-11 reactor_pulse, 12-15 vent_steam.
+Durations in each clip: 140, 100, 140, 220 ms. Loop total: 600 ms.
+Read art/animations.json or the Aseprite export JSON for exact rectangles.
+Frames include deliberate repeated holds; sixteen frames is not a claim of
+sixteen unique drawings. Use the entire equipment cell, not an additive effect
+above a second copy of the same equipment.
+
+GODOT 4
+1. Extract the complete pack and import its project.godot into the editor.
+2. Let Godot finish its first asset import, then run the main scene.
+3. Use godot-demo/orbital-tileset.tres as a starting TileSet in your own scene.
+   It contains the 24 atlas cells. Set terrain rules and collisions yourself.
+4. Set CanvasItem Texture Filter to Nearest; disable mipmaps for this art.
+5. To reuse only the graphics, copy art/ into your own project.
+The sample requires its accompanying manifest and animation JSON.
+The sample is an asset demonstration, not a complete game controller.
+Tested: Windows, Godot 4.3 and 4.7.2, Compatibility renderer, imported PNGs,
+tile atlas count, clip timing, keyboard movement, wall blocking and controls.
+Other engines, versions, platforms and renderers are unverified.
+See README.txt for compatibility and the separate Windows demo.
+
+ASEPRITE
+Open the files in source/. Props have separate Props and Shadows layers.
+The animation source has four named tags and sixteen frames.
+The room source has four frames for a synchronised demonstration loop.
+Keep native pixels crisp; resize with nearest-neighbour sampling.
+
+CHARACTER IMPORT
+Read art/characters/outpost-<role>-clips.json. Frames are untrimmed 32 x 32
+cells in horizontal atlases with zero padding. The frames array gives exact
+rectangles; clips give ordered frame indices, durations, total_ms and loop.
+Use loop=false for role actions, fire, draw and holster. Clamp at the last
+frame, then enter the next state. Never loop a transition in a game.
+Body and shadow atlases match exactly. Individual body PNGs omit shadows.
+Draw shadows below actors/props and sort by ground Y at pivot (16,28).
+Use nearest filtering, integer scale and no mipmaps.
+
+Role       Cells  Clips  Atlas width  Source layers
+Explorer     72     12      2304           10
+Engineer     72     12      2304            9
+Medic        72     12      2304           10
+Security    152     28      4864           11
+Scientist    72     12      2304           11
+Android     144     24      4608           11
+All atlas heights: 32. Six designs, 100 clips / 584 timed cells including holds.
+Equipment adds 4 clips / 16 frames: 104 clips / 600 timed cells overall.
+These counts do not imply that every timed cell is a unique drawing.
+
+SECURITY STATE FLOW
+Unarmed --E--> draw --440 ms--> armed idle/walk --E--> holster --480 ms--> unarmed.
+Armed --F--> fire --600 ms--> armed. Stop to aim; movement follows facing.
+Draw/holster/fire lock position and facing. E/F cannot restart or interrupt
+a transition. Pause preserves its clock. R/Tab cancel and reset unarmed.
+Held movement resumes on the following update. The demonstration does not
+queue fire/toggle inputs pressed during an action.
+Draw: 70/80/60/70/60/100 ms. Holster: 80/60/70/80/90/100 ms.
+Aim: 300/200/300/200 ms. Fire: 40/50/70/100/140/200 ms.
+Walk/armed walk: 120/100/110/120/100/110 ms, at 24 native px/s.
+All prior 104 Security cells and clip timings remain unchanged.
+The sidearm component shares all 152 cells and is already included in body.
+Flash occurs only in fire local frame 1, at 40–90 ms. No transition flash.
+
+CREW
+All six designs use 32 x 32 cells, feet pivot (16,28), separate body/shadow
+atlases, individual transparent body PNGs, JSON clips and editable sources.
+Idle is 1000 ms; walking is 660 ms at 24 native px/s. Timed frames include holds.
+
+Explorer: helmet, oxygen pack and field scanner. Four-direction idle/walk/scan;
+12 clips / 72 frames; 10 layers. E scans/inspects once in 1000 ms.
+Engineer: amber hard hat, copper tool belt, spanner. Idle/walk/repair;
+12 clips / 72 frames; 9 layers. E repairs once in 1000 ms.
+Medic: ivory hood/coat, coral bands, case and scanner. Idle/walk/treat;
+12 clips / 72 frames; 10 layers. E treats once in 1000 ms.
+Security: broad navy armour, cyan visor, amber badge, compact energy sidearm.
+Idle/walk/aim/fire/armed walk/draw/holster; 28 clips / 152 frames; 11 layers.
+Scientist: goggles, teal coat, scanner and vial. Idle/walk/examine;
+12 clips / 72 frames; 11 layers. E examines once in 1000 ms.
+Service Android: pale panels, cyan face and cargo container. Empty/loaded
+idle/walk plus lift/lower; 24 clips / 144 frames; 11 layers. E lifts/lowers.
+The north carrying view hides part of the container behind the torso.
+
+SECURITY WEAPON ACTIONS
+E draws in 440 ms or holsters in 480 ms. Both are six-pose one-shot clips
+in each direction. Reach belt, clear belt, low ready, present, raised aim.
+Holster reverses these poses with separate timing. First/last poses match
+unarmed idle and raised aim. Sidearm is concealed while stowed.
+Feet and facing lock during transitions/fire. Repeated E and F are ignored
+until completion. Held movement resumes afterward; stop to aim. F fires once
+while armed (600 ms). Flash: local frame 1, 40–90 ms. Aim loops in 1000 ms;
+armed walk loops in 660 ms. Pause freezes actions; reset or crew switch
+cancels them and clears the weapon state. Facing follows movement.
+The raised grip retains supported elbows in all armed actions.
+Body, shadow and optional sidearm atlases share 152 cells (4864 x 32).
+The sidearm is already drawn in the body; do not overlay it twice.
+
+CREW SHOWCASE
+C opens a twelve-second presentation with all six crew visible. Explorer
+patrols and scans; Security patrols, aims, fires, holsters and draws again.
+Engineer repairs; Medic treats; Scientist examines; Android carries cargo.
+Security transitions occupy stationary watch intervals. Space pauses; R restarts; G toggles grid;
+H hides crew; C returns. Showcase and playable room: 1152 x 768.
+The room uses crisp 2x native pixels. Staging uses a fixed timeline.
+
+SCOPE OF CHARACTER ACTIONS
+These are animation demonstrations. No targeting, damage, projectiles, ammo,
+health, autonomous tasks, research progression or general inventory/cargo systems.
+Independent strafing and audio are absent.
+Preview GIFs repeat for inspection; one-shot game actions do not loop.
+
+ANDROID LIFT / LOWER
+Eight poses per direction: stand over container, reach down, grip, take the
+weight, raise, rise, settle upward, carry ready. Lift: 860 ms; lower: 900 ms.
+Both play once. Lower reverses the poses with a longer placement/release hold.
+The floor endpoints use original empty-idle body art plus a floor container;
+carry endpoints match the original loaded idle exactly. Feet stay planted.
+Head/torso lower three pixels during the reach; the rigid container retains
+its original geometry and palette. North cargo remains partly occluded.
+Two layers,
+cargo-shadow and cargo-ground, keep the ground contact and rear leg occlusion
+separate. Eleven source layers; 24 clips / 144 timed cells. Body/shadow atlases
+are 4608 x 32. Individual frames and timing JSON are included.
+
+In the playable sample, select Android with Tab. A floor container appears at
+its starting interaction position. E lifts it in 0.86 seconds. E while carrying
+lowers it in 0.90 seconds and leaves it at that position. Move away and the
+container stays put. Return within two native pixels of its interaction
+position and press E to lift again. The action aligns the feet (at most 2 px)
+and faces the stored container direction before starting. The demo supports
+one container, without a general inventory or world pickup system.
+Movement/facing lock during actions. Repeated E is ignored, not queued.
+Pause freezes the clock; reset or crew selection cancels and resets cargo.
+Held movement resumes after completion at the original 24 native px/s.
+The floor container has no additional collision footprint in this sample.
+
+Four android-cargo-floor-<facing>.png components show the same container on
+the floor, with its contact shadow. Draw only one copy: during lift/lower,
+the cargo is already included in the Android body/shadow frame. Outside the
+action, use the separate floor component with the empty Android. North floor
+cargo sorts three pixels behind the interaction pivot; other views sort one
+pixel in front. Default sprite origin remains pivot (16,28). Components are
+not additional prop designs. Preview GIFs repeat; runtime clips play once.
+
+The showcase uses east/west cargo routes. At each
+end it lowers, rests empty beside the placed container, then lifts again.
+Lower: 3.1–4.0 s / 9.1–10.0 s. Lift: 5.14–6.0 s / 11.14–12.0 s.
+All six core crew remain visible throughout the twelve-second loop.
+
+
+GODOT CHARACTER RESOURCES
+Twelve ready-made SpriteFrames libraries (six body + six shadow) contain all
+100 character clips / 584 timed cells per layer, with original weighted timing
+and loop flags. Six paired scenes set the feet pivot and nearest filtering;
+a shared visual script keeps shadows synchronized and forwards completion.
+Copy art/characters/ and godot-resources/ into your own Godot project root.
+See godot-resources/README.txt for setup, playback calls and action-state notes.
+These resources reuse the existing art and do not add character designs.

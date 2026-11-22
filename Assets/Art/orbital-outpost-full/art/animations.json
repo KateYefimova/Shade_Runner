@@ -1,0 +1,177 @@
+{
+  "image": "equipment-animations.png",
+  "size": [
+    512,
+    32
+  ],
+  "clips": [
+    {
+      "name": "terminal_scan",
+      "frames": [
+        [
+          0,
+          0,
+          32,
+          32
+        ],
+        [
+          32,
+          0,
+          32,
+          32
+        ],
+        [
+          64,
+          0,
+          32,
+          32
+        ],
+        [
+          96,
+          0,
+          32,
+          32
+        ]
+      ],
+      "durations_ms": [
+        140,
+        100,
+        140,
+        220
+      ],
+      "loop": true,
+      "files": [
+        "art/equipment/terminal_scan_0.png",
+        "art/equipment/terminal_scan_1.png",
+        "art/equipment/terminal_scan_2.png",
+        "art/equipment/terminal_scan_3.png"
+      ]
+    },
+    {
+      "name": "warning_beacon",
+      "frames": [
+        [
+          128,
+          0,
+          32,
+          32
+        ],
+        [
+          160,
+          0,
+          32,
+          32
+        ],
+        [
+          192,
+          0,
+          32,
+          32
+        ],
+        [
+          224,
+          0,
+          32,
+          32
+        ]
+      ],
+      "durations_ms": [
+        140,
+        100,
+        140,
+        220
+      ],
+      "loop": true,
+      "files": [
+        "art/equipment/warning_beacon_0.png",
+        "art/equipment/warning_beacon_1.png",
+        "art/equipment/warning_beacon_2.png",
+        "art/equipment/warning_beacon_3.png"
+      ]
+    },
+    {
+      "name": "reactor_pulse",
+      "frames": [
+        [
+          256,
+          0,
+          32,
+          32
+        ],
+        [
+          288,
+          0,
+          32,
+          32
+        ],
+        [
+          320,
+          0,
+          32,
+          32
+        ],
+        [
+          352,
+          0,
+          32,
+          32
+        ]
+      ],
+      "durations_ms": [
+        140,
+        100,
+        140,
+        220
+      ],
+      "loop": true,
+      "files": [
+        "art/equipment/reactor_pulse_0.png",
+        "art/equipment/reactor_pulse_1.png",
+        "art/equipment/reactor_pulse_2.png",
+        "art/equipment/reactor_pulse_3.png"
+      ]
+    },
+    {
+      "name": "vent_steam",
+      "frames": [
+        [
+          384,
+          0,
+          32,
+          32
+        ],
+        [
+          416,
+          0,
+          32,
+          32
+        ],
+        [
+          448,
+          0,
+          32,
+          32
+        ],
+        [
+          480,
+          0,
+          32,
+          32
+        ]
+      ],
+      "durations_ms": [
+        140,
+        100,
+        140,
+        220
+      ],
+      "loop": true,
+      "files": [
+        "art/equipment/vent_steam_0.png",
+        "art/equipment/vent_steam_1.png",
+        "art/equipment/vent_steam_2.png",
+        "art/equipment/vent_steam_3.png"
+      ]
+    }
+  ]
+}

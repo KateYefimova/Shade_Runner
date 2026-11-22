@@ -1,0 +1,2639 @@
+fileFormatVersion: 2
+guid: 28cab70450c314cf4a06e7a142c505c5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5903516289651029145
+    second: outpost-security-sidearm_0
+  - first:
+      213: -2979645826316515378
+    second: outpost-security-sidearm_1
+  - first:
+      213: 6078384510707249684
+    second: outpost-security-sidearm_2
+  - first:
+      213: 775615559962649290
+    second: outpost-security-sidearm_3
+  - first:
+      213: 8614039134475792634
+    second: outpost-security-sidearm_4
+  - first:
+      213: -6074891968632366172
+    second: outpost-security-sidearm_5
+  - first:
+      213: -5741571124778241882
+    second: outpost-security-sidearm_6
+  - first:
+      213: -6847707284502769488
+    second: outpost-security-sidearm_7
+  - first:
+      213: -5420488412537639673
+    second: outpost-security-sidearm_8
+  - first:
+      213: 4418208457545937617
+    second: outpost-security-sidearm_9
+  - first:
+      213: 3752443003530329052
+    second: outpost-security-sidearm_10
+  - first:
+      213: -2141240321664231298
+    second: outpost-security-sidearm_11
+  - first:
+      213: 7528084492089854667
+    second: outpost-security-sidearm_12
+  - first:
+      213: 6649796726218438369
+    second: outpost-security-sidearm_13
+  - first:
+      213: 7717286368311884739
+    second: outpost-security-sidearm_14
+  - first:
+      213: 4451443125146766295
+    second: outpost-security-sidearm_15
+  - first:
+      213: 1790571564277766592
+    second: outpost-security-sidearm_16
+  - first:
+      213: 2361896197428276143
+    second: outpost-security-sidearm_17
+  - first:
+      213: -7273163067408786476
+    second: outpost-security-sidearm_18
+  - first:
+      213: -5622836322273327681
+    second: outpost-security-sidearm_19
+  - first:
+      213: 847157921868159847
+    second: outpost-security-sidearm_20
+  - first:
+      213: 6276555939802892128
+    second: outpost-security-sidearm_21
+  - first:
+      213: -7918155822301041257
+    second: outpost-security-sidearm_22
+  - first:
+      213: 278251745799169214
+    second: outpost-security-sidearm_23
+  - first:
+      213: -6474632548654658818
+    second: outpost-security-sidearm_24
+  - first:
+      213: 6640815569289505665
+    second: outpost-security-sidearm_25
+  - first:
+      213: -2545556347832730308
+    second: outpost-security-sidearm_26
+  - first:
+      213: -5719630134674066473
+    second: outpost-security-sidearm_27
+  - first:
+      213: 2095141764477470673
+    second: outpost-security-sidearm_28
+  - first:
+      213: -5446731526151589111
+    second: outpost-security-sidearm_29
+  - first:
+      213: 2533284810933468573
+    second: outpost-security-sidearm_30
+  - first:
+      213: -3276952348194998262
+    second: outpost-security-sidearm_31
+  - first:
+      213: 77698401362062614
+    second: outpost-security-sidearm_32
+  - first:
+      213: -6800312118699359818
+    second: outpost-security-sidearm_33
+  - first:
+      213: 7432961704686709152
+    second: outpost-security-sidearm_34
+  - first:
+      213: -8776540436244323112
+    second: outpost-security-sidearm_35
+  - first:
+      213: -2297992772487312647
+    second: outpost-security-sidearm_36
+  - first:
+      213: 5079405408877382653
+    second: outpost-security-sidearm_37
+  - first:
+      213: -1007863234202370841
+    second: outpost-security-sidearm_38
+  - first:
+      213: -7590294650323598969
+    second: outpost-security-sidearm_39
+  - first:
+      213: -1118682872571113656
+    second: outpost-security-sidearm_40
+  - first:
+      213: -7516424901770117981
+    second: outpost-security-sidearm_41
+  - first:
+      213: 5889479139373439516
+    second: outpost-security-sidearm_42
+  - first:
+      213: 8820660324057094424
+    second: outpost-security-sidearm_43
+  - first:
+      213: -7413472032688057477
+    second: outpost-security-sidearm_44
+  - first:
+      213: -9119738335943562636
+    second: outpost-security-sidearm_45
+  - first:
+      213: 6414922549377015490
+    second: outpost-security-sidearm_46
+  - first:
+      213: 1652699260707766410
+    second: outpost-security-sidearm_47
+  - first:
+      213: -6088727316593077215
+    second: outpost-security-sidearm_48
+  - first:
+      213: -3199841321702316717
+    second: outpost-security-sidearm_49
+  - first:
+      213: -8347694556368855487
+    second: outpost-security-sidearm_50
+  - first:
+      213: 7654099583625917438
+    second: outpost-security-sidearm_51
+  - first:
+      213: 6175477182771478054
+    second: outpost-security-sidearm_52
+  - first:
+      213: -4359208827766057322
+    second: outpost-security-sidearm_53
+  - first:
+      213: 2641256561999096778
+    second: outpost-security-sidearm_54
+  - first:
+      213: 7411362780933245511
+    second: outpost-security-sidearm_55
+  - first:
+      213: -5630114886491163124
+    second: outpost-security-sidearm_56
+  - first:
+      213: 1131368849390769993
+    second: outpost-security-sidearm_57
+  - first:
+      213: -1668757488172994692
+    second: outpost-security-sidearm_58
+  - first:
+      213: 7257188705166458522
+    second: outpost-security-sidearm_59
+  - first:
+      213: -965641929327390119
+    second: outpost-security-sidearm_60
+  - first:
+      213: 2222366610099544157
+    second: outpost-security-sidearm_61
+  - first:
+      213: 4890981306683881706
+    second: outpost-security-sidearm_62
+  - first:
+      213: 5828774316008954292
+    second: outpost-security-sidearm_63
+  - first:
+      213: 6913909900096971356
+    second: outpost-security-sidearm_64
+  - first:
+      213: 4351549051801232137
+    second: outpost-security-sidearm_65
+  - first:
+      213: -4873982634932990970
+    second: outpost-security-sidearm_66
+  - first:
+      213: -7862581869855725944
+    second: outpost-security-sidearm_67
+  - first:
+      213: -4797410999643139941
+    second: outpost-security-sidearm_68
+  - first:
+      213: -1448894033406339755
+    second: outpost-security-sidearm_69
+  - first:
+      213: -612834168001941804
+    second: outpost-security-sidearm_70
+  - first:
+      213: 5023024403793557294
+    second: outpost-security-sidearm_71
+  - first:
+      213: 2054641593961260609
+    second: outpost-security-sidearm_72
+  - first:
+      213: -2286382843373346190
+    second: outpost-security-sidearm_73
+  - first:
+      213: 4262818002667005686
+    second: outpost-security-sidearm_74
+  - first:
+      213: -5955567148371178064
+    second: outpost-security-sidearm_75
+  - first:
+      213: -3806087748111399673
+    second: outpost-security-sidearm_76
+  - first:
+      213: 4325418316146348965
+    second: outpost-security-sidearm_77
+  - first:
+      213: -5281008702638247660
+    second: outpost-security-sidearm_78
+  - first:
+      213: 2385269806454468829
+    second: outpost-security-sidearm_79
+  - first:
+      213: -2898256764841343179
+    second: outpost-security-sidearm_80
+  - first:
+      213: -6546011090169881822
+    second: outpost-security-sidearm_81
+  - first:
+      213: -4174158427311235971
+    second: outpost-security-sidearm_82
+  - first:
+      213: 7570461533208893972
+    second: outpost-security-sidearm_83
+  - first:
+      213: 7150259394399828433
+    second: outpost-security-sidearm_84
+  - first:
+      213: 7796024819911202248
+    second: outpost-security-sidearm_85
+  - first:
+      213: 7501344446877566189
+    second: outpost-security-sidearm_86
+  - first:
+      213: -6500885026682809838
+    second: outpost-security-sidearm_87
+  - first:
+      213: 2783317418591420312
+    second: outpost-security-sidearm_88
+  - first:
+      213: -3286591681868671375
+    second: outpost-security-sidearm_89
+  - first:
+      213: 7768328897972896376
+    second: outpost-security-sidearm_90
+  - first:
+      213: -1417516109318260448
+    second: outpost-security-sidearm_91
+  - first:
+      213: -763470594602093102
+    second: outpost-security-sidearm_92
+  - first:
+      213: 2940315892634591005
+    second: outpost-security-sidearm_93
+  - first:
+      213: -5328507935257842076
+    second: outpost-security-sidearm_94
+  - first:
+      213: 7409837782769329891
+    second: outpost-security-sidearm_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: outpost-security-sidearm_0
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 9
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b4e95763f721ea0800000000000000
+      internalID: -5903516289651029145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_1
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 9
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7cde568eb26a6d0800000000000000
+      internalID: -2979645826316515378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_2
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 10
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41231f00282ca5450800000000000000
+      internalID: 6078384510707249684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_3
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 9
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2e6dd0e3a83ca00800000000000000
+      internalID: 775615559962649290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_4
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af03eb324f63b8770800000000000000
+      internalID: 8614039134475792634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_5
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab5bc0d0f5a1bba0800000000000000
+      internalID: -6074891968632366172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_6
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 12
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0f3fe6b77d150b0800000000000000
+      internalID: -5741571124778241882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_7
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b09b55618e08f0a0800000000000000
+      internalID: -6847707284502769488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_8
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 15
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70da29df18e86c4b0800000000000000
+      internalID: -5420488412537639673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_9
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 15
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2f6a7fe21a05d30800000000000000
+      internalID: 4418208457545937617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_10
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 16
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb3359c70b531430800000000000000
+      internalID: 3752443003530329052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_11
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 15
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78d570b549c842e0800000000000000
+      internalID: -2141240321664231298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_12
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca8426c5f0297860800000000000000
+      internalID: 7528084492089854667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_13
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e63ecee3e2d84c50800000000000000
+      internalID: 6649796726218438369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_14
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 12
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbb135601f491b60800000000000000
+      internalID: 7717286368311884739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_15
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db4a3400f3b6cd30800000000000000
+      internalID: 4451443125146766295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_16
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 9
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c911b1d95369d810800000000000000
+      internalID: 1790571564277766592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_17
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 10
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fabee04e31427c020800000000000000
+      internalID: 2361896197428276143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_18
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 10
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dbdb9d99b8801b90800000000000000
+      internalID: -7273163067408786476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_19
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 9
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb50cbce72ca7f1b0800000000000000
+      internalID: -5622836322273327681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_20
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 9
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b1c9934a5b1cb00800000000000000
+      internalID: 847157921868159847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_21
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 9
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067c1d46f5eca1750800000000000000
+      internalID: 6276555939802892128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_22
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d2e875b3f0d1290800000000000000
+      internalID: -7918155822301041257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_23
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 12
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4ed721d7c8cd300800000000000000
+      internalID: 278251745799169214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_24
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efac146400c7526a0800000000000000
+      internalID: -6474632548654658818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_25
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 12
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b6262639ae82c50800000000000000
+      internalID: 6640815569289505665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_26
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d70b31dfd5cacd0800000000000000
+      internalID: -2545556347832730308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_27
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3f12842bacf90b0800000000000000
+      internalID: -5719630134674066473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_28
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 15
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7c3c19550731d10800000000000000
+      internalID: 2095141764477470673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_29
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 14
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90330d4f8825964b0800000000000000
+      internalID: -5446731526151589111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_30
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 14
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9df4961d19082320800000000000000
+      internalID: 2533284810933468573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_31
+      rect:
+        serializedVersion: 2
+        x: 2294
+        y: 15
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0874fb833de582d0800000000000000
+      internalID: -3276952348194998262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_32
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 15
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d2dccc84a041100800000000000000
+      internalID: 77698401362062614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_33
+      rect:
+        serializedVersion: 2
+        x: 2357
+        y: 15
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1042b582070a1a0800000000000000
+      internalID: -6800312118699359818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_34
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9eee4f94f272760800000000000000
+      internalID: 7432961704686709152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_35
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 12
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d42ecc29f6733680800000000000000
+      internalID: -8776540436244323112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_36
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa8a7bafb3eb10e0800000000000000
+      internalID: -2297992772487312647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_37
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 12
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb855abe4cad7640800000000000000
+      internalID: 5079405408877382653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_38
+      rect:
+        serializedVersion: 2
+        x: 2498
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ecf0377ab95302f0800000000000000
+      internalID: -1007863234202370841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_39
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7810aea0b3bd9a690800000000000000
+      internalID: -7590294650323598969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_40
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 9
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84fc51cbad3a970f0800000000000000
+      internalID: -1118682872571113656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_41
+      rect:
+        serializedVersion: 2
+        x: 2606
+        y: 8
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac7715206b40b790800000000000000
+      internalID: -7516424901770117981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_42
+      rect:
+        serializedVersion: 2
+        x: 2638
+        y: 10
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a5d6ec212abb150800000000000000
+      internalID: 5889479139373439516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_43
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 9
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8191ec3b4d7496a70800000000000000
+      internalID: 8820660324057094424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_44
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 8
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73d55be67e0e1990800000000000000
+      internalID: -7413472032688057477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_45
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 10
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a62994d4e207180800000000000000
+      internalID: -9119738335943562636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_46
+      rect:
+        serializedVersion: 2
+        x: 2773
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce92492212660950800000000000000
+      internalID: 6414922549377015490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_47
+      rect:
+        serializedVersion: 2
+        x: 2805
+        y: 10
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a808903a8319fe610800000000000000
+      internalID: 1652699260707766410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_48
+      rect:
+        serializedVersion: 2
+        x: 2837
+        y: 12
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1249048d3ce708ba0800000000000000
+      internalID: -6088727316593077215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_49
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355215a7541e793d0800000000000000
+      internalID: -3199841321702316717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_50
+      rect:
+        serializedVersion: 2
+        x: 2901
+        y: 10
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e1c2a6708072c80800000000000000
+      internalID: -8347694556368855487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_51
+      rect:
+        serializedVersion: 2
+        x: 2933
+        y: 12
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3fc75a403d83a60800000000000000
+      internalID: 7654099583625917438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_52
+      rect:
+        serializedVersion: 2
+        x: 2965
+        y: 15
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ebf9557c3b3b550800000000000000
+      internalID: 6175477182771478054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_53
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 14
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696d14fcaaaf083c0800000000000000
+      internalID: -4359208827766057322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_54
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 16
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb20a269d0a7a420800000000000000
+      internalID: 2641256561999096778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_55
+      rect:
+        serializedVersion: 2
+        x: 3061
+        y: 15
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ac313ae237ad660800000000000000
+      internalID: 7411362780933245511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_56
+      rect:
+        serializedVersion: 2
+        x: 3093
+        y: 14
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c063e022750ddd1b0800000000000000
+      internalID: -5630114886491163124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_57
+      rect:
+        serializedVersion: 2
+        x: 3125
+        y: 16
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94711e969fd63bf00800000000000000
+      internalID: 1131368849390769993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_58
+      rect:
+        serializedVersion: 2
+        x: 3138
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fec2de7e167d8e0800000000000000
+      internalID: -1668757488172994692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_59
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 10
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e7c675da6b6b460800000000000000
+      internalID: 7257188705166458522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_60
+      rect:
+        serializedVersion: 2
+        x: 3202
+        y: 12
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952d73e08c95992f0800000000000000
+      internalID: -965641929327390119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_61
+      rect:
+        serializedVersion: 2
+        x: 3234
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d502ca348ae67de10800000000000000
+      internalID: 2222366610099544157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_62
+      rect:
+        serializedVersion: 2
+        x: 3266
+        y: 10
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8f7fbb59140e340800000000000000
+      internalID: 4890981306683881706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_63
+      rect:
+        serializedVersion: 2
+        x: 3298
+        y: 12
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b952a5bb57f3e050800000000000000
+      internalID: 5828774316008954292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_64
+      rect:
+        serializedVersion: 2
+        x: 3411
+        y: 6
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5226543c6423ff50800000000000000
+      internalID: 6913909900096971356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_65
+      rect:
+        serializedVersion: 2
+        x: 3441
+        y: 7
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903ec4f9ecec36c30800000000000000
+      internalID: 4351549051801232137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_66
+      rect:
+        serializedVersion: 2
+        x: 3471
+        y: 8
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c8563fd922c5cb0800000000000000
+      internalID: -4873982634932990970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_67
+      rect:
+        serializedVersion: 2
+        x: 3502
+        y: 9
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886a2d5727f72e290800000000000000
+      internalID: -7862581869855725944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_68
+      rect:
+        serializedVersion: 2
+        x: 3534
+        y: 9
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9018b41d1c2c6db0800000000000000
+      internalID: -4797410999643139941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_69
+      rect:
+        serializedVersion: 2
+        x: 3567
+        y: 8
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555d1ad9d8e74ebe0800000000000000
+      internalID: -1448894033406339755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_70
+      rect:
+        serializedVersion: 2
+        x: 3601
+        y: 7
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dea5063296ce77f0800000000000000
+      internalID: -612834168001941804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_71
+      rect:
+        serializedVersion: 2
+        x: 3635
+        y: 6
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27bb36051e55b540800000000000000
+      internalID: 5023024403793557294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_72
+      rect:
+        serializedVersion: 2
+        x: 3826
+        y: 8
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146adccc4ad838c10800000000000000
+      internalID: 2054641593961260609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_73
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 10
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2722f20fae22540e0800000000000000
+      internalID: -2286382843373346190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_74
+      rect:
+        serializedVersion: 2
+        x: 3893
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f66b175362982b30800000000000000
+      internalID: 4262818002667005686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_75
+      rect:
+        serializedVersion: 2
+        x: 3925
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd89558b33995da0800000000000000
+      internalID: -5955567148371178064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_76
+      rect:
+        serializedVersion: 2
+        x: 3956
+        y: 10
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7058addcb5f0e2bc0800000000000000
+      internalID: -3806087748111399673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_77
+      rect:
+        serializedVersion: 2
+        x: 3986
+        y: 8
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a31fde9a09f60c30800000000000000
+      internalID: 4325418316146348965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_78
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 10
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411308f909616b6b0800000000000000
+      internalID: -5281008702638247660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_79
+      rect:
+        serializedVersion: 2
+        x: 4212
+        y: 12
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0fe23504e2a1120800000000000000
+      internalID: 2385269806454468829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_80
+      rect:
+        serializedVersion: 2
+        x: 4245
+        y: 14
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53742c7f3d257c7d0800000000000000
+      internalID: -2898256764841343179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_81
+      rect:
+        serializedVersion: 2
+        x: 4277
+        y: 15
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b18a28895e725a0800000000000000
+      internalID: -6546011090169881822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_82
+      rect:
+        serializedVersion: 2
+        x: 4309
+        y: 15
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c19e7a6096216c0800000000000000
+      internalID: -4174158427311235971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_83
+      rect:
+        serializedVersion: 2
+        x: 4341
+        y: 14
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41adca887aeaf0960800000000000000
+      internalID: 7570461533208893972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_84
+      rect:
+        serializedVersion: 2
+        x: 4372
+        y: 12
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9f9171903da3360800000000000000
+      internalID: 7150259394399828433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_85
+      rect:
+        serializedVersion: 2
+        x: 4404
+        y: 10
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c59fe2c44b013c60800000000000000
+      internalID: 7796024819911202248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_86
+      rect:
+        serializedVersion: 2
+        x: 4581
+        y: 8
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de48cf5d7012a1860800000000000000
+      internalID: 7501344446877566189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_87
+      rect:
+        serializedVersion: 2
+        x: 4611
+        y: 10
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2125aeae28738c5a0800000000000000
+      internalID: -6500885026682809838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_88
+      rect:
+        serializedVersion: 2
+        x: 4642
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f7c40127450a620800000000000000
+      internalID: 2783317418591420312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_89
+      rect:
+        serializedVersion: 2
+        x: 4674
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176d678474ea362d0800000000000000
+      internalID: -3286591681868671375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_90
+      rect:
+        serializedVersion: 2
+        x: 4707
+        y: 10
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872831e69f5aecb60800000000000000
+      internalID: 7768328897972896376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_91
+      rect:
+        serializedVersion: 2
+        x: 4741
+        y: 8
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029f0b0eb98f35ce0800000000000000
+      internalID: -1417516109318260448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_92
+      rect:
+        serializedVersion: 2
+        x: 3791
+        y: 7
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5394c0a8b9765f0800000000000000
+      internalID: -763470594602093102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_93
+      rect:
+        serializedVersion: 2
+        x: 4015
+        y: 7
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f9be3d9b91ec820800000000000000
+      internalID: 2940315892634591005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_94
+      rect:
+        serializedVersion: 2
+        x: 4552
+        y: 7
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e2b18b3465d06b0800000000000000
+      internalID: -5328507935257842076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-security-sidearm_95
+      rect:
+        serializedVersion: 2
+        x: 4776
+        y: 7
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6eb35543805d660800000000000000
+      internalID: 7409837782769329891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      outpost-security-sidearm_0: -5903516289651029145
+      outpost-security-sidearm_1: -2979645826316515378
+      outpost-security-sidearm_10: 3752443003530329052
+      outpost-security-sidearm_11: -2141240321664231298
+      outpost-security-sidearm_12: 7528084492089854667
+      outpost-security-sidearm_13: 6649796726218438369
+      outpost-security-sidearm_14: 7717286368311884739
+      outpost-security-sidearm_15: 4451443125146766295
+      outpost-security-sidearm_16: 1790571564277766592
+      outpost-security-sidearm_17: 2361896197428276143
+      outpost-security-sidearm_18: -7273163067408786476
+      outpost-security-sidearm_19: -5622836322273327681
+      outpost-security-sidearm_2: 6078384510707249684
+      outpost-security-sidearm_20: 847157921868159847
+      outpost-security-sidearm_21: 6276555939802892128
+      outpost-security-sidearm_22: -7918155822301041257
+      outpost-security-sidearm_23: 278251745799169214
+      outpost-security-sidearm_24: -6474632548654658818
+      outpost-security-sidearm_25: 6640815569289505665
+      outpost-security-sidearm_26: -2545556347832730308
+      outpost-security-sidearm_27: -5719630134674066473
+      outpost-security-sidearm_28: 2095141764477470673
+      outpost-security-sidearm_29: -5446731526151589111
+      outpost-security-sidearm_3: 775615559962649290
+      outpost-security-sidearm_30: 2533284810933468573
+      outpost-security-sidearm_31: -3276952348194998262
+      outpost-security-sidearm_32: 77698401362062614
+      outpost-security-sidearm_33: -6800312118699359818
+      outpost-security-sidearm_34: 7432961704686709152
+      outpost-security-sidearm_35: -8776540436244323112
+      outpost-security-sidearm_36: -2297992772487312647
+      outpost-security-sidearm_37: 5079405408877382653
+      outpost-security-sidearm_38: -1007863234202370841
+      outpost-security-sidearm_39: -7590294650323598969
+      outpost-security-sidearm_4: 8614039134475792634
+      outpost-security-sidearm_40: -1118682872571113656
+      outpost-security-sidearm_41: -7516424901770117981
+      outpost-security-sidearm_42: 5889479139373439516
+      outpost-security-sidearm_43: 8820660324057094424
+      outpost-security-sidearm_44: -7413472032688057477
+      outpost-security-sidearm_45: -9119738335943562636
+      outpost-security-sidearm_46: 6414922549377015490
+      outpost-security-sidearm_47: 1652699260707766410
+      outpost-security-sidearm_48: -6088727316593077215
+      outpost-security-sidearm_49: -3199841321702316717
+      outpost-security-sidearm_5: -6074891968632366172
+      outpost-security-sidearm_50: -8347694556368855487
+      outpost-security-sidearm_51: 7654099583625917438
+      outpost-security-sidearm_52: 6175477182771478054
+      outpost-security-sidearm_53: -4359208827766057322
+      outpost-security-sidearm_54: 2641256561999096778
+      outpost-security-sidearm_55: 7411362780933245511
+      outpost-security-sidearm_56: -5630114886491163124
+      outpost-security-sidearm_57: 1131368849390769993
+      outpost-security-sidearm_58: -1668757488172994692
+      outpost-security-sidearm_59: 7257188705166458522
+      outpost-security-sidearm_6: -5741571124778241882
+      outpost-security-sidearm_60: -965641929327390119
+      outpost-security-sidearm_61: 2222366610099544157
+      outpost-security-sidearm_62: 4890981306683881706
+      outpost-security-sidearm_63: 5828774316008954292
+      outpost-security-sidearm_64: 6913909900096971356
+      outpost-security-sidearm_65: 4351549051801232137
+      outpost-security-sidearm_66: -4873982634932990970
+      outpost-security-sidearm_67: -7862581869855725944
+      outpost-security-sidearm_68: -4797410999643139941
+      outpost-security-sidearm_69: -1448894033406339755
+      outpost-security-sidearm_7: -6847707284502769488
+      outpost-security-sidearm_70: -612834168001941804
+      outpost-security-sidearm_71: 5023024403793557294
+      outpost-security-sidearm_72: 2054641593961260609
+      outpost-security-sidearm_73: -2286382843373346190
+      outpost-security-sidearm_74: 4262818002667005686
+      outpost-security-sidearm_75: -5955567148371178064
+      outpost-security-sidearm_76: -3806087748111399673
+      outpost-security-sidearm_77: 4325418316146348965
+      outpost-security-sidearm_78: -5281008702638247660
+      outpost-security-sidearm_79: 2385269806454468829
+      outpost-security-sidearm_8: -5420488412537639673
+      outpost-security-sidearm_80: -2898256764841343179
+      outpost-security-sidearm_81: -6546011090169881822
+      outpost-security-sidearm_82: -4174158427311235971
+      outpost-security-sidearm_83: 7570461533208893972
+      outpost-security-sidearm_84: 7150259394399828433
+      outpost-security-sidearm_85: 7796024819911202248
+      outpost-security-sidearm_86: 7501344446877566189
+      outpost-security-sidearm_87: -6500885026682809838
+      outpost-security-sidearm_88: 2783317418591420312
+      outpost-security-sidearm_89: -3286591681868671375
+      outpost-security-sidearm_9: 4418208457545937617
+      outpost-security-sidearm_90: 7768328897972896376
+      outpost-security-sidearm_91: -1417516109318260448
+      outpost-security-sidearm_92: -763470594602093102
+      outpost-security-sidearm_93: 2940315892634591005
+      outpost-security-sidearm_94: -5328507935257842076
+      outpost-security-sidearm_95: 7409837782769329891
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

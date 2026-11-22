@@ -1,0 +1,188 @@
+ORBITAL OUTPOST — ASSET LIST
+0.14.3
+
+24 PROPS
+control_terminal
+server_rack
+cryopod
+cargo_crate
+oxygen_cylinder
+hologram_table
+locker
+medical_cabinet
+chemical_barrel
+power_cell
+pilot_chair
+workbench
+floor_vent
+communications_antenna
+radar_dish
+maintenance_drone
+station_bunk
+supply_shelf
+cable_reel
+tool_case
+supply_cart
+reactor_console
+hydroponic_planter
+fire_extinguisher
+
+24 TILES
+floor_plate
+floor_drain
+floor_service
+floor_rivets
+floor_hazard
+floor_cable
+floor_maintenance
+floor_landing
+wall_00
+wall_01
+wall_02
+wall_03
+wall_04
+wall_05
+wall_06
+wall_07
+wall_08
+wall_09
+wall_0a
+wall_0b
+wall_0c
+wall_0d
+wall_0e
+wall_0f
+
+4 EQUIPMENT CLIPS
+terminal_scan
+warning_beacon
+reactor_pulse
+vent_steam
+
+6 CHARACTERS
+Outpost Explorer
+idle_south
+walk_south
+idle_east
+walk_east
+idle_north
+walk_north
+idle_west
+walk_west
+scan_south
+scan_east
+scan_north
+scan_west
+
+Outpost Engineer
+idle_south
+walk_south
+idle_east
+walk_east
+idle_north
+walk_north
+idle_west
+walk_west
+repair_south
+repair_east
+repair_north
+repair_west
+
+Outpost Medic
+idle_south
+walk_south
+idle_east
+walk_east
+idle_north
+walk_north
+idle_west
+walk_west
+treat_south
+treat_east
+treat_north
+treat_west
+
+Outpost Security Officer
+idle_south
+walk_south
+idle_east
+walk_east
+idle_north
+walk_north
+idle_west
+walk_west
+aim_south
+aim_east
+aim_north
+aim_west
+fire_south
+fire_east
+fire_north
+fire_west
+armed_walk_south
+armed_walk_east
+armed_walk_north
+armed_walk_west
+draw_south
+holster_south
+draw_east
+holster_east
+draw_north
+holster_north
+draw_west
+holster_west
+
+Outpost Research Scientist
+idle_south
+walk_south
+idle_east
+walk_east
+idle_north
+walk_north
+idle_west
+walk_west
+examine_south
+examine_east
+examine_north
+examine_west
+
+Outpost Service Android
+idle_south
+walk_south
+idle_east
+walk_east
+idle_north
+walk_north
+idle_west
+walk_west
+carry_idle_south
+carry_walk_south
+carry_idle_east
+carry_walk_east
+carry_idle_north
+carry_walk_north
+carry_idle_west
+carry_walk_west
+lift_south
+lower_south
+lift_east
+lower_east
+lift_north
+lower_north
+lift_west
+lower_west
+
+100 character clips / 584 timed frames. Equipment adds 4 clips / 16 frames.
+Total 104 clips / 600 timed frames including holds. Ten editable sources.
+Lower and holster reuse reversed artwork. Four Android floor-cargo PNGs and
+the Security sidearm component are reused accessories, not extra designs.
+
+
+GODOT CHARACTER RESOURCES
+Twelve ready-made SpriteFrames libraries (six body + six shadow) contain all
+100 character clips / 584 timed cells per layer, with original weighted timing
+and loop flags. Six paired scenes set the feet pivot and nearest filtering;
+a shared visual script keeps shadows synchronized and forwards completion.
+Copy art/characters/ and godot-resources/ into your own Godot project root.
+See godot-resources/README.txt for setup, playback calls and action-state notes.
+These resources reuse the existing art and do not add character designs.

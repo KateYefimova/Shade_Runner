@@ -1,0 +1,2015 @@
+fileFormatVersion: 2
+guid: 9bbc5d5152c604bde9fbe2c7d6299c9c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7050134186741132791
+    second: outpost-scientist_0
+  - first:
+      213: -6288980476735828023
+    second: outpost-scientist_1
+  - first:
+      213: -6899247909636527607
+    second: outpost-scientist_2
+  - first:
+      213: -5879474663993720543
+    second: outpost-scientist_3
+  - first:
+      213: -1743396356095675480
+    second: outpost-scientist_4
+  - first:
+      213: 2656237763839226069
+    second: outpost-scientist_5
+  - first:
+      213: -8025739625820581513
+    second: outpost-scientist_6
+  - first:
+      213: 4521185615156778374
+    second: outpost-scientist_7
+  - first:
+      213: 8809080698452177688
+    second: outpost-scientist_8
+  - first:
+      213: -7213909554467097377
+    second: outpost-scientist_9
+  - first:
+      213: -2774196252579832314
+    second: outpost-scientist_10
+  - first:
+      213: -6692176351881845993
+    second: outpost-scientist_11
+  - first:
+      213: -8304521820422220417
+    second: outpost-scientist_12
+  - first:
+      213: 3100371233907621185
+    second: outpost-scientist_13
+  - first:
+      213: 2957391589833133281
+    second: outpost-scientist_14
+  - first:
+      213: -4864851541471149613
+    second: outpost-scientist_15
+  - first:
+      213: -7494487264136176126
+    second: outpost-scientist_16
+  - first:
+      213: 7917865127503630761
+    second: outpost-scientist_17
+  - first:
+      213: -591963909608310179
+    second: outpost-scientist_18
+  - first:
+      213: -3976716645765832696
+    second: outpost-scientist_19
+  - first:
+      213: -4991093583712226968
+    second: outpost-scientist_20
+  - first:
+      213: 8323009751833936674
+    second: outpost-scientist_21
+  - first:
+      213: 5494116902922621788
+    second: outpost-scientist_22
+  - first:
+      213: -5724694717033053485
+    second: outpost-scientist_23
+  - first:
+      213: -5115454752411908598
+    second: outpost-scientist_24
+  - first:
+      213: 5757524569305862192
+    second: outpost-scientist_25
+  - first:
+      213: 8459959320370131587
+    second: outpost-scientist_26
+  - first:
+      213: -1427834974081929764
+    second: outpost-scientist_27
+  - first:
+      213: 6870112549905939368
+    second: outpost-scientist_28
+  - first:
+      213: 2735551927723304621
+    second: outpost-scientist_29
+  - first:
+      213: 7946068010583011107
+    second: outpost-scientist_30
+  - first:
+      213: -387975101994983816
+    second: outpost-scientist_31
+  - first:
+      213: 1006339725457110091
+    second: outpost-scientist_32
+  - first:
+      213: 229897274367425220
+    second: outpost-scientist_33
+  - first:
+      213: -3268554261075874894
+    second: outpost-scientist_34
+  - first:
+      213: -6156213632523869659
+    second: outpost-scientist_35
+  - first:
+      213: 2621846302995823359
+    second: outpost-scientist_36
+  - first:
+      213: -2667635563372159156
+    second: outpost-scientist_37
+  - first:
+      213: 3241583578176029998
+    second: outpost-scientist_38
+  - first:
+      213: -6352556729904163055
+    second: outpost-scientist_39
+  - first:
+      213: 8486059217620147238
+    second: outpost-scientist_40
+  - first:
+      213: -7111037522542265673
+    second: outpost-scientist_41
+  - first:
+      213: 8910196085880039129
+    second: outpost-scientist_42
+  - first:
+      213: 6396675962357889044
+    second: outpost-scientist_43
+  - first:
+      213: 615222632860775848
+    second: outpost-scientist_44
+  - first:
+      213: 4768204356412188303
+    second: outpost-scientist_45
+  - first:
+      213: 3929254050179134801
+    second: outpost-scientist_46
+  - first:
+      213: -8725315158902059931
+    second: outpost-scientist_47
+  - first:
+      213: 8222346244584945030
+    second: outpost-scientist_48
+  - first:
+      213: -653012327524268934
+    second: outpost-scientist_49
+  - first:
+      213: 6221358604711787148
+    second: outpost-scientist_50
+  - first:
+      213: -9217853656668467718
+    second: outpost-scientist_51
+  - first:
+      213: 7304956120502733753
+    second: outpost-scientist_52
+  - first:
+      213: 1657788341966215898
+    second: outpost-scientist_53
+  - first:
+      213: 185482144490459228
+    second: outpost-scientist_54
+  - first:
+      213: -3837027354530851573
+    second: outpost-scientist_55
+  - first:
+      213: -8506349103061042670
+    second: outpost-scientist_56
+  - first:
+      213: 4778774638350929841
+    second: outpost-scientist_57
+  - first:
+      213: -3890107438824866571
+    second: outpost-scientist_58
+  - first:
+      213: 488205345788807906
+    second: outpost-scientist_59
+  - first:
+      213: 2503927329006081136
+    second: outpost-scientist_60
+  - first:
+      213: 4988382512704179787
+    second: outpost-scientist_61
+  - first:
+      213: 207549119388125171
+    second: outpost-scientist_62
+  - first:
+      213: 5142089110219287694
+    second: outpost-scientist_63
+  - first:
+      213: -4776801652236721588
+    second: outpost-scientist_64
+  - first:
+      213: 5923669970077879758
+    second: outpost-scientist_65
+  - first:
+      213: -4742281677552300793
+    second: outpost-scientist_66
+  - first:
+      213: -3106502784633776236
+    second: outpost-scientist_67
+  - first:
+      213: -825101866289576821
+    second: outpost-scientist_68
+  - first:
+      213: 1125553758857573719
+    second: outpost-scientist_69
+  - first:
+      213: 1830813206113522562
+    second: outpost-scientist_70
+  - first:
+      213: 8092755087095612214
+    second: outpost-scientist_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: outpost-scientist_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fdea8b80bb17d160800000000000000
+      internalID: 7050134186741132791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf4bcca39d09b8a0800000000000000
+      internalID: -6288980476735828023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 2
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a22c87492f040a0800000000000000
+      internalID: -6899247909636527607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121ceb2a1f8e76ea0800000000000000
+      internalID: -5879474663993720543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3f43440463ec7e0800000000000000
+      internalID: -1743396356095675480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d07d904c2adcd420800000000000000
+      internalID: 2656237763839226069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771103f1558de9090800000000000000
+      internalID: -8025739625820581513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685960bdc5a7ebe30800000000000000
+      internalID: 4521185615156778374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_8
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813fdf40934204a70800000000000000
+      internalID: 8809080698452177688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 2
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4313c2b7b03eb90800000000000000
+      internalID: -7213909554467097377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_10
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e52c3e4331089d0800000000000000
+      internalID: -2774196252579832314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_11
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 2
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71320db801d9023a0800000000000000
+      internalID: -6692176351881845993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_12
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 2
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75d040576960cc80800000000000000
+      internalID: -8304521820422220417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_13
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d37e4f53bb60b20800000000000000
+      internalID: 3100371233907621185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_14
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 2
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec4bb56bf3ca0920800000000000000
+      internalID: 2957391589833133281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_15
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 2
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1c9915c439c7cb0800000000000000
+      internalID: -4864851541471149613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_16
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 2
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e597f6a8b3ef790800000000000000
+      internalID: -7494487264136176126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_17
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 2
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a19e400268e1ed60800000000000000
+      internalID: 7917865127503630761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_18
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 2
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5af1f7e5fbe8c7f0800000000000000
+      internalID: -591963909608310179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_19
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 2
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800aebcb74ddfc8c0800000000000000
+      internalID: -3976716645765832696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_20
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861f91e54d21cbab0800000000000000
+      internalID: -4991093583712226968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_21
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 2
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2238c28a545418370800000000000000
+      internalID: 8323009751833936674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_22
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 2
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c531c21d6360f3c40800000000000000
+      internalID: 5494116902922621788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_23
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d280bf4c7ccd80b0800000000000000
+      internalID: -5724694717033053485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_24
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0687e961014209b0800000000000000
+      internalID: -5115454752411908598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_25
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0305f035716d6ef40800000000000000
+      internalID: 5757524569305862192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_26
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 2
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382bae8dd20d76570800000000000000
+      internalID: 8459959320370131587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_27
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdda7f3f7af4f2ce0800000000000000
+      internalID: -1427834974081929764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_28
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 2
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abb818f6fa875f50800000000000000
+      internalID: 6870112549905939368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_29
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 2
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da625941cf1a6f520800000000000000
+      internalID: 2735551927723304621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_30
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f25eb61ca164e60800000000000000
+      internalID: 7946068010583011107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_31
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 2
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e94e743b2ad9af0800000000000000
+      internalID: -387975101994983816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_32
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 2
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b443c3306ac37fd00800000000000000
+      internalID: 1006339725457110091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_33
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca308d5a52c03300800000000000000
+      internalID: 229897274367425220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_34
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 2
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bbab739733c3a2d0800000000000000
+      internalID: -3268554261075874894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_35
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 2
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5226ff7715cb09aa0800000000000000
+      internalID: -6156213632523869659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_36
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 2
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffabcb9425ba26420800000000000000
+      internalID: 2621846302995823359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_37
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 2
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fd00fb697aafad0800000000000000
+      internalID: -2667635563372159156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_38
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 2
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e250ce6f61b6cfc20800000000000000
+      internalID: 3241583578176029998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_39
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 2
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1179b8abf4f27d7a0800000000000000
+      internalID: -6352556729904163055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_40
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c9d29b5e984c570800000000000000
+      internalID: 8486059217620147238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_41
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7baf4649c05805d90800000000000000
+      internalID: -7111037522542265673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_42
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6a4f1c12067ab70800000000000000
+      internalID: 8910196085880039129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_43
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4183f9f85ee85c850800000000000000
+      internalID: 6396675962357889044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_44
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5727999b5b98800800000000000000
+      internalID: 615222632860775848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_45
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f862b6069901c2240800000000000000
+      internalID: 4768204356412188303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_46
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15531359db3878630800000000000000
+      internalID: 3929254050179134801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_47
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ccf48771479e680800000000000000
+      internalID: -8725315158902059931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_48
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685b0c87854ab1270800000000000000
+      internalID: 8222346244584945030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_49
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7407f77fb800f6f0800000000000000
+      internalID: -653012327524268934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_50
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a7a2650b4b65650800000000000000
+      internalID: 6221358604711787148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_51
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd8db200fa931080800000000000000
+      internalID: -9217853656668467718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_52
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb816663ea606560800000000000000
+      internalID: 7304956120502733753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_53
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada1ea3b6b5a10710800000000000000
+      internalID: 1657788341966215898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_54
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5018861707f29200800000000000000
+      internalID: 185482144490459228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_55
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b055bb353f320cac0800000000000000
+      internalID: -3837027354530851573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_56
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a75903f8063f980800000000000000
+      internalID: -8506349103061042670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_57
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf8d8ce63e915240800000000000000
+      internalID: 4778774638350929841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_58
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc3db225ef830ac0800000000000000
+      internalID: -3890107438824866571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_59
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea4035ec2476c600800000000000000
+      internalID: 488205345788807906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_60
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074dccca3acbfb220800000000000000
+      internalID: 2503927329006081136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_61
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ec089377b4a3540800000000000000
+      internalID: 4988382512704179787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_62
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7039e03dc51e200800000000000000
+      internalID: 207549119388125171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_63
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c66024dce5c5740800000000000000
+      internalID: 5142089110219287694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_64
+      rect:
+        serializedVersion: 2
+        x: 2053
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c426ee3b43465bdb0800000000000000
+      internalID: -4776801652236721588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_65
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd042de37a153250800000000000000
+      internalID: 5923669970077879758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_66
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70dc6a0a0f7003eb0800000000000000
+      internalID: -4742281677552300793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_67
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49754242d2c73e4d0800000000000000
+      internalID: -3106502784633776236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_68
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b844c446936ac84f0800000000000000
+      internalID: -825101866289576821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_69
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755bf442e25ce9f00800000000000000
+      internalID: 1125553758857573719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_70
+      rect:
+        serializedVersion: 2
+        x: 2245
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2839d7039ea586910800000000000000
+      internalID: 1830813206113522562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-scientist_71
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633c19cdfdd3f4070800000000000000
+      internalID: 8092755087095612214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      outpost-scientist_0: 7050134186741132791
+      outpost-scientist_1: -6288980476735828023
+      outpost-scientist_10: -2774196252579832314
+      outpost-scientist_11: -6692176351881845993
+      outpost-scientist_12: -8304521820422220417
+      outpost-scientist_13: 3100371233907621185
+      outpost-scientist_14: 2957391589833133281
+      outpost-scientist_15: -4864851541471149613
+      outpost-scientist_16: -7494487264136176126
+      outpost-scientist_17: 7917865127503630761
+      outpost-scientist_18: -591963909608310179
+      outpost-scientist_19: -3976716645765832696
+      outpost-scientist_2: -6899247909636527607
+      outpost-scientist_20: -4991093583712226968
+      outpost-scientist_21: 8323009751833936674
+      outpost-scientist_22: 5494116902922621788
+      outpost-scientist_23: -5724694717033053485
+      outpost-scientist_24: -5115454752411908598
+      outpost-scientist_25: 5757524569305862192
+      outpost-scientist_26: 8459959320370131587
+      outpost-scientist_27: -1427834974081929764
+      outpost-scientist_28: 6870112549905939368
+      outpost-scientist_29: 2735551927723304621
+      outpost-scientist_3: -5879474663993720543
+      outpost-scientist_30: 7946068010583011107
+      outpost-scientist_31: -387975101994983816
+      outpost-scientist_32: 1006339725457110091
+      outpost-scientist_33: 229897274367425220
+      outpost-scientist_34: -3268554261075874894
+      outpost-scientist_35: -6156213632523869659
+      outpost-scientist_36: 2621846302995823359
+      outpost-scientist_37: -2667635563372159156
+      outpost-scientist_38: 3241583578176029998
+      outpost-scientist_39: -6352556729904163055
+      outpost-scientist_4: -1743396356095675480
+      outpost-scientist_40: 8486059217620147238
+      outpost-scientist_41: -7111037522542265673
+      outpost-scientist_42: 8910196085880039129
+      outpost-scientist_43: 6396675962357889044
+      outpost-scientist_44: 615222632860775848
+      outpost-scientist_45: 4768204356412188303
+      outpost-scientist_46: 3929254050179134801
+      outpost-scientist_47: -8725315158902059931
+      outpost-scientist_48: 8222346244584945030
+      outpost-scientist_49: -653012327524268934
+      outpost-scientist_5: 2656237763839226069
+      outpost-scientist_50: 6221358604711787148
+      outpost-scientist_51: -9217853656668467718
+      outpost-scientist_52: 7304956120502733753
+      outpost-scientist_53: 1657788341966215898
+      outpost-scientist_54: 185482144490459228
+      outpost-scientist_55: -3837027354530851573
+      outpost-scientist_56: -8506349103061042670
+      outpost-scientist_57: 4778774638350929841
+      outpost-scientist_58: -3890107438824866571
+      outpost-scientist_59: 488205345788807906
+      outpost-scientist_6: -8025739625820581513
+      outpost-scientist_60: 2503927329006081136
+      outpost-scientist_61: 4988382512704179787
+      outpost-scientist_62: 207549119388125171
+      outpost-scientist_63: 5142089110219287694
+      outpost-scientist_64: -4776801652236721588
+      outpost-scientist_65: 5923669970077879758
+      outpost-scientist_66: -4742281677552300793
+      outpost-scientist_67: -3106502784633776236
+      outpost-scientist_68: -825101866289576821
+      outpost-scientist_69: 1125553758857573719
+      outpost-scientist_7: 4521185615156778374
+      outpost-scientist_70: 1830813206113522562
+      outpost-scientist_71: 8092755087095612214
+      outpost-scientist_8: 8809080698452177688
+      outpost-scientist_9: -7213909554467097377
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

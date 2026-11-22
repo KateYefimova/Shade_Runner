@@ -1,0 +1,254 @@
+{
+  "image": "tiles.png",
+  "size": [
+    256,
+    96
+  ],
+  "cell": [
+    32,
+    32
+  ],
+  "padding": 0,
+  "frames": [
+    {
+      "name": "floor_plate",
+      "rect": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "file": "art/tiles/floor_plate.png"
+    },
+    {
+      "name": "floor_drain",
+      "rect": [
+        32,
+        0,
+        32,
+        32
+      ],
+      "file": "art/tiles/floor_drain.png"
+    },
+    {
+      "name": "floor_service",
+      "rect": [
+        64,
+        0,
+        32,
+        32
+      ],
+      "file": "art/tiles/floor_service.png"
+    },
+    {
+      "name": "floor_rivets",
+      "rect": [
+        96,
+        0,
+        32,
+        32
+      ],
+      "file": "art/tiles/floor_rivets.png"
+    },
+    {
+      "name": "floor_hazard",
+      "rect": [
+        128,
+        0,
+        32,
+        32
+      ],
+      "file": "art/tiles/floor_hazard.png"
+    },
+    {
+      "name": "floor_cable",
+      "rect": [
+        160,
+        0,
+        32,
+        32
+      ],
+      "file": "art/tiles/floor_cable.png"
+    },
+    {
+      "name": "floor_maintenance",
+      "rect": [
+        192,
+        0,
+        32,
+        32
+      ],
+      "file": "art/tiles/floor_maintenance.png"
+    },
+    {
+      "name": "floor_landing",
+      "rect": [
+        224,
+        0,
+        32,
+        32
+      ],
+      "file": "art/tiles/floor_landing.png"
+    },
+    {
+      "name": "wall_00",
+      "rect": [
+        0,
+        32,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_00.png"
+    },
+    {
+      "name": "wall_01",
+      "rect": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_01.png"
+    },
+    {
+      "name": "wall_02",
+      "rect": [
+        64,
+        32,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_02.png"
+    },
+    {
+      "name": "wall_03",
+      "rect": [
+        96,
+        32,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_03.png"
+    },
+    {
+      "name": "wall_04",
+      "rect": [
+        128,
+        32,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_04.png"
+    },
+    {
+      "name": "wall_05",
+      "rect": [
+        160,
+        32,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_05.png"
+    },
+    {
+      "name": "wall_06",
+      "rect": [
+        192,
+        32,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_06.png"
+    },
+    {
+      "name": "wall_07",
+      "rect": [
+        224,
+        32,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_07.png"
+    },
+    {
+      "name": "wall_08",
+      "rect": [
+        0,
+        64,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_08.png"
+    },
+    {
+      "name": "wall_09",
+      "rect": [
+        32,
+        64,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_09.png"
+    },
+    {
+      "name": "wall_0a",
+      "rect": [
+        64,
+        64,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_0a.png"
+    },
+    {
+      "name": "wall_0b",
+      "rect": [
+        96,
+        64,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_0b.png"
+    },
+    {
+      "name": "wall_0c",
+      "rect": [
+        128,
+        64,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_0c.png"
+    },
+    {
+      "name": "wall_0d",
+      "rect": [
+        160,
+        64,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_0d.png"
+    },
+    {
+      "name": "wall_0e",
+      "rect": [
+        192,
+        64,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_0e.png"
+    },
+    {
+      "name": "wall_0f",
+      "rect": [
+        224,
+        64,
+        32,
+        32
+      ],
+      "file": "art/tiles/wall_0f.png"
+    }
+  ]
+}

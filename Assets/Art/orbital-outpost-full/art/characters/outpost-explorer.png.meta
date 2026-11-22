@@ -1,0 +1,2379 @@
+fileFormatVersion: 2
+guid: 7914c8d2b76114dd38e94135258fe3d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -619252364325510683
+    second: outpost-explorer_0
+  - first:
+      213: 9201528822645972154
+    second: outpost-explorer_1
+  - first:
+      213: -6165493895191547491
+    second: outpost-explorer_2
+  - first:
+      213: -8031115741542778265
+    second: outpost-explorer_3
+  - first:
+      213: -644546364427349507
+    second: outpost-explorer_4
+  - first:
+      213: -2990381652118988197
+    second: outpost-explorer_5
+  - first:
+      213: -5478314287956621949
+    second: outpost-explorer_6
+  - first:
+      213: 8385722127869785433
+    second: outpost-explorer_7
+  - first:
+      213: -6522685448095294539
+    second: outpost-explorer_8
+  - first:
+      213: 8318838425885064502
+    second: outpost-explorer_9
+  - first:
+      213: 3159764234577904559
+    second: outpost-explorer_10
+  - first:
+      213: -53525884995299952
+    second: outpost-explorer_11
+  - first:
+      213: -4415143622600041882
+    second: outpost-explorer_12
+  - first:
+      213: -4462572277851663772
+    second: outpost-explorer_13
+  - first:
+      213: -8274268146406542210
+    second: outpost-explorer_14
+  - first:
+      213: -1421681071050896381
+    second: outpost-explorer_15
+  - first:
+      213: -5863446803914803889
+    second: outpost-explorer_16
+  - first:
+      213: 4162736755407712256
+    second: outpost-explorer_17
+  - first:
+      213: -2710555163759007802
+    second: outpost-explorer_18
+  - first:
+      213: -7979826072186042737
+    second: outpost-explorer_19
+  - first:
+      213: -359273603398439175
+    second: outpost-explorer_20
+  - first:
+      213: -6555037627342364543
+    second: outpost-explorer_21
+  - first:
+      213: -391016736977970416
+    second: outpost-explorer_22
+  - first:
+      213: -6375297118807537921
+    second: outpost-explorer_23
+  - first:
+      213: -527039129546982477
+    second: outpost-explorer_24
+  - first:
+      213: 7473363163920823005
+    second: outpost-explorer_25
+  - first:
+      213: 5673433605281621404
+    second: outpost-explorer_26
+  - first:
+      213: -5044797746207237742
+    second: outpost-explorer_27
+  - first:
+      213: -2143215175249087170
+    second: outpost-explorer_28
+  - first:
+      213: 175535916034991063
+    second: outpost-explorer_29
+  - first:
+      213: 6217473299575307146
+    second: outpost-explorer_30
+  - first:
+      213: 777384748085563615
+    second: outpost-explorer_31
+  - first:
+      213: 3556694567553468755
+    second: outpost-explorer_32
+  - first:
+      213: 4507838723079941647
+    second: outpost-explorer_33
+  - first:
+      213: 6568134113037346209
+    second: outpost-explorer_34
+  - first:
+      213: -558291206189837208
+    second: outpost-explorer_35
+  - first:
+      213: -1145933851333535583
+    second: outpost-explorer_36
+  - first:
+      213: -3711982995601977010
+    second: outpost-explorer_37
+  - first:
+      213: 825430410653855504
+    second: outpost-explorer_38
+  - first:
+      213: 693833978776125475
+    second: outpost-explorer_39
+  - first:
+      213: -1859872759801787014
+    second: outpost-explorer_40
+  - first:
+      213: 7461621462361332492
+    second: outpost-explorer_41
+  - first:
+      213: 4017125270876694469
+    second: outpost-explorer_42
+  - first:
+      213: -5388407102674458052
+    second: outpost-explorer_43
+  - first:
+      213: -2002097257846179049
+    second: outpost-explorer_44
+  - first:
+      213: 5331939480540890736
+    second: outpost-explorer_45
+  - first:
+      213: -8237395434805742316
+    second: outpost-explorer_46
+  - first:
+      213: -5709256354085762786
+    second: outpost-explorer_47
+  - first:
+      213: -6387324259961731805
+    second: outpost-explorer_48
+  - first:
+      213: 5872628279796405164
+    second: outpost-explorer_49
+  - first:
+      213: 5779737207078838551
+    second: outpost-explorer_50
+  - first:
+      213: -3064586223507114829
+    second: outpost-explorer_51
+  - first:
+      213: 7873664388683901887
+    second: outpost-explorer_52
+  - first:
+      213: 4750351886266191803
+    second: outpost-explorer_53
+  - first:
+      213: -1654209940564794020
+    second: outpost-explorer_54
+  - first:
+      213: 1303901468381545796
+    second: outpost-explorer_55
+  - first:
+      213: 2259475874648039482
+    second: outpost-explorer_56
+  - first:
+      213: -3614837449188055568
+    second: outpost-explorer_57
+  - first:
+      213: -3794892938584981961
+    second: outpost-explorer_58
+  - first:
+      213: -3818441919810619725
+    second: outpost-explorer_59
+  - first:
+      213: 4323997401034217320
+    second: outpost-explorer_60
+  - first:
+      213: 9136756250614861824
+    second: outpost-explorer_61
+  - first:
+      213: -8234589326938672396
+    second: outpost-explorer_62
+  - first:
+      213: -2441027955020761908
+    second: outpost-explorer_63
+  - first:
+      213: 488436059718099436
+    second: outpost-explorer_64
+  - first:
+      213: 5063215747584147530
+    second: outpost-explorer_65
+  - first:
+      213: 1191579095494251478
+    second: outpost-explorer_66
+  - first:
+      213: -6762110112109364693
+    second: outpost-explorer_67
+  - first:
+      213: -1209280527483889127
+    second: outpost-explorer_68
+  - first:
+      213: -4970746409567292934
+    second: outpost-explorer_69
+  - first:
+      213: 4467699764070687214
+    second: outpost-explorer_70
+  - first:
+      213: -2758155213233189439
+    second: outpost-explorer_71
+  - first:
+      213: 1480555921246597437
+    second: outpost-explorer_72
+  - first:
+      213: 5693117529559115560
+    second: outpost-explorer_73
+  - first:
+      213: 8124516815761419516
+    second: outpost-explorer_74
+  - first:
+      213: -3380939943121261784
+    second: outpost-explorer_75
+  - first:
+      213: 8663258335670160753
+    second: outpost-explorer_76
+  - first:
+      213: -1062162944987301647
+    second: outpost-explorer_77
+  - first:
+      213: -849197515584425223
+    second: outpost-explorer_78
+  - first:
+      213: -1702130797387186410
+    second: outpost-explorer_79
+  - first:
+      213: 2117451813090483248
+    second: outpost-explorer_80
+  - first:
+      213: -5950474504034268895
+    second: outpost-explorer_81
+  - first:
+      213: -612488344245342532
+    second: outpost-explorer_82
+  - first:
+      213: 432586592691780793
+    second: outpost-explorer_83
+  - first:
+      213: -9141451993071553178
+    second: outpost-explorer_84
+  - first:
+      213: 4252932240641549475
+    second: outpost-explorer_85
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: outpost-explorer_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1ae0e6149f767f0800000000000000
+      internalID: -619252364325510683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abcd45066b562bf70800000000000000
+      internalID: 9201528822645972154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 2
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91b440f7f3cf6aa0800000000000000
+      internalID: -6165493895191547491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a7b43a8cebb8090800000000000000
+      internalID: -8031115741542778265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1d90b1f7c1e07f0800000000000000
+      internalID: -644546364427349507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a1a9a2bb70086d0800000000000000
+      internalID: -2990381652118988197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38506623e2e19f3b0800000000000000
+      internalID: -5478314287956621949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955bfc888d1106470800000000000000
+      internalID: 8385722127869785433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_8
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb9ba4c424ca75a0800000000000000
+      internalID: -6522685448095294539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 2
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63dbfb62973727370800000000000000
+      internalID: 8318838425885064502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_10
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3000884dcb9db20800000000000000
+      internalID: 3159764234577904559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_11
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 2
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095119ebd76d14ff0800000000000000
+      internalID: -53525884995299952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_12
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 2
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ad79684424ab2c0800000000000000
+      internalID: -4415143622600041882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_13
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46255223822c112c0800000000000000
+      internalID: -4462572277851663772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_14
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 2
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74bb15b5f4eb2d80800000000000000
+      internalID: -8274268146406542210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_15
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c4d18299c254ce0800000000000000
+      internalID: -1421681071050896381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_16
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 2
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45324d923ad0aea0800000000000000
+      internalID: -5863446803914803889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_17
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 2
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000f98f160305c930800000000000000
+      internalID: 4162736755407712256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_18
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c72b00907c226ad0800000000000000
+      internalID: -2710555163759007802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_19
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 2
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8643fd5776f14190800000000000000
+      internalID: -7979826072186042737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_20
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fee24caf8a930bf0800000000000000
+      internalID: -359273603398439175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_21
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 2
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18060fc0204d705a0800000000000000
+      internalID: -6555037627342364543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_22
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 2
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b12337954d29af0800000000000000
+      internalID: -391016736977970416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_23
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6c7e75c056687a0800000000000000
+      internalID: -6375297118807537921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_24
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bbfe9c34b49fa8f0800000000000000
+      internalID: -527039129546982477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_25
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd27df6b338b6b760800000000000000
+      internalID: 7473363163920823005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_26
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 2
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95239b0ec51cbe40800000000000000
+      internalID: 5673433605281621404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_27
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29950a5ad274df9b0800000000000000
+      internalID: -5044797746207237742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_28
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 2
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e353d024725c142e0800000000000000
+      internalID: -2143215175249087170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_29
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 2
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3a6905cf0af6200800000000000000
+      internalID: 175535916034991063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_30
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b79ad3607e84650800000000000000
+      internalID: 6217473299575307146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_31
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 8
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd052734f43d9ca00800000000000000
+      internalID: 777384748085563615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_32
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 2
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35906917ddaeb5130800000000000000
+      internalID: 3556694567553468755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_33
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 9
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e2ee16f6f0f8e30800000000000000
+      internalID: 4507838723079941647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_34
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 2
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a567b42d23b62b50800000000000000
+      internalID: 6568134113037346209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_35
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 9
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86494dd1b1d8048f0800000000000000
+      internalID: -558291206189837208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_36
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a85b2fcb33d810f0800000000000000
+      internalID: -1145933851333535583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_37
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 8
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e419ad6e1236c7cc0800000000000000
+      internalID: -3711982995601977010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_38
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 2
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01fe3ddc594847b00800000000000000
+      internalID: 825430410653855504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_39
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 2
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3200c0ed35ef0a900800000000000000
+      internalID: 693833978776125475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_40
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 2
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7dc69834976036e0800000000000000
+      internalID: -1859872759801787014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_41
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 9
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b5a78cf210d8760800000000000000
+      internalID: 7461621462361332492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_42
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 2
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7a9d47622bfb730800000000000000
+      internalID: 4017125270876694469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_43
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 2
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3aa5e30a488835b0800000000000000
+      internalID: -5388407102674458052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_44
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 2
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b7b4cc62f1734e0800000000000000
+      internalID: -2002097257846179049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_45
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 9
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076458d25badef940800000000000000
+      internalID: 5331939480540890736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_46
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415baf1ee74eead80800000000000000
+      internalID: -8237395434805742316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_47
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19831b4895a4c0b0800000000000000
+      internalID: -5709256354085762786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_48
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3250fb35d6aab57a0800000000000000
+      internalID: -6387324259961731805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_49
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca39d235e44cf7150800000000000000
+      internalID: 5872628279796405164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_50
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 2
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711ea031e50c53050800000000000000
+      internalID: 5779737207078838551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_51
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b47d4c01176875d0800000000000000
+      internalID: -3064586223507114829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_52
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbba5288b00e44d60800000000000000
+      internalID: 7873664388683901887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_53
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfc0034fd3ace140800000000000000
+      internalID: 4750351886266191803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_54
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5527bcc2d01b09e0800000000000000
+      internalID: -1654209940564794020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_55
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4450ef42a73681210800000000000000
+      internalID: 1303901468381545796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_56
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3026f636554b5f10800000000000000
+      internalID: 2259475874648039482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_57
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 2
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5ed500e7485ddc0800000000000000
+      internalID: -3614837449188055568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_58
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 2
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ef0038af4d55bc0800000000000000
+      internalID: -3794892938584981961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_59
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 2
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b63a3e0e4b220bc0800000000000000
+      internalID: -3818441919810619725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_60
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 2
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8675b5a0abce10c30800000000000000
+      internalID: 4323997401034217320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_61
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0009a3db6674cce70800000000000000
+      internalID: 9136756250614861824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_62
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2f898c2acd8bd80800000000000000
+      internalID: -8234589326938672396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_63
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4703e020abf1ed0800000000000000
+      internalID: -2441027955020761908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_64
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 2
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce12dfa220647c600800000000000000
+      internalID: 488436059718099436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_65
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 2
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40cae775e7244640800000000000000
+      internalID: 5063215747584147530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_66
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d357b4cfd6598010800000000000000
+      internalID: 1191579095494251478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_67
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 2
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2af4a32ea82822a0800000000000000
+      internalID: -6762110112109364693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_68
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a968d64c5c73fe0800000000000000
+      internalID: -1209280527483889127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_69
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af171350a7c540bb0800000000000000
+      internalID: -4970746409567292934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_70
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1a788b345700e30800000000000000
+      internalID: 4467699764070687214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_71
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 8
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd08d7627019b9d0800000000000000
+      internalID: -2758155213233189439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_72
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31310c14cdfb8410800000000000000
+      internalID: 1480555921246597437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_73
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 8
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827abedca34020f40800000000000000
+      internalID: 5693117529559115560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_74
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 2
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfca5279ff410c070800000000000000
+      internalID: 8124516815761419516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_75
+      rect:
+        serializedVersion: 2
+        x: 2131
+        y: 8
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82be353e80d7411d0800000000000000
+      internalID: -3380939943121261784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_76
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17dcf0f6e831a3870800000000000000
+      internalID: 8663258335670160753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_77
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 8
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8f27add607241f0800000000000000
+      internalID: -1062162944987301647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_78
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 2
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2327bdb5b0734f0800000000000000
+      internalID: -849197515584425223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_79
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 8
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ffb7cde01d068e0800000000000000
+      internalID: -1702130797387186410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_80
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 2
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03cd34c8433b26d10800000000000000
+      internalID: 2117451813090483248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_81
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 8
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129c40e27faab6da0800000000000000
+      internalID: -5950474504034268895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_82
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 2
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe603498110087f0800000000000000
+      internalID: -612488344245342532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_83
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 8
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc7dffc63bd00600800000000000000
+      internalID: 432586592691780793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_84
+      rect:
+        serializedVersion: 2
+        x: 2281
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665fea588d9032180800000000000000
+      internalID: -9141451993071553178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-explorer_85
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 8
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4ee310753750b30800000000000000
+      internalID: 4252932240641549475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      outpost-explorer_0: -619252364325510683
+      outpost-explorer_1: 9201528822645972154
+      outpost-explorer_10: 3159764234577904559
+      outpost-explorer_11: -53525884995299952
+      outpost-explorer_12: -4415143622600041882
+      outpost-explorer_13: -4462572277851663772
+      outpost-explorer_14: -8274268146406542210
+      outpost-explorer_15: -1421681071050896381
+      outpost-explorer_16: -5863446803914803889
+      outpost-explorer_17: 4162736755407712256
+      outpost-explorer_18: -2710555163759007802
+      outpost-explorer_19: -7979826072186042737
+      outpost-explorer_2: -6165493895191547491
+      outpost-explorer_20: -359273603398439175
+      outpost-explorer_21: -6555037627342364543
+      outpost-explorer_22: -391016736977970416
+      outpost-explorer_23: -6375297118807537921
+      outpost-explorer_24: -527039129546982477
+      outpost-explorer_25: 7473363163920823005
+      outpost-explorer_26: 5673433605281621404
+      outpost-explorer_27: -5044797746207237742
+      outpost-explorer_28: -2143215175249087170
+      outpost-explorer_29: 175535916034991063
+      outpost-explorer_3: -8031115741542778265
+      outpost-explorer_30: 6217473299575307146
+      outpost-explorer_31: 777384748085563615
+      outpost-explorer_32: 3556694567553468755
+      outpost-explorer_33: 4507838723079941647
+      outpost-explorer_34: 6568134113037346209
+      outpost-explorer_35: -558291206189837208
+      outpost-explorer_36: -1145933851333535583
+      outpost-explorer_37: -3711982995601977010
+      outpost-explorer_38: 825430410653855504
+      outpost-explorer_39: 693833978776125475
+      outpost-explorer_4: -644546364427349507
+      outpost-explorer_40: -1859872759801787014
+      outpost-explorer_41: 7461621462361332492
+      outpost-explorer_42: 4017125270876694469
+      outpost-explorer_43: -5388407102674458052
+      outpost-explorer_44: -2002097257846179049
+      outpost-explorer_45: 5331939480540890736
+      outpost-explorer_46: -8237395434805742316
+      outpost-explorer_47: -5709256354085762786
+      outpost-explorer_48: -6387324259961731805
+      outpost-explorer_49: 5872628279796405164
+      outpost-explorer_5: -2990381652118988197
+      outpost-explorer_50: 5779737207078838551
+      outpost-explorer_51: -3064586223507114829
+      outpost-explorer_52: 7873664388683901887
+      outpost-explorer_53: 4750351886266191803
+      outpost-explorer_54: -1654209940564794020
+      outpost-explorer_55: 1303901468381545796
+      outpost-explorer_56: 2259475874648039482
+      outpost-explorer_57: -3614837449188055568
+      outpost-explorer_58: -3794892938584981961
+      outpost-explorer_59: -3818441919810619725
+      outpost-explorer_6: -5478314287956621949
+      outpost-explorer_60: 4323997401034217320
+      outpost-explorer_61: 9136756250614861824
+      outpost-explorer_62: -8234589326938672396
+      outpost-explorer_63: -2441027955020761908
+      outpost-explorer_64: 488436059718099436
+      outpost-explorer_65: 5063215747584147530
+      outpost-explorer_66: 1191579095494251478
+      outpost-explorer_67: -6762110112109364693
+      outpost-explorer_68: -1209280527483889127
+      outpost-explorer_69: -4970746409567292934
+      outpost-explorer_7: 8385722127869785433
+      outpost-explorer_70: 4467699764070687214
+      outpost-explorer_71: -2758155213233189439
+      outpost-explorer_72: 1480555921246597437
+      outpost-explorer_73: 5693117529559115560
+      outpost-explorer_74: 8124516815761419516
+      outpost-explorer_75: -3380939943121261784
+      outpost-explorer_76: 8663258335670160753
+      outpost-explorer_77: -1062162944987301647
+      outpost-explorer_78: -849197515584425223
+      outpost-explorer_79: -1702130797387186410
+      outpost-explorer_8: -6522685448095294539
+      outpost-explorer_80: 2117451813090483248
+      outpost-explorer_81: -5950474504034268895
+      outpost-explorer_82: -612488344245342532
+      outpost-explorer_83: 432586592691780793
+      outpost-explorer_84: -9141451993071553178
+      outpost-explorer_85: 4252932240641549475
+      outpost-explorer_9: 8318838425885064502
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

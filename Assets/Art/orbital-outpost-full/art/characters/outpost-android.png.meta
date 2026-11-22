@@ -1,0 +1,3991 @@
+fileFormatVersion: 2
+guid: 8b9a2b5b37e1d4f7091dc10a63f44f03
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6920595175271526802
+    second: outpost-android_0
+  - first:
+      213: 8660400575533344156
+    second: outpost-android_1
+  - first:
+      213: 8325258068185201731
+    second: outpost-android_2
+  - first:
+      213: 6059617706700396362
+    second: outpost-android_3
+  - first:
+      213: 8592309958318775405
+    second: outpost-android_4
+  - first:
+      213: 6269848979126853123
+    second: outpost-android_5
+  - first:
+      213: 306015404440690750
+    second: outpost-android_6
+  - first:
+      213: -139656966181620302
+    second: outpost-android_7
+  - first:
+      213: -6070617104420918773
+    second: outpost-android_8
+  - first:
+      213: -9138341023192339661
+    second: outpost-android_9
+  - first:
+      213: -7899319839479310067
+    second: outpost-android_10
+  - first:
+      213: -5698455939290044518
+    second: outpost-android_11
+  - first:
+      213: 2133110062250870454
+    second: outpost-android_12
+  - first:
+      213: 4650888562432152947
+    second: outpost-android_13
+  - first:
+      213: 7448139300187688373
+    second: outpost-android_14
+  - first:
+      213: -414559538181519914
+    second: outpost-android_15
+  - first:
+      213: 7159126665061397732
+    second: outpost-android_16
+  - first:
+      213: -473208100252426630
+    second: outpost-android_17
+  - first:
+      213: -4952562809604765740
+    second: outpost-android_18
+  - first:
+      213: 2229561807952230205
+    second: outpost-android_19
+  - first:
+      213: -8740943414098632188
+    second: outpost-android_20
+  - first:
+      213: 8679982028036790598
+    second: outpost-android_21
+  - first:
+      213: -3192886768060864226
+    second: outpost-android_22
+  - first:
+      213: -2609462759901035347
+    second: outpost-android_23
+  - first:
+      213: -4251932828115982000
+    second: outpost-android_24
+  - first:
+      213: -4564965765303184519
+    second: outpost-android_25
+  - first:
+      213: -1772680248439936540
+    second: outpost-android_26
+  - first:
+      213: 4353602296049369142
+    second: outpost-android_27
+  - first:
+      213: 3054242484120104503
+    second: outpost-android_28
+  - first:
+      213: 3090954597786091949
+    second: outpost-android_29
+  - first:
+      213: -5444795456097954607
+    second: outpost-android_30
+  - first:
+      213: 1716513300918326606
+    second: outpost-android_31
+  - first:
+      213: 4249680336301087311
+    second: outpost-android_32
+  - first:
+      213: -2083953403950745885
+    second: outpost-android_33
+  - first:
+      213: 2882139804956872376
+    second: outpost-android_34
+  - first:
+      213: 1635342599233024506
+    second: outpost-android_35
+  - first:
+      213: -5637849487118093985
+    second: outpost-android_36
+  - first:
+      213: 2675587256753246765
+    second: outpost-android_37
+  - first:
+      213: -2351744566172025695
+    second: outpost-android_38
+  - first:
+      213: 4750367230336193265
+    second: outpost-android_39
+  - first:
+      213: -6295762340571431000
+    second: outpost-android_40
+  - first:
+      213: -6835965600703366065
+    second: outpost-android_41
+  - first:
+      213: 1503162441674159484
+    second: outpost-android_42
+  - first:
+      213: 501050329174164024
+    second: outpost-android_43
+  - first:
+      213: 993165189017929489
+    second: outpost-android_44
+  - first:
+      213: 3365120748691475783
+    second: outpost-android_45
+  - first:
+      213: -1577800565121653442
+    second: outpost-android_46
+  - first:
+      213: -6594602110239290460
+    second: outpost-android_47
+  - first:
+      213: -3778628529146104335
+    second: outpost-android_48
+  - first:
+      213: -2544213947088476232
+    second: outpost-android_49
+  - first:
+      213: -6961009127515433514
+    second: outpost-android_50
+  - first:
+      213: 7357758356688105348
+    second: outpost-android_51
+  - first:
+      213: -2718011916398637547
+    second: outpost-android_52
+  - first:
+      213: -2866183155184478309
+    second: outpost-android_53
+  - first:
+      213: -152726424761281825
+    second: outpost-android_54
+  - first:
+      213: 544425566236858221
+    second: outpost-android_55
+  - first:
+      213: -1853754809452709854
+    second: outpost-android_56
+  - first:
+      213: 4328924562788626567
+    second: outpost-android_57
+  - first:
+      213: -1083147163491724873
+    second: outpost-android_58
+  - first:
+      213: 2235827771667751223
+    second: outpost-android_59
+  - first:
+      213: 2792628362549287164
+    second: outpost-android_60
+  - first:
+      213: -7327952747179668765
+    second: outpost-android_61
+  - first:
+      213: 9126154417366755514
+    second: outpost-android_62
+  - first:
+      213: 5967267154048893021
+    second: outpost-android_63
+  - first:
+      213: 4526702500236684998
+    second: outpost-android_64
+  - first:
+      213: -6726542326043829215
+    second: outpost-android_65
+  - first:
+      213: 1794328996020274218
+    second: outpost-android_66
+  - first:
+      213: 8838987096171099218
+    second: outpost-android_67
+  - first:
+      213: -2003262472409743117
+    second: outpost-android_68
+  - first:
+      213: 1938565699449609620
+    second: outpost-android_69
+  - first:
+      213: -6213983736694303266
+    second: outpost-android_70
+  - first:
+      213: -6940637754719750311
+    second: outpost-android_71
+  - first:
+      213: 652215713443237933
+    second: outpost-android_72
+  - first:
+      213: -5928698257485227680
+    second: outpost-android_73
+  - first:
+      213: 3833782889240388087
+    second: outpost-android_74
+  - first:
+      213: 2883930135096228003
+    second: outpost-android_75
+  - first:
+      213: -3532215229795958566
+    second: outpost-android_76
+  - first:
+      213: -5232819860108545698
+    second: outpost-android_77
+  - first:
+      213: 2220970887246846177
+    second: outpost-android_78
+  - first:
+      213: 8384011876911713419
+    second: outpost-android_79
+  - first:
+      213: -4727605580444370316
+    second: outpost-android_80
+  - first:
+      213: 6298403460991508964
+    second: outpost-android_81
+  - first:
+      213: -6073400906294695573
+    second: outpost-android_82
+  - first:
+      213: 9046400231990428932
+    second: outpost-android_83
+  - first:
+      213: 295131207530464130
+    second: outpost-android_84
+  - first:
+      213: 9211234542041865053
+    second: outpost-android_85
+  - first:
+      213: -5614937223166090937
+    second: outpost-android_86
+  - first:
+      213: -4267050382238908116
+    second: outpost-android_87
+  - first:
+      213: 2503485210869212414
+    second: outpost-android_88
+  - first:
+      213: 207570733816849246
+    second: outpost-android_89
+  - first:
+      213: 4753736571554564755
+    second: outpost-android_90
+  - first:
+      213: 6072503810174772939
+    second: outpost-android_91
+  - first:
+      213: 4043530675594399295
+    second: outpost-android_92
+  - first:
+      213: -882387018346443167
+    second: outpost-android_93
+  - first:
+      213: 5897295850241276558
+    second: outpost-android_94
+  - first:
+      213: -8944995161936396568
+    second: outpost-android_95
+  - first:
+      213: 2841701120296135862
+    second: outpost-android_96
+  - first:
+      213: 6271807300944436345
+    second: outpost-android_97
+  - first:
+      213: 3246731761865372286
+    second: outpost-android_98
+  - first:
+      213: -5077293948598433637
+    second: outpost-android_99
+  - first:
+      213: 6390612530145889967
+    second: outpost-android_100
+  - first:
+      213: 7332680204373430588
+    second: outpost-android_101
+  - first:
+      213: 6173059663612900189
+    second: outpost-android_102
+  - first:
+      213: 2550906598268361369
+    second: outpost-android_103
+  - first:
+      213: 8945013074901698711
+    second: outpost-android_104
+  - first:
+      213: -2911825266805148864
+    second: outpost-android_105
+  - first:
+      213: 6063016261202120236
+    second: outpost-android_106
+  - first:
+      213: -6768230949125086503
+    second: outpost-android_107
+  - first:
+      213: -63849767586002746
+    second: outpost-android_108
+  - first:
+      213: 6719815096776597575
+    second: outpost-android_109
+  - first:
+      213: 6829815193969251435
+    second: outpost-android_110
+  - first:
+      213: 1941177730172271153
+    second: outpost-android_111
+  - first:
+      213: -3245145060666586995
+    second: outpost-android_112
+  - first:
+      213: -8022302746484848381
+    second: outpost-android_113
+  - first:
+      213: -7180145595527832328
+    second: outpost-android_114
+  - first:
+      213: -1280244001400717360
+    second: outpost-android_115
+  - first:
+      213: 1986089513188002344
+    second: outpost-android_116
+  - first:
+      213: -2880564274653860496
+    second: outpost-android_117
+  - first:
+      213: 4672118711719309648
+    second: outpost-android_118
+  - first:
+      213: -8418594485153230108
+    second: outpost-android_119
+  - first:
+      213: -7082489499213007966
+    second: outpost-android_120
+  - first:
+      213: -4195550119762887355
+    second: outpost-android_121
+  - first:
+      213: -4209689150811959060
+    second: outpost-android_122
+  - first:
+      213: -272883427870981767
+    second: outpost-android_123
+  - first:
+      213: 2349380858926171617
+    second: outpost-android_124
+  - first:
+      213: -5216341717908940523
+    second: outpost-android_125
+  - first:
+      213: 1696888771499441418
+    second: outpost-android_126
+  - first:
+      213: -1178629037012396575
+    second: outpost-android_127
+  - first:
+      213: 3850670642063013665
+    second: outpost-android_128
+  - first:
+      213: -631654429397893823
+    second: outpost-android_129
+  - first:
+      213: -4333123380688132323
+    second: outpost-android_130
+  - first:
+      213: -699339912552587821
+    second: outpost-android_131
+  - first:
+      213: -9222498528339593062
+    second: outpost-android_132
+  - first:
+      213: -5667943065038239725
+    second: outpost-android_133
+  - first:
+      213: 61553001043531296
+    second: outpost-android_134
+  - first:
+      213: 9209358818416932740
+    second: outpost-android_135
+  - first:
+      213: -122194207266469543
+    second: outpost-android_136
+  - first:
+      213: 4687620598384052572
+    second: outpost-android_137
+  - first:
+      213: 5491918988484447810
+    second: outpost-android_138
+  - first:
+      213: 8175642123647869814
+    second: outpost-android_139
+  - first:
+      213: -6725043778168233312
+    second: outpost-android_140
+  - first:
+      213: -1201489858821691525
+    second: outpost-android_141
+  - first:
+      213: 128629634029254530
+    second: outpost-android_142
+  - first:
+      213: -4363036081040432702
+    second: outpost-android_143
+  - first:
+      213: -8746081845851513311
+    second: outpost-android_144
+  - first:
+      213: -2772105241249121538
+    second: outpost-android_145
+  - first:
+      213: 2863541405379334919
+    second: outpost-android_146
+  - first:
+      213: 8428894675056884054
+    second: outpost-android_147
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: outpost-android_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291775025a4ea0060800000000000000
+      internalID: 6920595175271526802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95e04d407cef2870800000000000000
+      internalID: 8660400575533344156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c32a99a12498370800000000000000
+      internalID: 8325258068185201731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a475b82f236181450800000000000000
+      internalID: 6059617706700396362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c54a112640e3770800000000000000
+      internalID: 8592309958318775405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e933c6d6af20750800000000000000
+      internalID: 6269848979126853123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e302c75936f2f3400800000000000000
+      internalID: 306015404440690750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5f55caab6df0ef0800000000000000
+      internalID: -139656966181620302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0aa49338e5d0cba0800000000000000
+      internalID: -6070617104420918773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bad34a1471e2180800000000000000
+      internalID: -9138341023192339661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_10
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 2
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09d3a8557aff5290800000000000000
+      internalID: -7899319839479310067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_11
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97e662d3840be0b0800000000000000
+      internalID: -5698455939290044518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_12
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b64647cc445a9d10800000000000000
+      internalID: 2133110062250870454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_13
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 2
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37512bd81864b8040800000000000000
+      internalID: 4650888562432152947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_14
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 2
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd40594b3b1d5760800000000000000
+      internalID: 7448139300187688373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_15
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 2
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5c074eb403f3af0800000000000000
+      internalID: -414559538181519914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_16
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4f20d65c35a5360800000000000000
+      internalID: 7159126665061397732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_17
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 2
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7edd9f6db3de69f0800000000000000
+      internalID: -473208100252426630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_18
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 2
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d782bd4d56f44bb0800000000000000
+      internalID: -4952562809604765740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_19
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3735cfc6aef0fe10800000000000000
+      internalID: 2229561807952230205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_20
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4026cd0c64ee1b680800000000000000
+      internalID: -8740943414098632188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_21
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64958ed7aad757870800000000000000
+      internalID: 8679982028036790598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_22
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19efada66690b3d0800000000000000
+      internalID: -3192886768060864226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_23
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da40d75027359cbd0800000000000000
+      internalID: -2609462759901035347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_24
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059235bde991ef4c0800000000000000
+      internalID: -4251932828115982000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_25
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 4
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973d84b92dbf5a0c0800000000000000
+      internalID: -4564965765303184519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_26
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 2
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9e263c4bc2667e0800000000000000
+      internalID: -1772680248439936540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_27
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630095dc83a1b6c30800000000000000
+      internalID: 4353602296049369142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_28
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ea2e37b59d26a20800000000000000
+      internalID: 3054242484120104503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_29
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 2
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da186e184d645ea20800000000000000
+      internalID: 3090954597786091949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_30
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4de9461633074b0800000000000000
+      internalID: -5444795456097954607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_31
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 2
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e455871b0c742d710800000000000000
+      internalID: 1716513300918326606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_32
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a503600c5e9fa30800000000000000
+      internalID: 4249680336301087311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_33
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6bc0d9b6f4413e0800000000000000
+      internalID: -2083953403950745885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_34
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 2
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bec773e1ea6ff720800000000000000
+      internalID: 2882139804956872376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_35
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 2
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af13959fd67e1b610800000000000000
+      internalID: 1635342599233024506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_36
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 2
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51353713c552c1b0800000000000000
+      internalID: -5637849487118093985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_37
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22d6542f68912520800000000000000
+      internalID: 2675587256753246765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_38
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 2
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac7cd2f6ccec5fd0800000000000000
+      internalID: -2351744566172025695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_39
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 2
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f258d4d3d1bce140800000000000000
+      internalID: 4750367230336193265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_40
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 2
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af35f3f185f0a8a0800000000000000
+      internalID: -6295762340571431000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_41
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c39413185c121a0800000000000000
+      internalID: -6835965600703366065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_42
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7572bfc64e4cd410800000000000000
+      internalID: 1503162441674159484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_43
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832c405ae9614f600800000000000000
+      internalID: 501050329174164024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_44
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11782b63a7e68cd00800000000000000
+      internalID: 993165189017929489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_45
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d4d04ed7f43be20800000000000000
+      internalID: 3365120748691475783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_46
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 2
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35638ddeb68a1ae0800000000000000
+      internalID: -1577800565121653442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_47
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab452802544b74a0800000000000000
+      internalID: -6594602110239290460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_48
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5f61e6f5d9f8bc0800000000000000
+      internalID: -3778628529146104335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_49
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 2
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7623b15e221bcd0800000000000000
+      internalID: -2544213947088476232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_50
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5d03c5417856f90800000000000000
+      internalID: -6961009127515433514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_51
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 2
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f6e890e320c1660800000000000000
+      internalID: 7357758356688105348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_52
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ec7cb009ea74ad0800000000000000
+      internalID: -2718011916398637547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_53
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9755062b954938d0800000000000000
+      internalID: -2866183155184478309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_54
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 2
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2d948302861edf0800000000000000
+      internalID: -152726424761281825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_55
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 2
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6750320b203e8700800000000000000
+      internalID: 544425566236858221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_56
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 2
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22836e982d32646e0800000000000000
+      internalID: -1853754809452709854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_57
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780ba7844fd631c30800000000000000
+      internalID: 4328924562788626567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_58
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 2
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b19a90c463e7f0f0800000000000000
+      internalID: -1083147163491724873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_59
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 2
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731a53d2381470f10800000000000000
+      internalID: 2235827771667751223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_60
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf85e6323b861c620800000000000000
+      internalID: 2792628362549287164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_61
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea02853dc1ed4a90800000000000000
+      internalID: -7327952747179668765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_62
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8e184171d96ae70800000000000000
+      internalID: 9126154417366755514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_63
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50c0f45cddffc250800000000000000
+      internalID: 5967267154048893021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_64
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ceea72c0f312de30800000000000000
+      internalID: 4526702500236684998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_65
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c1789a46586a2a0800000000000000
+      internalID: -6726542326043829215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_66
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 4
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24c8f117bcb6e810800000000000000
+      internalID: 1794328996020274218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_67
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 2
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2543a89dee36aaa70800000000000000
+      internalID: 8838987096171099218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_68
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f08524256bf234e0800000000000000
+      internalID: -2003262472409743117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_69
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d53719b3b27ea10800000000000000
+      internalID: 1938565699449609620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_70
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 2
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5184ee6be73c9a0800000000000000
+      internalID: -6213983736694303266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_71
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957b3433cb6edaf90800000000000000
+      internalID: -6940637754719750311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_72
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 2
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2056bc5cb22d0900800000000000000
+      internalID: 652215713443237933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_73
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0699d1ea85809bda0800000000000000
+      internalID: -5928698257485227680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_74
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1e42bb935543530800000000000000
+      internalID: 3833782889240388087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_75
+      rect:
+        serializedVersion: 2
+        x: 2339
+        y: 2
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8747b9d27c50820800000000000000
+      internalID: 2883930135096228003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_76
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 2
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad089c586fc0bfec0800000000000000
+      internalID: -3532215229795958566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_77
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 2
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51fe98df0a4167b0800000000000000
+      internalID: -5232819860108545698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_78
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e815d6314972de10800000000000000
+      internalID: 2220970887246846177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_79
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 2
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c8af3b16ef95470800000000000000
+      internalID: 8384011876911713419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_80
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 2
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a7573c5cb246eb0800000000000000
+      internalID: -4727605580444370316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_81
+      rect:
+        serializedVersion: 2
+        x: 2531
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e16d70d39c686750800000000000000
+      internalID: 6298403460991508964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_82
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 1
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69e4c1dd02f6bba0800000000000000
+      internalID: -6073400906294695573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_83
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 1
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4050dc3c4154b8d70800000000000000
+      internalID: 9046400231990428932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_84
+      rect:
+        serializedVersion: 2
+        x: 2632
+        y: 1
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2834cf20544881400800000000000000
+      internalID: 295131207530464130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_85
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 2
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b96354301e4df70800000000000000
+      internalID: 9211234542041865053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_86
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 2
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7412111485cb312b0800000000000000
+      internalID: -5614937223166090937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_87
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 2
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2184fff84468c4c0800000000000000
+      internalID: -4267050382238908116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_88
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4ad46098a2eb220800000000000000
+      internalID: 2503485210869212414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_89
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53abee8b7071e200800000000000000
+      internalID: 207570733816849246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_90
+      rect:
+        serializedVersion: 2
+        x: 2824
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a0b47b93aa8f140800000000000000
+      internalID: 4753736571554564755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_91
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc66ca6ba0ed54450800000000000000
+      internalID: 6072503810174772939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_92
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 2
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e0335d9b18d1830800000000000000
+      internalID: 4043530675594399295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_93
+      rect:
+        serializedVersion: 2
+        x: 2920
+        y: 2
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e4b019ea121c3f0800000000000000
+      internalID: -882387018346443167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_94
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 2
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a3401a45767d150800000000000000
+      internalID: 5897295850241276558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_95
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 1
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee7137fa4efcd380800000000000000
+      internalID: -8944995161936396568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_96
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 1
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bca419ec10cf6720800000000000000
+      internalID: 2841701120296135862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_97
+      rect:
+        serializedVersion: 2
+        x: 3048
+        y: 1
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c9e70c28fe90750800000000000000
+      internalID: 6271807300944436345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_98
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 1
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72b6f2e555be0d20800000000000000
+      internalID: 3246731761865372286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_99
+      rect:
+        serializedVersion: 2
+        x: 3113
+        y: 1
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98cc8ded04d989b0800000000000000
+      internalID: -5077293948598433637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_100
+      rect:
+        serializedVersion: 2
+        x: 3145
+        y: 1
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae818cbc3400b850800000000000000
+      internalID: 6390612530145889967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_101
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 2
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c319731bbc9e2c560800000000000000
+      internalID: 7332680204373430588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_102
+      rect:
+        serializedVersion: 2
+        x: 3209
+        y: 2
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5370face0d1ba550800000000000000
+      internalID: 6173059663612900189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_103
+      rect:
+        serializedVersion: 2
+        x: 3241
+        y: 2
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a5cfc2904a66320800000000000000
+      internalID: 2550906598268361369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_104
+      rect:
+        serializedVersion: 2
+        x: 3273
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7988db8bff1132c70800000000000000
+      internalID: 8945013074901698711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_105
+      rect:
+        serializedVersion: 2
+        x: 3305
+        y: 2
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043721ce85e1797d0800000000000000
+      internalID: -2911825266805148864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_106
+      rect:
+        serializedVersion: 2
+        x: 3337
+        y: 2
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e8e549a29242450800000000000000
+      internalID: 6063016261202120236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_107
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d22897bfc96212a0800000000000000
+      internalID: -6768230949125086503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_108
+      rect:
+        serializedVersion: 2
+        x: 3401
+        y: 2
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c88b0489f82d1ff0800000000000000
+      internalID: -63849767586002746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_109
+      rect:
+        serializedVersion: 2
+        x: 3433
+        y: 2
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7402da73a34914d50800000000000000
+      internalID: 6719815096776597575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_110
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 2
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b645a16abb068ce50800000000000000
+      internalID: 6829815193969251435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_111
+      rect:
+        serializedVersion: 2
+        x: 3497
+        y: 1
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a31dc5cd270fa10800000000000000
+      internalID: 1941177730172271153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_112
+      rect:
+        serializedVersion: 2
+        x: 3529
+        y: 1
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88ca56c2cde6f2d0800000000000000
+      internalID: -3245145060666586995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_113
+      rect:
+        serializedVersion: 2
+        x: 3561
+        y: 1
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3094123f72e0ba090800000000000000
+      internalID: -8022302746484848381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_114
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc5af67f9ffa5c90800000000000000
+      internalID: -7180145595527832328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_115
+      rect:
+        serializedVersion: 2
+        x: 3624
+        y: 2
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df7fae1dd8ab3ee0800000000000000
+      internalID: -1280244001400717360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_116
+      rect:
+        serializedVersion: 2
+        x: 3656
+        y: 2
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a03b5b3e1009b10800000000000000
+      internalID: 1986089513188002344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_117
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 2
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d6398dd0e2608d0800000000000000
+      internalID: -2880564274653860496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_118
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 2
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0513c70e633b6d040800000000000000
+      internalID: 4672118711719309648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_119
+      rect:
+        serializedVersion: 2
+        x: 3752
+        y: 2
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2116c5be42b2b80800000000000000
+      internalID: -8418594485153230108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_120
+      rect:
+        serializedVersion: 2
+        x: 3784
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a379f93351f5bd90800000000000000
+      internalID: -7082489499213007966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_121
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d7f22256966c5c0800000000000000
+      internalID: -4195550119762887355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_122
+      rect:
+        serializedVersion: 2
+        x: 3848
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0990f650e2495c0800000000000000
+      internalID: -4209689150811959060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_123
+      rect:
+        serializedVersion: 2
+        x: 3880
+        y: 2
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971c8a8d7f5863cf0800000000000000
+      internalID: -272883427870981767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_124
+      rect:
+        serializedVersion: 2
+        x: 3912
+        y: 2
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e58562917daa9020800000000000000
+      internalID: 2349380858926171617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_125
+      rect:
+        serializedVersion: 2
+        x: 3944
+        y: 2
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5199cfc48d4db97b0800000000000000
+      internalID: -5216341717908940523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_126
+      rect:
+        serializedVersion: 2
+        x: 3976
+        y: 2
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0db290e85f8c8710800000000000000
+      internalID: 1696888771499441418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_127
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 2
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e55aeea22ba4afe0800000000000000
+      internalID: -1178629037012396575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_128
+      rect:
+        serializedVersion: 2
+        x: 4040
+        y: 2
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127f0371c84507530800000000000000
+      internalID: 3850670642063013665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_129
+      rect:
+        serializedVersion: 2
+        x: 4072
+        y: 2
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14dbfe2a4a9eb37f0800000000000000
+      internalID: -631654429397893823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_130
+      rect:
+        serializedVersion: 2
+        x: 4099
+        y: 1
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17e42e3e37add3c0800000000000000
+      internalID: -4333123380688132323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_131
+      rect:
+        serializedVersion: 2
+        x: 4105
+        y: 2
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dddc070e027b46f0800000000000000
+      internalID: -699339912552587821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_132
+      rect:
+        serializedVersion: 2
+        x: 4131
+        y: 1
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9871cc837a130080800000000000000
+      internalID: -9222498528339593062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_133
+      rect:
+        serializedVersion: 2
+        x: 4163
+        y: 1
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318c149ffcb6751b0800000000000000
+      internalID: -5667943065038239725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_134
+      rect:
+        serializedVersion: 2
+        x: 4195
+        y: 2
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0261f0ad02eaad000800000000000000
+      internalID: 61553001043531296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_135
+      rect:
+        serializedVersion: 2
+        x: 4227
+        y: 2
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4873ad45d073ecf70800000000000000
+      internalID: 9209358818416932740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_136
+      rect:
+        serializedVersion: 2
+        x: 4259
+        y: 2
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95985421401ed4ef0800000000000000
+      internalID: -122194207266469543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_137
+      rect:
+        serializedVersion: 2
+        x: 4291
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c594c702916cd0140800000000000000
+      internalID: 4687620598384052572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_138
+      rect:
+        serializedVersion: 2
+        x: 4323
+        y: 2
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e86dbf837373c40800000000000000
+      internalID: 5491918988484447810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_139
+      rect:
+        serializedVersion: 2
+        x: 4355
+        y: 2
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67360cee137b57170800000000000000
+      internalID: 8175642123647869814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_140
+      rect:
+        serializedVersion: 2
+        x: 4387
+        y: 2
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2e4578058dba2a0800000000000000
+      internalID: -6725043778168233312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_141
+      rect:
+        serializedVersion: 2
+        x: 4419
+        y: 2
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77e2b3d653735fe0800000000000000
+      internalID: -1201489858821691525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_142
+      rect:
+        serializedVersion: 2
+        x: 4451
+        y: 2
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287f6eb78fbf8c100800000000000000
+      internalID: 128629634029254530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_143
+      rect:
+        serializedVersion: 2
+        x: 4483
+        y: 2
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c16f57fcc16373c0800000000000000
+      internalID: -4363036081040432702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_144
+      rect:
+        serializedVersion: 2
+        x: 4515
+        y: 1
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e178166ecaf9680800000000000000
+      internalID: -8746081845851513311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_145
+      rect:
+        serializedVersion: 2
+        x: 4547
+        y: 1
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efaf85768f08789d0800000000000000
+      internalID: -2772105241249121538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_146
+      rect:
+        serializedVersion: 2
+        x: 4579
+        y: 1
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703124b8cb75db720800000000000000
+      internalID: 2863541405379334919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outpost-android_147
+      rect:
+        serializedVersion: 2
+        x: 4585
+        y: 2
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65972fb7c0379f470800000000000000
+      internalID: 8428894675056884054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      outpost-android_0: 6920595175271526802
+      outpost-android_1: 8660400575533344156
+      outpost-android_10: -7899319839479310067
+      outpost-android_100: 6390612530145889967
+      outpost-android_101: 7332680204373430588
+      outpost-android_102: 6173059663612900189
+      outpost-android_103: 2550906598268361369
+      outpost-android_104: 8945013074901698711
+      outpost-android_105: -2911825266805148864
+      outpost-android_106: 6063016261202120236
+      outpost-android_107: -6768230949125086503
+      outpost-android_108: -63849767586002746
+      outpost-android_109: 6719815096776597575
+      outpost-android_11: -5698455939290044518
+      outpost-android_110: 6829815193969251435
+      outpost-android_111: 1941177730172271153
+      outpost-android_112: -3245145060666586995
+      outpost-android_113: -8022302746484848381
+      outpost-android_114: -7180145595527832328
+      outpost-android_115: -1280244001400717360
+      outpost-android_116: 1986089513188002344
+      outpost-android_117: -2880564274653860496
+      outpost-android_118: 4672118711719309648
+      outpost-android_119: -8418594485153230108
+      outpost-android_12: 2133110062250870454
+      outpost-android_120: -7082489499213007966
+      outpost-android_121: -4195550119762887355
+      outpost-android_122: -4209689150811959060
+      outpost-android_123: -272883427870981767
+      outpost-android_124: 2349380858926171617
+      outpost-android_125: -5216341717908940523
+      outpost-android_126: 1696888771499441418
+      outpost-android_127: -1178629037012396575
+      outpost-android_128: 3850670642063013665
+      outpost-android_129: -631654429397893823
+      outpost-android_13: 4650888562432152947
+      outpost-android_130: -4333123380688132323
+      outpost-android_131: -699339912552587821
+      outpost-android_132: -9222498528339593062
+      outpost-android_133: -5667943065038239725
+      outpost-android_134: 61553001043531296
+      outpost-android_135: 9209358818416932740
+      outpost-android_136: -122194207266469543
+      outpost-android_137: 4687620598384052572
+      outpost-android_138: 5491918988484447810
+      outpost-android_139: 8175642123647869814
+      outpost-android_14: 7448139300187688373
+      outpost-android_140: -6725043778168233312
+      outpost-android_141: -1201489858821691525
+      outpost-android_142: 128629634029254530
+      outpost-android_143: -4363036081040432702
+      outpost-android_144: -8746081845851513311
+      outpost-android_145: -2772105241249121538
+      outpost-android_146: 2863541405379334919
+      outpost-android_147: 8428894675056884054
+      outpost-android_15: -414559538181519914
+      outpost-android_16: 7159126665061397732
+      outpost-android_17: -473208100252426630
+      outpost-android_18: -4952562809604765740
+      outpost-android_19: 2229561807952230205
+      outpost-android_2: 8325258068185201731
+      outpost-android_20: -8740943414098632188
+      outpost-android_21: 8679982028036790598
+      outpost-android_22: -3192886768060864226
+      outpost-android_23: -2609462759901035347
+      outpost-android_24: -4251932828115982000
+      outpost-android_25: -4564965765303184519
+      outpost-android_26: -1772680248439936540
+      outpost-android_27: 4353602296049369142
+      outpost-android_28: 3054242484120104503
+      outpost-android_29: 3090954597786091949
+      outpost-android_3: 6059617706700396362
+      outpost-android_30: -5444795456097954607
+      outpost-android_31: 1716513300918326606
+      outpost-android_32: 4249680336301087311
+      outpost-android_33: -2083953403950745885
+      outpost-android_34: 2882139804956872376
+      outpost-android_35: 1635342599233024506
+      outpost-android_36: -5637849487118093985
+      outpost-android_37: 2675587256753246765
+      outpost-android_38: -2351744566172025695
+      outpost-android_39: 4750367230336193265
+      outpost-android_4: 8592309958318775405
+      outpost-android_40: -6295762340571431000
+      outpost-android_41: -6835965600703366065
+      outpost-android_42: 1503162441674159484
+      outpost-android_43: 501050329174164024
+      outpost-android_44: 993165189017929489
+      outpost-android_45: 3365120748691475783
+      outpost-android_46: -1577800565121653442
+      outpost-android_47: -6594602110239290460
+      outpost-android_48: -3778628529146104335
+      outpost-android_49: -2544213947088476232
+      outpost-android_5: 6269848979126853123
+      outpost-android_50: -6961009127515433514
+      outpost-android_51: 7357758356688105348
+      outpost-android_52: -2718011916398637547
+      outpost-android_53: -2866183155184478309
+      outpost-android_54: -152726424761281825
+      outpost-android_55: 544425566236858221
+      outpost-android_56: -1853754809452709854
+      outpost-android_57: 4328924562788626567
+      outpost-android_58: -1083147163491724873
+      outpost-android_59: 2235827771667751223
+      outpost-android_6: 306015404440690750
+      outpost-android_60: 2792628362549287164
+      outpost-android_61: -7327952747179668765
+      outpost-android_62: 9126154417366755514
+      outpost-android_63: 5967267154048893021
+      outpost-android_64: 4526702500236684998
+      outpost-android_65: -6726542326043829215
+      outpost-android_66: 1794328996020274218
+      outpost-android_67: 8838987096171099218
+      outpost-android_68: -2003262472409743117
+      outpost-android_69: 1938565699449609620
+      outpost-android_7: -139656966181620302
+      outpost-android_70: -6213983736694303266
+      outpost-android_71: -6940637754719750311
+      outpost-android_72: 652215713443237933
+      outpost-android_73: -5928698257485227680
+      outpost-android_74: 3833782889240388087
+      outpost-android_75: 2883930135096228003
+      outpost-android_76: -3532215229795958566
+      outpost-android_77: -5232819860108545698
+      outpost-android_78: 2220970887246846177
+      outpost-android_79: 8384011876911713419
+      outpost-android_8: -6070617104420918773
+      outpost-android_80: -4727605580444370316
+      outpost-android_81: 6298403460991508964
+      outpost-android_82: -6073400906294695573
+      outpost-android_83: 9046400231990428932
+      outpost-android_84: 295131207530464130
+      outpost-android_85: 9211234542041865053
+      outpost-android_86: -5614937223166090937
+      outpost-android_87: -4267050382238908116
+      outpost-android_88: 2503485210869212414
+      outpost-android_89: 207570733816849246
+      outpost-android_9: -9138341023192339661
+      outpost-android_90: 4753736571554564755
+      outpost-android_91: 6072503810174772939
+      outpost-android_92: 4043530675594399295
+      outpost-android_93: -882387018346443167
+      outpost-android_94: 5897295850241276558
+      outpost-android_95: -8944995161936396568
+      outpost-android_96: 2841701120296135862
+      outpost-android_97: 6271807300944436345
+      outpost-android_98: 3246731761865372286
+      outpost-android_99: -5077293948598433637
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
