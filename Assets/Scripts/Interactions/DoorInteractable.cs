@@ -2,7 +2,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class DoorInteractable : MonoBehaviour
+public class DoorInteractable : MonoBehaviour, IResettable
 {
     [SerializeField] private float openAngle = -90f;
     [SerializeField] private float rotationSpeed = 150f;
@@ -15,6 +15,14 @@ public class DoorInteractable : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         closedAngle = rb.rotation;
+    }
+
+    public void ResetState()
+    {
+        isOpen = false;
+        rb.angularVelocity = 0f;
+        rb.rotation = closedAngle;
+        transform.rotation = Quaternion.Euler(0f, 0f, closedAngle);
     }
 
     public void Interact()
