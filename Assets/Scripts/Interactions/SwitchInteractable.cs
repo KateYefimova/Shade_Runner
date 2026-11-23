@@ -13,16 +13,22 @@ public class SwitchInteractable : MonoBehaviour, IInteractable, IResettable
     [SerializeField] private Color offColor = new Color(1f, 0.25f, 0.3f);
     [SerializeField] private Color onColor = new Color(0.2f, 1f, 0.5f);
 
+    [SerializeField] private AudioClip switchSound;
+
     private bool isOn;
+    private AudioSource audioSource;
 
     public Transform HintAnchor => transform;
 
     private void Awake()
     {
+        audioSource = SfxSource.Create(gameObject);
+
         foreach (DoorInteractable door in controlledDoors)
             door.LockToSwitch(startsOn);
 
-        SetOn(startsOn);
+        isOn = startsOn;
+        UpdateIndicator();
     }
 
     public bool CanInteract(PlayerInteraction player) => canToggleBack || isOn == startsOn;
@@ -34,21 +40,26 @@ public class SwitchInteractable : MonoBehaviour, IInteractable, IResettable
 
     public void Interact(PlayerInteraction player)
     {
-        SetOn(!isOn);
-    }
-
-    public void ResetState()
-    {
-        SetOn(startsOn);
-    }
-
-    private void SetOn(bool on)
-    {
-        isOn = on;
+        isOn = !isOn;
 
         foreach (DoorInteractable door in controlledDoors)
             door.SetOpen(isOn);
 
+        if (switchSound != null)
+            audioSource.PlayOneShot(switchSound);
+
+        UpdateIndicator();
+    }
+
+    // двері скидаються самі, тут тільки стан термінала
+    public void ResetState()
+    {
+        isOn = startsOn;
+        UpdateIndicator();
+    }
+
+    private void UpdateIndicator()
+    {
         if (indicator != null)
             indicator.color = isOn ? onColor : offColor;
     }

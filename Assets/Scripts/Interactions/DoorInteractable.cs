@@ -7,7 +7,13 @@ public class DoorInteractable : MonoBehaviour, IInteractable, IResettable
     [SerializeField] private float rotationSpeed = 150f;
     [SerializeField] private bool startsOpen = false;
 
+    [Header("Sounds")]
+    [SerializeField] private AudioClip openSound;
+    [SerializeField] private AudioClip closeSound;
+    [SerializeField] private AudioClip lockedSound;
+
     private Rigidbody2D rb;
+    private AudioSource audioSource;
     private float closedAngle;
     private bool isOpen;
     private bool controlledBySwitch;
@@ -19,6 +25,7 @@ public class DoorInteractable : MonoBehaviour, IInteractable, IResettable
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        audioSource = SfxSource.Create(gameObject);
         closedAngle = rb.rotation;
         isOpen = startsOpen;
         SnapToTarget();
@@ -38,6 +45,12 @@ public class DoorInteractable : MonoBehaviour, IInteractable, IResettable
 
     public void Interact(PlayerInteraction player)
     {
+        if (controlledBySwitch)
+        {
+            Play(lockedSound);
+            return;
+        }
+
         SetOpen(!isOpen);
     }
 
@@ -54,7 +67,17 @@ public class DoorInteractable : MonoBehaviour, IInteractable, IResettable
 
     public void SetOpen(bool open)
     {
+        if (isOpen == open)
+            return;
+
         isOpen = open;
+        Play(isOpen ? openSound : closeSound);
+    }
+
+    private void Play(AudioClip clip)
+    {
+        if (clip != null)
+            audioSource.PlayOneShot(clip);
     }
 
     public void ResetState()

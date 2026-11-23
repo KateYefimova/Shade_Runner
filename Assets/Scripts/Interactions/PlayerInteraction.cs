@@ -36,7 +36,7 @@ public class PlayerInteraction : MonoBehaviour, IInteractionHintSource
         get
         {
             if (!movement.InputEnabled) return string.Empty;
-            if (heldBox != null) return InteractKeyLabel + "Відпустити ящик";
+            if (heldBox != null) return InteractKeyLabel + "Відпустити контейнер";
             if (currentTarget == null) return string.Empty;
 
             string hint = currentTarget.GetActionHint(this);
@@ -98,7 +98,7 @@ public class PlayerInteraction : MonoBehaviour, IInteractionHintSource
         FindNearestTarget();
         UpdateHighlight();
 
-        if (ePressed && currentTarget != null && !currentTarget.IsLocked(this))
+        if (ePressed && currentTarget != null)
             currentTarget.Interact(this);
     }
 

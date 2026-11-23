@@ -9,7 +9,12 @@ public class DraggableBox : MonoBehaviour, IInteractable, IResettable
     [SerializeField] private float breakDistance = 0.8f;
     [SerializeField] private float breakDelay = 0.25f;
 
+    [Header("Sounds")]
+    [SerializeField] private AudioClip grabSound;
+    [SerializeField] private AudioClip releaseSound;
+
     private Rigidbody2D rb;
+    private AudioSource audioSource;
     private Rigidbody2D holder;
     private Vector2 holdOffset;
     private float stuckTime;
@@ -26,6 +31,7 @@ public class DraggableBox : MonoBehaviour, IInteractable, IResettable
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        audioSource = SfxSource.Create(gameObject);
 
         rb.gravityScale = 0f;
         rb.freezeRotation = true;
@@ -43,7 +49,7 @@ public class DraggableBox : MonoBehaviour, IInteractable, IResettable
 
     public bool IsLocked(PlayerInteraction player) => false;
 
-    public string GetActionHint(PlayerInteraction player) => "Захопити ящик";
+    public string GetActionHint(PlayerInteraction player) => "Захопити контейнер";
 
     public void Interact(PlayerInteraction player)
     {
@@ -61,6 +67,7 @@ public class DraggableBox : MonoBehaviour, IInteractable, IResettable
 
         rb.linearDamping = 0f;
         rb.interpolation = RigidbodyInterpolation2D.Interpolate;
+        Play(grabSound);
     }
 
     public void Release()
@@ -68,6 +75,12 @@ public class DraggableBox : MonoBehaviour, IInteractable, IResettable
         if (holder == null)
             return;
 
+        Drop();
+        Play(releaseSound);
+    }
+
+    private void Drop()
+    {
         holder = null;
         rb.linearVelocity = Vector2.zero;
         rb.linearDamping = defaultDamping;
@@ -102,7 +115,8 @@ public class DraggableBox : MonoBehaviour, IInteractable, IResettable
 
     public void ResetState()
     {
-        Release();
+        if (holder != null)
+            Drop();
 
         rb.linearVelocity = Vector2.zero;
         rb.angularVelocity = 0f;
@@ -113,8 +127,15 @@ public class DraggableBox : MonoBehaviour, IInteractable, IResettable
             Quaternion.Euler(0f, 0f, startRotation));
     }
 
+    private void Play(AudioClip clip)
+    {
+        if (clip != null)
+            audioSource.PlayOneShot(clip);
+    }
+
     private void OnDisable()
     {
-        Release();
+        if (holder != null)
+            Drop();
     }
 }

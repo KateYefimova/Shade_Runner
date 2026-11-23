@@ -75,6 +75,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DoorInteractable
   openAngle: -90
   rotationSpeed: 150
+  startsOpen: 0
+  openSound: {fileID: 8300000, guid: a90df21c303d439f94ee91deeb10b481, type: 3}
+  closeSound: {fileID: 8300000, guid: 1a39029d366649d3b28f26461e2068d0, type: 3}
+  lockedSound: {fileID: 8300000, guid: 69be91390c28425bbaa4fef5f383a93d, type: 3}
 --- !u!1 &7054692913676831872
 GameObject:
   m_ObjectHideFlags: 0

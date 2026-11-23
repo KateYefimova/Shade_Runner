@@ -4,7 +4,7 @@ public interface IInteractable
 {
     bool CanInteract(PlayerInteraction player);
 
-    // Предмет видно, але дія недоступна: підказка без [E], натискання ігнорується.
+    // Предмет видно, але дія недоступна: підказка показується без [E].
     bool IsLocked(PlayerInteraction player);
 
     string GetActionHint(PlayerInteraction player);
