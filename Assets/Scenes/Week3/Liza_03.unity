@@ -127,6 +127,46 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 65762995243933370, guid: dbf8eabb5ecdd29459a11414aa2204e4, type: 3}
+      propertyPath: m_Size.x
+      value: 0.71875
+      objectReference: {fileID: 0}
+    - target: {fileID: 65762995243933370, guid: dbf8eabb5ecdd29459a11414aa2204e4, type: 3}
+      propertyPath: m_Size.y
+      value: 0.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 65762995243933370, guid: dbf8eabb5ecdd29459a11414aa2204e4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2968565101438123804, guid: 5fb2eec8c4da34afd8108c87ae6798d4, type: 3}
+    - target: {fileID: 65762995243933370, guid: dbf8eabb5ecdd29459a11414aa2204e4, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 158131277154566653, guid: dbf8eabb5ecdd29459a11414aa2204e4, type: 3}
+      propertyPath: m_Size.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 158131277154566653, guid: dbf8eabb5ecdd29459a11414aa2204e4, type: 3}
+      propertyPath: m_Size.y
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 158131277154566653, guid: dbf8eabb5ecdd29459a11414aa2204e4, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 0.71875
+      objectReference: {fileID: 0}
+    - target: {fileID: 158131277154566653, guid: dbf8eabb5ecdd29459a11414aa2204e4, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 158131277154566653, guid: dbf8eabb5ecdd29459a11414aa2204e4, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.71875
+      objectReference: {fileID: 0}
+    - target: {fileID: 158131277154566653, guid: dbf8eabb5ecdd29459a11414aa2204e4, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.875
+      objectReference: {fileID: 0}
     - target: {fileID: 170491338816831966, guid: dbf8eabb5ecdd29459a11414aa2204e4, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -185,7 +225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4553965366712867449, guid: dbf8eabb5ecdd29459a11414aa2204e4, type: 3}
       propertyPath: radius
-      value: 1
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4553965366712867449, guid: dbf8eabb5ecdd29459a11414aa2204e4, type: 3}
       propertyPath: maxSpeed
@@ -200,12 +240,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5739508003187651774, guid: dbf8eabb5ecdd29459a11414aa2204e4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7269447
+      objectReference: {fileID: 0}
+    - target: {fileID: 5739508003187651774, guid: dbf8eabb5ecdd29459a11414aa2204e4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.8945498
+      objectReference: {fileID: 0}
+    - target: {fileID: 5739508003187651774, guid: dbf8eabb5ecdd29459a11414aa2204e4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.31
+      value: -0.0338
       objectReference: {fileID: 0}
     - target: {fileID: 5739508003187651774, guid: dbf8eabb5ecdd29459a11414aa2204e4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.8
+      value: 7.4781
       objectReference: {fileID: 0}
     - target: {fileID: 5739508003187651774, guid: dbf8eabb5ecdd29459a11414aa2204e4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -866,7 +914,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.28, y: 0.22}
+    oldSize: {x: 0.18, y: 0.25}
     newSize: {x: 0.28, y: 0.22}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2768,7 +2816,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.28, y: 0.22}
+    oldSize: {x: 0.18, y: 0.25}
     newSize: {x: 0.28, y: 0.22}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -12670,7 +12718,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.28, y: 0.22}
+    oldSize: {x: 0.14, y: 0.26}
     newSize: {x: 0.28, y: 0.22}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -16624,7 +16672,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.28, y: 0.22}
+    oldSize: {x: 0.14, y: 0.26}
     newSize: {x: 0.28, y: 0.22}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
