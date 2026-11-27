@@ -56,6 +56,9 @@ public class GuardChase : MonoBehaviour, IResettable
             {
                 state = State.Chase;
                 guardAI.SetPatrolEnabled(false);
+
+                if (GameAudio.Instance != null)
+                    GameAudio.Instance.PlayGuardDetected();
             }
 
             ChasePlayer();
@@ -65,6 +68,10 @@ public class GuardChase : MonoBehaviour, IResettable
         if (state == State.Chase)
         {
             state = State.Search;
+
+            if (GameAudio.Instance != null)
+                GameAudio.Instance.PlayGuardSearch();
+
             searchTarget = guardVision.LastSeenPosition;
 
             guardPatrol.SetNavigationSpeed(searchSpeed);

@@ -34,6 +34,8 @@ public class GameAudio : MonoBehaviour
     private AudioClip clickClip;
     private AudioClip winClip;
     private AudioClip loseClip;
+    private AudioClip guardDetectedClip;
+    private AudioClip guardSearchClip;
     private GameSessionModel observedModel;
     private AudioListener fallbackListener;
     private bool canMuffle;
@@ -56,6 +58,8 @@ public class GameAudio : MonoBehaviour
         clickClip = Resources.Load<AudioClip>("Audio/ui_click");
         winClip = Resources.Load<AudioClip>("Audio/win");
         loseClip = Resources.Load<AudioClip>("Audio/lose");
+        guardDetectedClip = Resources.Load<AudioClip>("Audio/SFX/Guard/guard_detected");
+        guardSearchClip = Resources.Load<AudioClip>("Audio/SFX/Guard/guard_search");
 
         fallbackListener = gameObject.AddComponent<AudioListener>();
         fallbackListener.enabled = false;
@@ -123,6 +127,18 @@ public class GameAudio : MonoBehaviour
     public void PlayClick()
     {
         if (clickClip != null) uiSource.PlayOneShot(clickClip);
+    }
+    
+    public void PlayGuardDetected()
+    {
+        if (guardDetectedClip != null)
+            resultSource.PlayOneShot(guardDetectedClip, 0.65f);
+    }
+
+    public void PlayGuardSearch()
+    {
+        if (guardSearchClip != null)
+            resultSource.PlayOneShot(guardSearchClip, 0.5f);
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
