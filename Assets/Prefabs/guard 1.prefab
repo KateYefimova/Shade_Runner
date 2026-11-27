@@ -428,7 +428,7 @@ MonoBehaviour:
   clipByObstacles: 1
   sortingLayerName: Default
   sortingOrder: 5
-  patrolColor: {r: 1, g: 0.8, b: 0.1, a: 0.2}
+  patrolColor: {r: 1, g: 0.8, b: 0.1, a: 0.03137255}
   detectedColor: {r: 1, g: 0.05, b: 0.05, a: 0.5}
   blinkSpeed: 8
   blinkSpeedUp: 3
