@@ -716,7 +716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23e47d6db4d9a6d4aa0295f94616daf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuPresenter
-  gameSceneName: Yelizaveta_Map
+  gameSceneName: Liza_03
 --- !u!1 &1083559245
 GameObject:
   m_ObjectHideFlags: 0
