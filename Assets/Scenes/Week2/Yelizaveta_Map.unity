@@ -11008,6 +11008,9 @@ MonoBehaviour:
   interactableLayers:
     serializedVersion: 2
     m_Bits: 4294967295
+  blockingLayers:
+    serializedVersion: 2
+    m_Bits: 0
   highlightColor: {r: 1, g: 1, b: 0.5, a: 1}
 --- !u!114 &1081437111
 MonoBehaviour:
@@ -11214,6 +11217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   menuSceneName: MainMenu
+  pathHintDuration: 8
 --- !u!4 &1362275768
 Transform:
   m_ObjectHideFlags: 0

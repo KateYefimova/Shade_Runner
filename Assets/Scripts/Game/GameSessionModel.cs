@@ -7,6 +7,14 @@ public class GameSessionModel
     public LoseReason LoseReason { get; private set; } = LoseReason.None;
     public float Alarm { get; private set; }
     public string InteractionHint { get; private set; } = string.Empty;
+    public Transform HintTarget { get; private set; }
+
+    public int Attempt { get; private set; } = 1;
+    public float AttemptTime { get; private set; }
+    public float MaxAlarm { get; private set; }
+    public int PathHintsUsed { get; private set; }
+    public bool PathHintActive { get; private set; }
+    public AttemptResult LastResult { get; private set; }
 
     public bool IsPlaying => State == GameState.Playing;
     public bool IsFinished => State == GameState.Won || State == GameState.Lost;
@@ -14,6 +22,7 @@ public class GameSessionModel
     public event Action<GameState> StateChanged;
     public event Action<float> AlarmChanged;
     public event Action<string> HintChanged;
+    public event Action<bool> PathHintChanged;
     public event Action AttemptStarted;
 
     public void SetState(GameState newState, LoseReason reason = LoseReason.None)
@@ -28,25 +37,52 @@ public class GameSessionModel
     public void SetAlarm(float value)
     {
         value = Mathf.Clamp01(value);
+        MaxAlarm = Mathf.Max(MaxAlarm, value);
         if (Mathf.Approximately(Alarm, value)) return;
 
         Alarm = value;
         AlarmChanged?.Invoke(Alarm);
     }
 
-    public void SetHint(string hint)
+    public void SetHint(string hint, Transform target = null)
     {
         hint ??= string.Empty;
-        if (InteractionHint == hint) return;
+        if (InteractionHint == hint && HintTarget == target) return;
 
         InteractionHint = hint;
+        HintTarget = target;
         HintChanged?.Invoke(InteractionHint);
+    }
+
+    public void AddTime(float deltaTime)
+    {
+        AttemptTime += deltaTime;
+    }
+
+    public void SetPathHint(bool active)
+    {
+        if (active && !PathHintActive) PathHintsUsed++;
+        if (PathHintActive == active) return;
+
+        PathHintActive = active;
+        PathHintChanged?.Invoke(active);
+    }
+
+    public void SetResult(AttemptResult result)
+    {
+        LastResult = result;
     }
 
     public void ResetForNewAttempt()
     {
+        SetPathHint(false);
         SetAlarm(0f);
         SetHint(string.Empty);
+
+        Attempt++;
+        AttemptTime = 0f;
+        MaxAlarm = 0f;
+        PathHintsUsed = 0;
         SetState(GameState.Playing);
         AttemptStarted?.Invoke();
     }

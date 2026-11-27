@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public static bool IsGameplayActive => Instance == null || Instance.Model.IsPlaying;
 
     [SerializeField] private string menuSceneName = "MainMenu";
+    [SerializeField] private float pathHintDuration = 8f;
 
     public GameSessionModel Model { get; } = new GameSessionModel();
     public bool IsGameOver => Model.IsFinished;
@@ -17,6 +18,7 @@ public class GameManager : MonoBehaviour
 
     private readonly List<IAlarmSource> alarmSources = new List<IAlarmSource>();
     private readonly List<IInteractionHintSource> hintSources = new List<IInteractionHintSource>();
+    private float pathHintTimeLeft;
 
     private void Awake()
     {
@@ -47,6 +49,11 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
     }
 
+    private void OnApplicationFocus(bool hasFocus)
+    {
+        if (!hasFocus) Pause();
+    }
+
     private void Update()
     {
         Keyboard kb = Keyboard.current;
@@ -54,10 +61,31 @@ public class GameManager : MonoBehaviour
         {
             if (kb.escapeKey.wasPressedThisFrame) TogglePause();
             if (kb.rKey.wasPressedThisFrame) Restart();
+            if (kb.hKey.wasPressedThisFrame) RequestPathHint();
         }
 
-        if (Model.IsPlaying)
-            PollSources();
+        if (!Model.IsPlaying) return;
+
+        Model.AddTime(Time.deltaTime);
+        UpdatePathHint();
+        PollSources();
+    }
+
+    public void RequestPathHint()
+    {
+        if (!Model.IsPlaying) return;
+
+        pathHintTimeLeft = pathHintDuration;
+        Model.SetPathHint(true);
+    }
+
+    private void UpdatePathHint()
+    {
+        if (!Model.PathHintActive) return;
+
+        pathHintTimeLeft -= Time.deltaTime;
+        if (pathHintTimeLeft <= 0f)
+            Model.SetPathHint(false);
     }
 
     public void Pause()
@@ -87,6 +115,8 @@ public class GameManager : MonoBehaviour
         if (Model.IsFinished) return;
 
         Model.SetHint(string.Empty);
+        Model.SetPathHint(false);
+        Model.SetResult(BuildResult(true));
         Model.SetState(GameState.Won);
         Time.timeScale = 0f;
     }
@@ -104,11 +134,18 @@ public class GameManager : MonoBehaviour
         }
 
         Model.SetHint(string.Empty);
+        Model.SetPathHint(false);
+        Model.SetResult(BuildResult(false));
         Model.SetState(GameState.Lost, reason);
         Time.timeScale = 0f;
     }
 
     public void Restart()
+    {
+        ScreenFader.Run(RestartNow);
+    }
+
+    private void RestartNow()
     {
         Time.timeScale = 1f;
 
@@ -122,12 +159,41 @@ public class GameManager : MonoBehaviour
         Model.ResetForNewAttempt();
     }
 
+    private AttemptResult BuildResult(bool won)
+    {
+        string key = "best_time_" + SceneManager.GetActiveScene().name;
+        float best = PlayerPrefs.GetFloat(key, 0f);
+        bool isNewBest = false;
+        int stars = 0;
+
+        if (won)
+        {
+            stars = 3;
+            if (Model.MaxAlarm > 0.01f) stars--;
+            if (Model.PathHintsUsed > 0) stars--;
+
+            if (best <= 0f || Model.AttemptTime < best)
+            {
+                best = Model.AttemptTime;
+                isNewBest = true;
+                PlayerPrefs.SetFloat(key, best);
+                PlayerPrefs.Save();
+            }
+        }
+
+        return new AttemptResult(won, Model.AttemptTime, Model.Attempt, Model.MaxAlarm,
+            Model.PathHintsUsed, Mathf.Max(stars, won ? 1 : 0), best, isNewBest);
+    }
+
     public void ExitToMenu()
     {
         if (!HasMenu) return;
 
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(menuSceneName);
+        ScreenFader.Run(() =>
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene(menuSceneName);
+        });
     }
 
     private void PollSources()
@@ -143,7 +209,10 @@ public class GameManager : MonoBehaviour
         }
 
         if (hintSources.Count > 0)
-            Model.SetHint(ReadHint());
+        {
+            IInteractionHintSource source = ReadHintSource();
+            Model.SetHint(source?.CurrentHint, source?.CurrentHintTarget);
+        }
     }
 
     private float ReadAlarm()
@@ -157,13 +226,13 @@ public class GameManager : MonoBehaviour
         return max;
     }
 
-    private string ReadHint()
+    private IInteractionHintSource ReadHintSource()
     {
         foreach (IInteractionHintSource source in hintSources)
         {
             if (source is Object obj && obj == null) continue;
-            if (!string.IsNullOrEmpty(source.CurrentHint)) return source.CurrentHint;
+            if (!string.IsNullOrEmpty(source.CurrentHint)) return source;
         }
-        return string.Empty;
+        return null;
     }
 }

@@ -2,21 +2,58 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Collider2D))]
-public class DraggableBox : MonoBehaviour
+public class DraggableBox : MonoBehaviour, IInteractable, IResettable
 {
-    private Rigidbody2D rb;
-    private DistanceJoint2D grabJoint;
+    [SerializeField] private float maxFollowSpeed = 12f;
+    [Tooltip("Ящик застряг і гравець відійшов далі - відпускаємо")]
+    [SerializeField] private float breakDistance = 0.8f;
+    [SerializeField] private float breakDelay = 0.25f;
 
-    public bool IsGrabbed => grabJoint != null;
+    [Header("Sounds")]
+    [SerializeField] private AudioClip grabSound;
+    [SerializeField] private AudioClip releaseSound;
+
+    private Rigidbody2D rb;
+    private AudioSource audioSource;
+    private Rigidbody2D holder;
+    private Vector2 holdOffset;
+    private float stuckTime;
+
+    private float defaultDamping;
+    private RigidbodyInterpolation2D defaultInterpolation;
+
+    private Vector2 startPosition;
+    private float startRotation;
+
+    public bool IsGrabbed => holder != null;
+    public Transform HintAnchor => transform;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        audioSource = SfxSource.Create(gameObject);
 
         rb.gravityScale = 0f;
         rb.freezeRotation = true;
         rb.collisionDetectionMode =
             CollisionDetectionMode2D.Continuous;
+
+        defaultDamping = rb.linearDamping;
+        defaultInterpolation = rb.interpolation;
+
+        startPosition = rb.position;
+        startRotation = rb.rotation;
+    }
+
+    public bool CanInteract(PlayerInteraction player) => !IsGrabbed;
+
+    public bool IsLocked(PlayerInteraction player) => false;
+
+    public string GetActionHint(PlayerInteraction player) => "Захопити контейнер";
+
+    public void Interact(PlayerInteraction player)
+    {
+        player.StartHolding(this);
     }
 
     public void Grab(Rigidbody2D player)
@@ -24,38 +61,81 @@ public class DraggableBox : MonoBehaviour
         if (IsGrabbed || player == null)
             return;
 
-        grabJoint = gameObject.AddComponent<DistanceJoint2D>();
+        holder = player;
+        holdOffset = rb.position - player.position;
+        stuckTime = 0f;
 
-        grabJoint.connectedBody = player;
-        grabJoint.autoConfigureConnectedAnchor = false;
-        grabJoint.anchor = Vector2.zero;
-        grabJoint.connectedAnchor = Vector2.zero;
-
-        grabJoint.autoConfigureDistance = false;
-        grabJoint.distance = Vector2.Distance(
-            rb.position,
-            player.position
-        );
-
-        grabJoint.maxDistanceOnly = true;
-        grabJoint.enableCollision = true;
-
-        Debug.Log("Box grabbed");
+        rb.linearDamping = 0f;
+        rb.interpolation = RigidbodyInterpolation2D.Interpolate;
+        Play(grabSound);
     }
 
     public void Release()
     {
-        if (grabJoint == null)
+        if (holder == null)
             return;
 
-        Destroy(grabJoint);
-        grabJoint = null;
+        Drop();
+        Play(releaseSound);
+    }
 
-        Debug.Log("Box released");
+    private void Drop()
+    {
+        holder = null;
+        rb.linearVelocity = Vector2.zero;
+        rb.linearDamping = defaultDamping;
+        rb.interpolation = defaultInterpolation;
+    }
+
+    private void FixedUpdate()
+    {
+        if (holder == null)
+            return;
+
+        float dt = Time.fixedDeltaTime;
+        Vector2 target = holder.position + holder.linearVelocity * dt + holdOffset;
+        Vector2 toTarget = target - rb.position;
+
+        if (toTarget.magnitude > breakDistance)
+        {
+            stuckTime += dt;
+            if (stuckTime >= breakDelay)
+            {
+                Release();
+                return;
+            }
+        }
+        else
+        {
+            stuckTime = 0f;
+        }
+
+        rb.linearVelocity = Vector2.ClampMagnitude(toTarget / dt, maxFollowSpeed);
+    }
+
+    public void ResetState()
+    {
+        if (holder != null)
+            Drop();
+
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+        rb.position = startPosition;
+        rb.rotation = startRotation;
+        transform.SetPositionAndRotation(
+            new Vector3(startPosition.x, startPosition.y, transform.position.z),
+            Quaternion.Euler(0f, 0f, startRotation));
+    }
+
+    private void Play(AudioClip clip)
+    {
+        if (clip != null)
+            audioSource.PlayOneShot(clip);
     }
 
     private void OnDisable()
     {
-        Release();
+        if (holder != null)
+            Drop();
     }
 }

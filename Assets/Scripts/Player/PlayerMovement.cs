@@ -17,9 +17,14 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 input;
     private Vector2 currentVelocity;
     private bool isHoldingBox;
+    private bool inputEnabled = true;
 
     public Vector2 FacingDirection { get; private set; } = Vector2.down;
-    public bool InputEnabled { get; set; } = true;
+    public bool InputEnabled
+    {
+        get => inputEnabled && GameManager.IsGameplayActive;
+        set => inputEnabled = value;
+    }
     public bool IsSneaking { get; private set; }
     public bool IsMoving => currentVelocity.sqrMagnitude > 0.01f;
     public Vector2 Velocity => currentVelocity;
@@ -54,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
         input = Vector2.zero;
         IsSneaking = false;
 
-        if (!InputEnabled || !GameManager.IsGameplayActive || Keyboard.current == null)
+        if (!InputEnabled || Keyboard.current == null)
             return;
 
         var kb = Keyboard.current;

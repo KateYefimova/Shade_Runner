@@ -507,6 +507,8 @@ GameObject:
   - component: {fileID: 2648192490645639149}
   - component: {fileID: 5728495233611436809}
   - component: {fileID: 5630452858070104069}
+  - component: {fileID: 2113576273156074598}
+  - component: {fileID: 7379593661201811738}
   m_Layer: 5
   m_Name: PauseScreen
   m_TagString: Untagged
@@ -572,6 +574,36 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2113576273156074598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754512539790271485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d126c35f91d4aff4e8397b851aa86f6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VolumeSettingsView
+  rowHeight: 44
+  fontSize: 24
+  textColor: {r: 0.92, g: 0.95, b: 1, a: 1}
+  trackColor: {r: 0.08, g: 0.07, b: 0.16, a: 1}
+  fillColor: {r: 0.1, g: 0.95, b: 1, a: 1}
+  handleColor: {r: 1, g: 0.2, b: 0.75, a: 1}
+--- !u!114 &7379593661201811738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754512539790271485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f1f5d39fc8f82448a4060a733e86390, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VolumeSettingsPresenter
 --- !u!1 &1937624529634823067
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,7 +1405,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -20, y: -20}
+  m_SizeDelta: {x: -28, y: -8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6736977713503529985
 CanvasRenderer:
@@ -1405,7 +1437,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 28
+    m_FontSize: 24
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
@@ -1636,7 +1668,6 @@ MonoBehaviour:
     m_NumColorKeys: 3
     m_NumAlphaKeys: 2
   smoothSpeed: 2.5
-  labelFormat: "\u0422\u0420\u0418\u0412\u041E\u0413\u0410 {0:0}%"
 --- !u!1 &3689594998040673198
 GameObject:
   m_ObjectHideFlags: 0
@@ -2240,7 +2271,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 48}
-  m_SizeDelta: {x: 720, y: 64}
+  m_SizeDelta: {x: 300, y: 42}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &4939225904422360151
 CanvasRenderer:
@@ -3496,6 +3527,7 @@ MonoBehaviour:
   hintRoot: {fileID: 4822920108223831554}
   hintText: {fileID: 6284824343214000952}
   pauseButton: {fileID: 1239664208982993310}
+  hintOffset: 0.3
   pauseScreen: {fileID: 1754512539790271485}
   resumeButton: {fileID: 6471112676086817103}
   pauseRestartButton: {fileID: 2093216380916403594}
