@@ -17,7 +17,6 @@ GameObject:
   - component: {fileID: 2465405235757264408}
   - component: {fileID: 5914954931527536537}
   - component: {fileID: 8142784080093825324}
-  - component: {fileID: 7198602051809235343}
   - component: {fileID: 6295232318884831262}
   m_Layer: 7
   m_Name: guard 1
@@ -186,15 +185,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d127923f0d76b0843b4afe0ed59aa43c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GuardPatrol
-  routeParent: {fileID: 0}
-  waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   moveSpeed: 2
   arrivalDistance: 0.1
-  waitTime: 1
+  minDestinationChange: 0.4
+  minRepathInterval: 0.2
+  debugLogs: 1
 --- !u!114 &7897871931539250437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -301,19 +296,6 @@ MonoBehaviour:
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
   constrainInsideGraph: 0
---- !u!114 &7198602051809235343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1367853949582478680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7ebe36b29365b2468a3ab754ff28dbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GuardPathTest
-  target: {fileID: 0}
 --- !u!114 &6295232318884831262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -328,8 +310,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GuardAI
   patrolZone: {fileID: 0}
   waitTime: 2
-  arrivalDistance: 0.25
   maxAttempts: 30
+  patrolSpeed: 2
 --- !u!1 &1590606021634927707
 GameObject:
   m_ObjectHideFlags: 0

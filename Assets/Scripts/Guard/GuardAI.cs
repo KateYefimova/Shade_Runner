@@ -100,9 +100,26 @@ public class GuardAI : MonoBehaviour, IResettable
         isWaiting = false;
         waitTimer = 0f;
 
+        // Після погоні/пошуку повертаємо швидкість патрулювання
+        guardPatrol.SetNavigationSpeed(patrolSpeed);
+
         ChooseNextDestination();
     }
 
+    public void ResetState()
+    {
+        patrolEnabled = true;
+        isWaiting = false;
+        hasDestination = false;
+        waitTimer = 0f;
+
+        guardPatrol.SetNavigationSpeed(patrolSpeed);
+
+        if (enabled)
+            ChooseNextDestination();
+
+        Debug.Log("GuardAI: стан успішно скинуто.", this);
+    }
     private void ChooseNextDestination()
     {
         if (!patrolEnabled || patrolZone == null)
@@ -125,8 +142,7 @@ public class GuardAI : MonoBehaviour, IResettable
             if (nearest.node == null || !nearest.node.Walkable)
                 continue;
 
-            Vector2 graphPosition = (Vector2)nearest.position;
-
+            Vector2 graphPosition = (Vector3)nearest.node.position;
             // Не дозволяємо вибрати точку за межами зони патрулювання.
             if (!patrolZone.OverlapPoint(graphPosition))
                 continue;
@@ -145,18 +161,5 @@ public class GuardAI : MonoBehaviour, IResettable
             "Перевір Patrol Zone та A* Graph.",
             this
         );
-    }
-
-    public void ResetState()
-    {
-        patrolEnabled = true;
-        isWaiting = false;
-        hasDestination = false;
-        waitTimer = 0f;
-
-        if (enabled)
-            ChooseNextDestination();
-
-        Debug.Log("GuardAI: стан успішно скинуто.", this);
     }
 }

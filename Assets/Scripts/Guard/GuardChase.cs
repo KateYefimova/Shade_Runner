@@ -29,6 +29,8 @@ public class GuardChase : MonoBehaviour, IResettable
     private GuardVision guardVision;
 
     private State state = State.Patrol;
+    
+    public string CurrentStateName => state.ToString();
 
     private Vector2 searchTarget;
     private float lookTimer;
