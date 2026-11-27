@@ -1,30 +1,35 @@
-
 using UnityEngine;
 using Pathfinding;
 
-[RequireComponent(typeof(AIPath))]
-[RequireComponent(typeof(Seeker))]
-[RequireComponent(typeof(Rigidbody2D))]
-public class GuardAI : MonoBehaviour
+[RequireComponent(typeof(GuardPatrol))]
+public class GuardAI : MonoBehaviour, IResettable
 {
     [Header("Patrol Zone")]
     [SerializeField] private BoxCollider2D patrolZone;
 
     [Header("Patrol Settings")]
     [SerializeField] private float waitTime = 2f;
-    [SerializeField] private float arrivalDistance = 0.25f;
     [SerializeField] private int maxAttempts = 30;
 
-    private AIPath aiPath;
-    private float waitTimer;
+    [Header("Movement")]
+    [SerializeField] private float patrolSpeed = 2f;
+
+    private GuardPatrol guardPatrol;
+
+    private bool patrolEnabled = true;
     private bool isWaiting;
     private bool hasDestination;
 
-    public Vector2 FacingDirection { get; private set; } = Vector2.right;
+    private float waitTimer;
+
+    public Vector2 FacingDirection =>
+        guardPatrol != null
+            ? guardPatrol.FacingDirection
+            : Vector2.right;
 
     private void Awake()
     {
-        aiPath = GetComponent<AIPath>();
+        guardPatrol = GetComponent<GuardPatrol>();
     }
 
     private void Start()
@@ -43,13 +48,14 @@ public class GuardAI : MonoBehaviour
             return;
         }
 
-        aiPath.canMove = true;
+        guardPatrol.SetNavigationSpeed(patrolSpeed);
         ChooseNextDestination();
     }
 
     private void Update()
     {
-        UpdateFacingDirection();
+        if (!patrolEnabled)
+            return;
 
         if (isWaiting)
         {
@@ -67,26 +73,41 @@ public class GuardAI : MonoBehaviour
         if (!hasDestination)
             return;
 
-        if (aiPath.reachedDestination ||
-            Vector2.Distance(transform.position, aiPath.destination)
-            <= arrivalDistance)
+        if (guardPatrol.HasReachedDestination())
         {
+            hasDestination = false;
             isWaiting = true;
             waitTimer = waitTime;
-            hasDestination = false;
+            guardPatrol.StopNavigation();
         }
     }
 
-    private void UpdateFacingDirection()
+    public void SetPatrolEnabled(bool value)
     {
-        Vector2 velocity = aiPath.velocity;
+        if (patrolEnabled == value)
+            return;
 
-        if (velocity.sqrMagnitude > 0.01f)
-            FacingDirection = velocity.normalized;
+        patrolEnabled = value;
+
+        if (!value)
+        {
+            isWaiting = false;
+            hasDestination = false;
+            guardPatrol.StopNavigation();
+            return;
+        }
+
+        isWaiting = false;
+        waitTimer = 0f;
+
+        ChooseNextDestination();
     }
 
     private void ChooseNextDestination()
     {
+        if (!patrolEnabled || patrolZone == null)
+            return;
+
         Bounds bounds = patrolZone.bounds;
 
         for (int i = 0; i < maxAttempts; i++)
@@ -104,21 +125,38 @@ public class GuardAI : MonoBehaviour
             if (nearest.node == null || !nearest.node.Walkable)
                 continue;
 
-            Vector3 destination = (Vector3)nearest.position;
+            Vector2 graphPosition = (Vector2)nearest.position;
 
-            aiPath.destination = destination;
+            // Не дозволяємо вибрати точку за межами зони патрулювання.
+            if (!patrolZone.OverlapPoint(graphPosition))
+                continue;
+
             hasDestination = true;
+            guardPatrol.SetNavigationDestination(graphPosition);
 
-            Debug.Log("GuardAI: нову ціль обрано: " + destination, this);
             return;
         }
 
+        hasDestination = false;
+        guardPatrol.StopNavigation();
+
         Debug.LogWarning(
             "GuardAI: не вдалося знайти доступну точку патрулювання. " +
-            "Перевірте розмір зони та Grid Graph.",
+            "Перевір Patrol Zone та A* Graph.",
             this
         );
+    }
 
+    public void ResetState()
+    {
+        patrolEnabled = true;
+        isWaiting = false;
         hasDestination = false;
+        waitTimer = 0f;
+
+        if (enabled)
+            ChooseNextDestination();
+
+        Debug.Log("GuardAI: стан успішно скинуто.", this);
     }
 }
