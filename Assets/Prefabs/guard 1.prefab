@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 8142784080093825324}
   - component: {fileID: 6295232318884831262}
   - component: {fileID: -4643913126408378147}
+  - component: {fileID: 3657379257583949898}
   m_Layer: 7
   m_Name: guard 1
   m_TagString: Untagged
@@ -35,7 +36,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.0338, y: 7.4781, z: 0}
-  m_LocalScale: {x: 1.7269447, y: 1.8945498, z: 0}
+  m_LocalScale: {x: 1.7269447, y: 1.8945498, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7999801033271754185}
@@ -140,7 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GuardPatrol
   moveSpeed: 2
-  arrivalDistance: 0.1
+  arrivalDistance: 0.25
   minDestinationChange: 0.4
   minRepathInterval: 0.2
   debugLogs: 1
@@ -159,7 +160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GuardVision
   playerTarget: {fileID: 0}
   viewDistance: 5
-  viewAngle: 90
+  viewAngle: 60
   timeToEscape: 5
   recoverSpeed: 1
   obstacleLayer:
@@ -177,9 +178,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a15cf0faaf8df624684b53b73aad4716, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GuardChase
-  chaseSpeed: 2
+  chaseSpeed: 3
   catchDistance: 0.6
-  searchSpeed: 1.5
+  searchSpeed: 2.5
   lookTime: 2
 --- !u!114 &5914954931527536537
 MonoBehaviour:
@@ -222,7 +223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: AstarPathfindingProject::Pathfinding.AIPath
   version: 5
-  radius: 0.7
+  radius: 0.6
   height: 1
   canMove: 1
   maxSpeed: 2
@@ -239,15 +240,15 @@ MonoBehaviour:
     mode: 2
     interval: 0.5
     sensitivity: 10
-    maximumInterval: 2
+    maximumInterval: 1
     visualizeSensitivity: 0
   targetCompatibility: {fileID: 0}
   maxAcceleration: -2.5
   rotationSpeed: 360
   slowdownDistance: 0.6
-  pickNextWaypointDist: 2
+  pickNextWaypointDist: 1.2
   endReachedDistance: 0.2
-  alwaysDrawGizmos: 0
+  alwaysDrawGizmos: 1
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
   constrainInsideGraph: 0
@@ -263,10 +264,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d23460d2f369dae408eb6b06a3f7784f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GuardAI
-  patrolZone: {fileID: 0}
+  route: {fileID: 0}
+  startIndex: 0
   waitTime: 2
-  maxAttempts: 30
+  maxPointDistanceToGraph: 0.4
   patrolSpeed: 2
+  debugLogs: 1
 --- !u!58 &-4643913126408378147
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -303,6 +306,19 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.16
+--- !u!114 &3657379257583949898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367853949582478680}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 146b6241c8fef524d8ed471513ecc739, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GuardDebug
+  jumpThreshold: 0.5
 --- !u!1 &1590606021634927707
 GameObject:
   m_ObjectHideFlags: 0

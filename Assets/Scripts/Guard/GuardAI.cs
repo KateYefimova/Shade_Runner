@@ -4,23 +4,33 @@ using Pathfinding;
 [RequireComponent(typeof(GuardPatrol))]
 public class GuardAI : MonoBehaviour, IResettable
 {
-    [Header("Patrol Zone")]
-    [SerializeField] private BoxCollider2D patrolZone;
+    [Header("Patrol Route")]
+    [Tooltip("Маршрут цього охоронця (об'єкт PatrolRoute з точками-дітьми).")]
+    [SerializeField] private PatrolRoute route;
+    [Tooltip("З якої точки починає (0 = перша). Розведи охоронців по різних точках.")]
+    [SerializeField] private int startIndex = 0;
 
     [Header("Patrol Settings")]
     [SerializeField] private float waitTime = 2f;
-    [SerializeField] private int maxAttempts = 30;
+    [Tooltip("Якщо точка маршруту далі за це значення від прохідного вузла графа, у консолі буде попередження.")]
+    [SerializeField] private float maxPointDistanceToGraph = 0.4f;
 
     [Header("Movement")]
     [SerializeField] private float patrolSpeed = 2f;
+
+    [Header("Debug")]
+    [SerializeField] private bool debugLogs = true;
 
     private GuardPatrol guardPatrol;
 
     private bool patrolEnabled = true;
     private bool isWaiting;
     private bool hasDestination;
+    private bool needsDestination = true;
 
     private float waitTimer;
+    private int currentIndex;
+    private int direction = 1;
 
     public Vector2 FacingDirection =>
         guardPatrol != null
@@ -34,9 +44,9 @@ public class GuardAI : MonoBehaviour, IResettable
 
     private void Start()
     {
-        if (patrolZone == null)
+        if (route == null || route.Count == 0)
         {
-            Debug.LogError("GuardAI: Patrol Zone не призначено!", this);
+            Debug.LogError("GuardAI: Patrol Route не призначено або в ньому немає точок!", this);
             enabled = false;
             return;
         }
@@ -48,8 +58,8 @@ public class GuardAI : MonoBehaviour, IResettable
             return;
         }
 
-        guardPatrol.SetNavigationSpeed(patrolSpeed);
-        ChooseNextDestination();
+        ValidateRoute();
+        ResetRouteProgress();
     }
 
     private void Update()
@@ -64,9 +74,18 @@ public class GuardAI : MonoBehaviour, IResettable
             if (waitTimer <= 0f)
             {
                 isWaiting = false;
-                ChooseNextDestination();
+                currentIndex = route.GetNextIndex(currentIndex, ref direction);
+                needsDestination = true;
             }
 
+            return;
+        }
+
+        // Рух запускаємо лише тут (а не в ResetState / SetPatrolEnabled),
+        // щоб порядок викликів ResetState у різних скриптах не мав значення.
+        if (needsDestination)
+        {
+            GoToCurrentPoint();
             return;
         }
 
@@ -82,6 +101,8 @@ public class GuardAI : MonoBehaviour, IResettable
         }
     }
 
+    // false: патруль призупинено (погоня/пошук). true: продовжуємо маршрут
+    // з тієї самої точки, до якої охоронець ішов або в якій стояв.
     public void SetPatrolEnabled(bool value)
     {
         if (patrolEnabled == value)
@@ -93,17 +114,14 @@ public class GuardAI : MonoBehaviour, IResettable
         {
             isWaiting = false;
             hasDestination = false;
+            needsDestination = false;
             guardPatrol.StopNavigation();
             return;
         }
 
         isWaiting = false;
         waitTimer = 0f;
-
-        // Після погоні/пошуку повертаємо швидкість патрулювання
-        guardPatrol.SetNavigationSpeed(patrolSpeed);
-
-        ChooseNextDestination();
+        needsDestination = true;
     }
 
     public void ResetState()
@@ -113,53 +131,60 @@ public class GuardAI : MonoBehaviour, IResettable
         hasDestination = false;
         waitTimer = 0f;
 
-        guardPatrol.SetNavigationSpeed(patrolSpeed);
+        ResetRouteProgress();
 
-        if (enabled)
-            ChooseNextDestination();
-
-        Debug.Log("GuardAI: стан успішно скинуто.", this);
+        if (debugLogs)
+            Debug.Log("GuardAI: стан успішно скинуто.", this);
     }
-    private void ChooseNextDestination()
+
+    private void ResetRouteProgress()
     {
-        if (!patrolEnabled || patrolZone == null)
-            return;
+        direction = 1;
+        needsDestination = true;
 
-        Bounds bounds = patrolZone.bounds;
+        if (route != null && route.Count > 0)
+            currentIndex = Mathf.Clamp(startIndex, 0, route.Count - 1);
+    }
 
-        for (int i = 0; i < maxAttempts; i++)
+    private void GoToCurrentPoint()
+    {
+        needsDestination = false;
+        hasDestination = true;
+
+        if (debugLogs)
+            Debug.Log(
+                $"GuardAI ({name}): іде до точки {currentIndex + 1}/{route.Count}.",
+                this);
+
+        guardPatrol.SetNavigationSpeed(patrolSpeed);
+        guardPatrol.SetNavigationDestination(route.GetPosition(currentIndex));
+    }
+
+    private void ValidateRoute()
+    {
+        for (int i = 0; i < route.Count; i++)
         {
-            Vector2 candidate = new Vector2(
-                Random.Range(bounds.min.x, bounds.max.x),
-                Random.Range(bounds.min.y, bounds.max.y)
-            );
+            Vector2 point = route.GetPosition(i);
+            NNInfo nearest = AstarPath.active.GetNearest(point, NNConstraint.Default);
 
-            if (!patrolZone.OverlapPoint(candidate))
+            if (nearest.node == null)
+            {
+                Debug.LogWarning(
+                    $"GuardAI: точка {i + 1} маршруту '{route.name}' поза графом A*.",
+                    route);
                 continue;
+            }
 
-            NNInfo nearest = AstarPath.active.GetNearest(candidate);
+            Vector2 nodePos = (Vector3)nearest.node.position;
+            float dist = Vector2.Distance(point, nodePos);
 
-            if (nearest.node == null || !nearest.node.Walkable)
-                continue;
-
-            Vector2 graphPosition = (Vector3)nearest.node.position;
-            // Не дозволяємо вибрати точку за межами зони патрулювання.
-            if (!patrolZone.OverlapPoint(graphPosition))
-                continue;
-
-            hasDestination = true;
-            guardPatrol.SetNavigationDestination(graphPosition);
-
-            return;
+            if (dist > maxPointDistanceToGraph)
+            {
+                Debug.LogWarning(
+                    $"GuardAI: точка {i + 1} маршруту '{route.name}' далеко ({dist:F2}) " +
+                    "від прохідного вузла: схоже, вона в стіні, на ящику або поза графом. Посунь її.",
+                    route);
+            }
         }
-
-        hasDestination = false;
-        guardPatrol.StopNavigation();
-
-        Debug.LogWarning(
-            "GuardAI: не вдалося знайти доступну точку патрулювання. " +
-            "Перевір Patrol Zone та A* Graph.",
-            this
-        );
     }
 }
